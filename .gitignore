@@ -3,3 +3,7 @@ dist
 .jekyll
 .tmp
 .DS_Store
+npm-debug.log
+.editorconfig
+vendor
+.bundle

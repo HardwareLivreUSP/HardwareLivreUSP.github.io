@@ -1,44 +1,38 @@
 sudo: false
 language: node_js
 node_js:
-  - '4.2'
+- '4.2'
 branches:
   only:
-    - source
-
+  - source
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - gcc-4.8
-      - g++-4.8
-      - libcairo2-dev
-      - libjpeg8-dev
-      - libgif-dev
-      - libpango1.0-dev
-      - graphicsmagick
-      - libjpeg-turbo-progs
-      - inkscape
-
+    - gcc-4.8
+    - g++-4.8
+    - libcairo2-dev
+    - libjpeg8-dev
+    - libgif-dev
+    - libpango1.0-dev
+    - graphicsmagick
+    - libjpeg-turbo-progs
+    - inkscape
 env:
   global:
-    - CXX='g++-4.8'
-    - CC='gcc-4.8'
-
+  - CXX='g++-4.8'
+  - CC='gcc-4.8'
+  - secure: tyHs+YK1utIHRL/GgA0OOeR3/S2MRzzm2bEMLlCylukpZGUfdH26iYnTjblwAptzC5TtHyjtosfF8SVBtGCNSSSxeCJQqUeg7L6mlBjRlXITk5jKS3ZzzCJCxhn3O4ZmxmXb/AcYb5ApXLTqKEzx8fvU/UYVnq4USopX0dzBqxr9w3gu3uWiLybzdbrWUsSfIdlG/rG2Jfp0s00Iz5rBUN0Q2wwq2nD3WKcVvKK7oPj+WXKSccNu9tKY2/F6Rnr6vpIm8NnP3s21Pof6VMkOOa6Oil4xn+ULCZ0o3Db9duh7aur+hYHTJ2b523/tr/o7GF2KerP6DDO1beVbbYXQ9Vct9L2b3LrdTIsGwXuNv1LcWzwePRrCC4CtHm/vyxgea6xKI2z6ODZvgY+v5CdbXmKmMqD6ngcRE77K8f3E8S2HgtC7O/IY5PNTFNIZ/V9RX8zHWMaduw6GqJRn8Hdh+JJOAxSeb1e9zo9farKNdmLtMPMuN+XfXkFHrlI++YNBZ90zz7lbfH0mPNeTYO5kKo92l5E6KEjH32DG0ZWsKnPWQYi1aY3vPlkEvMUxSplSPMAbpR0MS2Tayz7JJDCcEWKxs40jbQbcWCSEgGnEM1Ebb/MiggsYRJgwzbuHO4aJlscQ/6U8ZwN1lPWXYUYzDdx55JZTgNbshhc6faOdy2k=
 before_install:
-  - rvm install 2.1.1
+- rvm install 2.1.1
 before_script:
-  - git config --global user.name 'Travis-CI'
-  - git config --global user.email 'travis@hardwarelivreusp.org'
-  - gem install bundler
-  - bundle install
-
-# Silent the script output, we don't want any key made public in the Travis log
+- git config --global user.name 'Travis-CI'
+- git config --global user.email 'travis@hardwarelivreusp.org'
+- gem install bundler
+- bundle install
 script: npm run-script deploy
-
-# Compiling a lot of our dependencies takes forever. We're caching thema
 cache:
   bundler: true
   directories:
-    - node_modules
+  - node_modules
