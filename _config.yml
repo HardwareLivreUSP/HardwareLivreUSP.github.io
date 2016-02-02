@@ -8,7 +8,7 @@ description: Site do Grupo de Hardware Livre USP
 author:
   name: 
 
-url: http://hardwarelivreusp.org
+url: http://hardwarelivreusp.github.io/
 atom_path: /blog/atom.xml
 
 source: app
@@ -31,3 +31,12 @@ paginate_path: /blog/page:num
 gems:
 - jekyll-redirect-from
 - jekyll-paginate
+
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
