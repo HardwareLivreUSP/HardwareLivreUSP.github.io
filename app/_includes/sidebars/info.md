@@ -1,5 +1,5 @@
- * {% link /info/index.html Sobre o Grupo %}
- * {% link /info/calendario.html Calendário/Local %}
- * {% link /info/participantes.html Particpantes %}
- * {% link /info/faq.html FAQ %}
+ * {% link /informacoes/index.html Sobre o Grupo %}
+ * {% link /informacoes/calendario.html Calendário/Local %}
+ * {% link /informacoes/participantes.html Particpantes %}
+ * {% link /informacoes/faq.html FAQ %}
  * {% link /atas/index.html Atas Reuniões %}

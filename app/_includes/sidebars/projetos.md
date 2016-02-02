@@ -1,5 +1,8 @@
- * {% link /info/index.html Sobre o Grupo %}
- * {% link /info/calendario.html Calendário/Local %}
- * {% link /info/participantes.html Particpantes %}
- * {% link /info/faq.html FAQ %}
- * {% link /atas/index.html Atas Reuniões %}
+ * {% link /projetos/lightsout LightOut %}
+ * {% link /projetos/voador POV %}
+ * {% link /projetos/carro-bt Carro Bluetooth %}
+ * {% link /projetos/chapeu Chapéu %}
+ * {% link /projetos/cubo Cubo de Leds %}
+ * {% link /projetos/genius Genius %}
+ * {% link /projetos/sintetizador Sintetizador %}
+ * {% link /projetos/floppy Floppy Music %}

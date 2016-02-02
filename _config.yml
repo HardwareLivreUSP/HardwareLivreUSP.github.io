@@ -3,10 +3,10 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: Yeoman.io
-description: Yeoman website
+name: hardwarelivreusp.org
+description: Site do Grupo de Hardware Livre USP
 author:
-  name: Yeoman Team
+  name: 
 
 url: http://hardwarelivreusp.org
 atom_path: /blog/atom.xml
@@ -21,9 +21,9 @@ show_drafts: true
 permalink: /blog/:title.html
 
 # Markdown library
-markdown: redcarpet
+markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 paginate: 8
 paginate_path: /blog/page:num

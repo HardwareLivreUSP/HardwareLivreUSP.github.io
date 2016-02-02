@@ -1167,7 +1167,7 @@ Modify as content requires.
     max-width: 1200px;
     margin: 0 auto;
     padding: 2.5em 5em 1.6em 0.6em;
-    background: #5aadbb url(/assets/img/rocket.png) 97% 70% no-repeat;
+    background: #5aadbb url(/assets/img/solda.png) 97% 100% no-repeat;
     background-size: 4em auto;
     box-sizing: border-box;
   }
@@ -1320,7 +1320,7 @@ Modify as content requires.
 
   .page-title .container {
     padding-top: 3.4em;
-    background-position: 97% 78%;
+    background-position: 97% 153%;
     background-size: 5em auto;
   }
 
