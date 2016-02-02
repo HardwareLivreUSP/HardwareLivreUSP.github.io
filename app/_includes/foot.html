@@ -1,0 +1,47 @@
+<footer class="SiteFooter">
+  <div class="SiteFooter-donation">
+    <div class="Donation">
+      <div class="Donation-sticker-clipping">
+        
+      </div>
+      
+    </div>
+  </div>
+  <ul class="SiteFooter-links">
+    <li>
+      <a href="https://plus.google.com/101063139999404044459/posts" class="icon">
+        <img src="/assets/img/social-gplus.svg" class="SiteFooter-icon" alt="Google+">
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/yeoman" class="icon">
+        <img src="/assets/img/social-twitter.svg" class="SiteFooter-icon" alt="Twitter">
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/yeoman/yeoman" class="icon">
+        <img src="/assets/img/social-github.svg" class="SiteFooter-icon" alt="Github">
+      </a>
+    </li>
+    <li>
+      <a href="/blog/atom.xml" class="icon">
+        <img src="/assets/img/social-feed.svg" class="SiteFooter-icon" alt="Feed">
+      </a>
+    </li>
+    <li class="mobile-ln"></li>
+  </ul>
+</footer><!-- /.footer-links -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script src="/assets/js/libs/prettify.js"></script>
+<script src="/assets/js/script.js"></script>
+
+{% if page.title == 'Generators' %}
+  <!-- The #bootstrapper script will be removed by grunt-reduce during build. -->
+  <!-- Use GETSTATIURL to indicate that manually loaded strings are actually URLs -->
+  <script src="/assets/js/libs/doT.min.js"></script>
+  <script src="/assets/js/libs/list.js"></script>
+  <script src="/assets/js/generator.js"></script>
+{% endif %}
+
