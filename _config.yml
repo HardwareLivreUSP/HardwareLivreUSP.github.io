@@ -1,0 +1,21 @@
+# Site settings
+title: "Hardware Livre USP"
+
+# Build settings
+markdown: kramdown
+
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Server
+source:           app
+destination:      _gh_pages
+host:             0.0.0.0
+port:             9001
+url:              http://hardwarelivreusp.com
+encoding:         UTF-8
