@@ -1,6 +1,6 @@
 # Site settings
 title: Hardware Livre USP
-header-img: img/home-bg.jpg
+header-img: img/header06.jpg
 email: harduime@googlegroups.com
 copyright_name: Hardware Livre USP
 description: ""
@@ -14,7 +14,10 @@ facebook_username:  Hardwarelivreusp
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 15
 exclude: ["node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+sass:
+  style: compressed

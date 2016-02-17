@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #404040;
 }
 p {
@@ -177,7 +177,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 40px;
   }
 }
 .intro-header .post-heading h1 {
@@ -198,17 +198,17 @@ hr.small {
   font-family: 'Lora', 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
 }
 .intro-header .post-heading .meta a {
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 40px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .post-preview > a {
@@ -246,11 +246,11 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 .section-heading {
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 60px;
   font-weight: 700;
 }
@@ -400,4 +400,31 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+  width: 100%;
+height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background: no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro {
+    height: 100%;
+    padding: 0;
 }
