@@ -1,17 +1,20 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Hardware Livre USP
-#email: your-email@domain.com
-description: Site do grupo Hardware Livre USP. Veja aqui mais informações sobre nossos projetos e grupo.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hardwarelivreusp.org" # the base hostname & protocol for your site
+header-img: img/home-bg.jpg
+email: harduime@googlegroups.com
+copyright_name: Hardware Livre USP
+description: ""
+baseurl: ""
+url: "hardwarelivreusp.org"
 github_username:  HardwareLivreUSP
+facebook_username:  Hardwarelivreusp
+# email_username:  your-email@yourdomain.com
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
