@@ -2,7 +2,7 @@
 layout:     post
 title:      "Primeiro Encontro 2016"
 subtitle:   ""
-date:       2014-06-10 12:00:00
+date:       2016-02-20 12:00:00
 author:     "Capella"
 header-img: "img/post-bg-01.jpg"
 ---
