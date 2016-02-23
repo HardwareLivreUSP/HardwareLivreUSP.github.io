@@ -1,13 +1,13 @@
 ---
 layout:     post
 title:      "Primeiro Encontro 2016"
-subtitle:   "A partir dessa quint vamos iniciar os encontros desse ano."
+subtitle:   ""
 date:       2014-06-10 12:00:00
 author:     "Start Bootstrap"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>Seja bem vindo!</p>
+<p>A partir dessa quinta-feira vamos iniciar os encontros desse ano.</p>
 <!--
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
 
