@@ -8,6 +8,8 @@ header-img: "img/post-bg-01.jpg"
 ---
 
 <p>A partir dessa quinta-feira vamos iniciar os encontros desse ano.</p>
+<p> Todos estão convidados para o nosso primeiro encontro. Nesse ano vamos realizar palesras e projetos paralelamente.</p>
+<p> Você não conhece nada? Então está convidado para conhecer e ser introduzido ao nosso grupo nessa quint-fera, dia 25/02/2015.</p>
 
 <!--
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
