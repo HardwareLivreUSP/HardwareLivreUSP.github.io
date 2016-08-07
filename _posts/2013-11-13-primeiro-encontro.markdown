@@ -8,4 +8,4 @@ O primeiro encontro do grupo foi realizado em 13 de novembro de 2013 na sala 254
 
 O material teórico utilizado durante o encontro foi o livro “Arduino Cookbook” da O’Reilly. Foram apresentados alguns conceitos do primeiro capítulo, além do conteúdo dos apêndices A e B. Vários componentes foram dispostos sobre a mesa, além de placas de Arduino Uno e Arduino Duemilanove.
 
-<img src="{{ site.baseurl }}/img/cook.jpg" style="margin: 0 auto; height: 390px;">
+<img src="{{ site.baseurl }}/img/cook.jpg" style="margin: 0 auto; max-height: 390px;">
