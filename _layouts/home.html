@@ -5,11 +5,7 @@
 
 <body>
 
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-<div class="container">
-    {% include menu.html %}
-    </div>
-</nav>
+{% include nav.html %}
 
 <!-- Page Header -->
 <header class="intro" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
