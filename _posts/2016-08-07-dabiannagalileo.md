@@ -28,7 +28,7 @@ Problemas:
 Para facilitar as vida de vocês, fizemos [esse arquivo](https://drive.google.com/file/d/0ByHAe5-uK--xLTVYMldEVW5vT00/view?usp=sharing). Ele é a imagem comple do nosso microSD. Ou seja, basta descompactar esse arquivo em um cartão de memória formatodo em FAT 32 e você já terá sua placa com o Debian funcionando! Nesse o usuário principal é **harduime** e a senha é **gc3cap**, a senha do **root** é a mesma. O bom desse sistema é que ele já vem com os seguintes itens instalados:
 
 - Rede configurada para DHCP
-- OpenMIP 1.4.5
+- OpenMPI 1.4.5
 - SSH
 - sudo
 
