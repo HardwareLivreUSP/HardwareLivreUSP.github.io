@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "LedCube"
-date:       2016-06-26
+date:       2015-06-26
 ---
 
 Fizemos um Cubo de Led de 8x8x8. Não é um projeto difícil, mas sim um projeto meditativo. É preciso ter muita paciência para montar os 512 LEDs.
