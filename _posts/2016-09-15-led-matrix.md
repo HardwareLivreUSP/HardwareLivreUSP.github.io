@@ -29,15 +29,15 @@ Agora que você já sabe como usar o datasheet para identificar as funções de 
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" />
-</p>
 Protoboard
+</p>
 
 O próximo passo é pegar alguns jumpers (condutores utilizados para conectar diferentes pontos de um circuito, ilustrados na imagem abaixo) e utilizá-los para conectar os pinos da matriz de LED aos pinos do arduino, lembrando de registrar o mapeamento dos pinos para que seja possível manipular corretamente a matriz. Uma das formas mais eficientes de registrar esse mapeamento é através de arrays, pois esses mesmos arrays podem ser utilizados no código para simplificar as conversões de pinos que serão necessárias para acessar um determinado LED.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/jumpers.jpg" style="margin: 0 auto; max-height: 390px;" />
-</p>
 Jumpers
+</p>
 
 Em nosso exemplo, utilizaremos os seguintes mapeamentos:
 
