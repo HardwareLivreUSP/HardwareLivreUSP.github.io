@@ -1,14 +1,12 @@
 ---
 layout:     post
 title:      "Tutorial: Controlando uma Matriz de LED"
-date:       2016-08-18
-author:     "lhaddad"
+date:       2016-09-15
+author:     "Leonardo Haddad Carlos"
 ---
 
-##### Hardware Livre USP
-#
-#
-
+## Hardware Livre
+<br/><br/>
 Esse tutorial cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos aos pinos do arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos).
 
 Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelos pinos do arduino e associadas respectivamente às entradas e saídas de energia da matriz.
@@ -74,5 +72,3 @@ MIT
 
    [dill]: <https://github.com/joemccann/dillinger>
    [datasheet-led]: <http://pdf.datasheet.global/datasheets-1/american_bright_optoelectronics/BM-20257ND.pdf>
-
-**Tutorial escrito por Leonardo Haddad Carlos**
