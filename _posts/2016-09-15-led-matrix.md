@@ -6,6 +6,8 @@ author:     "Leonardo Haddad Carlos"
 ---
 
 ## Hardware Livre USP
+
+## Atenção! Este tutorial ainda está em construção e, portanto, incompleto!
 <br/>
 Esse tutorial cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos aos pinos do arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre.
 
