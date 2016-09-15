@@ -5,8 +5,8 @@ date:       2016-09-15
 author:     "Leonardo Haddad Carlos"
 ---
 
-## Hardware Livre
-<br/><br/>
+## Hardware Livre USP
+<br/>
 Esse tutorial cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos aos pinos do arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos).
 
 Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelos pinos do arduino e associadas respectivamente às entradas e saídas de energia da matriz.
@@ -25,17 +25,28 @@ Voltando ao nosso exemplo da seção anterior, onde queremos ligar o terceiro LE
 
 ### Conectando a matriz a um arduino
 
-Agora que você já sabe como usar o datasheet para identificar as funções de cada pino da matriz, é hora de conectar esses pinos aos pinos do arduino. Existem duas formas principais de fazer essa conexão: através de uma protoboard e cabos jumpers, no caso de projetos em fase de prototipação, ou através de um circuito impresso especificamente para o projeto em questão, no caso de produtos já validados na protoboard. Como esse tutorial visa introduzir o assunto a pessoas com pouco conhecimento na área, omitiremos o procedimento de criação de circuitos impressos e focaremos apenas na montagem dos protótipos utilizando a protoboard.
+Agora que você já sabe como usar o datasheet para identificar as funções de cada pino da matriz, é hora de conectar esses pinos aos pinos do arduino. Existem duas formas principais de fazer essa conexão: através de uma protoboard (veja a imagem abaixo) e cabos jumpers, no caso de projetos em fase de prototipação, ou através de um circuito impresso especificamente para o projeto em questão, no caso de produtos já validados na protoboard. Como esse tutorial visa introduzir o assunto a pessoas com pouco conhecimento na área, omitiremos o procedimento de criação de circuitos impressos e focaremos apenas na montagem dos protótipos utilizando a protoboard.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" />
 </p>
+Protoboard
 
-huehuehue
+O próximo passo é pegar alguns jumpers (condutores utilizados para conectar diferentes pontos de um circuito, ilustrados na imagem abaixo) e utilizá-los para conectar os pinos da matriz de LED aos pinos do arduino, lembrando de registrar o mapeamento dos pinos para que seja possível manipular corretamente a matriz. Uma das formas mais eficientes de registrar esse mapeamento é através de arrays, pois esses mesmos arrays podem ser utilizados no código para simplificar as conversões de pinos que serão necessárias para acessar um determinado LED.
 
-![Protoboard](/post_img/protoboard.jpg)
+<p style="text-align: center;">
+    <img src="{{ site.baseurl }}/post_img/jumpers.jpg" style="margin: 0 auto; max-height: 390px;" />
+</p>
+Jumpers
 
-huehuehue2
+Em nosso exemplo, utilizaremos os seguintes mapeamentos:
+
+```sh
+const int pinsPorts[] = {0, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 4, 5, 13, 12};
+const int linesPins[] = {9, 14, 8, 5, 1, 7, 2};
+const int colsPins[] = {13, 3, 4, 10, 6};
+```
+
 
 ### Ferramentas
 Para criação desse tutorial, foi utilizado um editor de markdown de código aberto chamado [Dillinger][dill].
