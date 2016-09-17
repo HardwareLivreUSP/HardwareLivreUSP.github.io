@@ -4,6 +4,7 @@ title:      "Workshop SeletorCentrifuge"
 subtitle:   ""
 date:       2016-08-24 12:00:00
 author:     "Bruno Rafael Aricó"
+img:        "post_img/centrifuga.jpg"
 ---
 
 No dia 16 de agosto de 2016 foi relizado no Prédio da Engenharia de Produção na sala Samsung Ocean um workshop para a construção de centrífugas, fotodocumentadores e cubas para eletroforese.
