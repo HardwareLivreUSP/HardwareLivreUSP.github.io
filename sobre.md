@@ -12,11 +12,11 @@ Com encontros semanais desde o final de 2013, o grupo já realizou reuniões did
 
 ### Encontros
 
-Quem tiver interesse em participar, basta aparecer nas reuniões que será bem recebido. Os encontros semanais ocorrem:
+Quem tiver interesse em participar, basta aparecer nas reuniões que será bem recebido.
 
-Local: Laboratório de Extenção do Bloco C no IME/USP
-Dia: QUINTAS-FEIRAS 
-Horário: 16h às 20h
+* Local: Laboratório de Extenção do Bloco C no IME/USP
+* Dia: QUINTAS-FEIRAS 
+* Horário: 16h às 20h
 
 Mapa:
 <div id="map" style="height: 300px;"></div>
