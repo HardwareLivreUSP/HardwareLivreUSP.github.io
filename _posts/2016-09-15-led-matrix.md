@@ -9,9 +9,9 @@ author:     "Leonardo Haddad Carlos"
 
 ## Atenção! Este tutorial ainda está em construção e, portanto, incompleto!
 <br/>
-Esse tutorial cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos aos pinos do arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre.
+Esse tutorial cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos às portas do Arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre.
 
-Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelos pinos do arduino e associadas respectivamente às entradas e saídas de energia da matriz.
+Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelas portas do Arduino e associadas respectivamente às entradas e saídas de energia da matriz.
 
 Por exemplo, vamos supor que queremos ligar o terceiro LED da segunda linha. Então, definimos a porta associada à segunda linha como porta de energia (configuramos a porta como potência alta, que no Arduino representa 5V) e a porta associada à terceira coluna como porta de terra (configuramos a porta como potência baixa, que no Arduino representa 0V).
 
@@ -24,15 +24,15 @@ Matriz de LED modelo 20257ND
 
 ### Verificando os pinos
 
-O primeiro passo para conectar um dispositivo externo ao arduino é entender seus circuitos, para saber o papel de cada pino no funcionamento desse dispositivo. Para isso, utilizamos documentos chamados de datasheets. No caso da nossa matriz de modelo 20257ND, por exemplo, o datasheet associado se encontra [nesse link][datasheet-led] (mais especificamente no canto inferior direito do documento).
+O primeiro passo para conectar um dispositivo externo ao Arduino é entender seus circuitos, para saber o papel de cada pino no funcionamento desse dispositivo. Para isso, utilizamos documentos chamados de datasheets. No caso da nossa matriz de modelo 20257ND, por exemplo, o datasheet associado se encontra [nesse link][datasheet-led] (mais especificamente no canto inferior direito do documento).
 
 Analisando o datasheet, é possível entender os pinos que devem ser configurados para ligar cada LED. Lembram que falamos sobre portas associadas a cada linha ou coluna de LED's? O datasheet é o documento que nos diz qual é o pino asocciado a cada linha ou coluna da nossa matriz. Em alguns casos, há mais de um pino para a mesma linha ou coluna, mas, nesse caso, basta usar qualquer um dos pinos associados.
 
 Voltando ao nosso exemplo da seção anterior, onde queremos ligar o terceiro LED da segunda linha: podemos ver, pelo datasheet, que a segunda linha está associada ao pino de número 14, enquanto a terceira coluna está associada aos pinos de número 4 e 11.
 
-### Conectando a matriz a um arduino
+### Conectando a matriz a um Arduino
 
-Agora que você já sabe como usar o datasheet para identificar as funções de cada pino da matriz, é hora de conectar esses pinos aos pinos do arduino. Existem duas formas principais de fazer essa conexão: através de uma protoboard (veja a imagem abaixo) e cabos jumpers, no caso de projetos em fase de prototipação, ou através de um circuito impresso especificamente para o projeto em questão, no caso de produtos já validados na protoboard. Como esse tutorial visa introduzir o assunto a pessoas com pouco conhecimento na área, omitiremos o procedimento de criação de circuitos impressos e focaremos apenas na montagem dos protótipos utilizando a protoboard.
+Agora que você já sabe como usar o datasheet para identificar as funções de cada pino da matriz, é hora de conectar esses pinos com as portas do Arduino. Existem duas formas principais de fazer essa conexão: através de uma protoboard (veja a imagem abaixo) e cabos jumpers, no caso de projetos em fase de prototipação, ou através de um circuito impresso especificamente para o projeto em questão, no caso de produtos já validados na protoboard. Como esse tutorial visa introduzir o assunto a pessoas com pouco conhecimento na área, omitiremos o procedimento de criação de circuitos impressos e focaremos apenas na montagem dos protótipos utilizando a protoboard.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" />
@@ -43,7 +43,7 @@ Uma protoboard é uma placa repleta de furos, que são conectados entre si para 
 
 Usando, por exemplo, a protoboard ilustrada acima, podemos notar que os furos a1, b1, c1, d1 e e1 estão todos conectados (apenas) entre si. No entanto, esses furos não estão conectados aos furos f1, g1, h1, i1 e j1, pois esses furos, apesar de também se encontrarem na linha 1, pertencem à outra metade da placa, e portanto ao outro "grupo".  
 
-O próximo passo é pegar alguns jumpers (condutores utilizados para conectar diferentes pontos de um circuito, ilustrados na imagem abaixo) e utilizá-los para conectar os pinos da matriz de LED aos pinos (portas) do arduino. E é aí que entra a protoboard: ao invés de conectar um pino da matriz diretamente a uma porta do Arduino, basta conectá-los a quaisquer furos da protoboard que estejam conectados entre si.
+O próximo passo é pegar alguns jumpers (condutores utilizados para conectar diferentes pontos de um circuito, ilustrados na imagem abaixo) e utilizá-los para conectar os pinos da matriz de LED às portas do Arduino. E é aí que entra a protoboard: ao invés de conectar um pino da matriz diretamente a uma porta do Arduino, basta conectá-los a quaisquer furos da protoboard que estejam conectados entre si.
 
 Lembre-se sempre de registrar o mapeamento dos pinos para que seja possível manipular corretamente a matriz. Uma das formas mais eficientes de registrar esse mapeamento é através de arrays, pois esses mesmos arrays podem ser utilizados no código para simplificar as conversões que serão necessárias para acessar um determinado LED: a partir da linha e da coluna do LED em questão, descobrir os pinos associados e, a partir disso, as portas do Arduino às quais esses pinos estão ligados.
 
