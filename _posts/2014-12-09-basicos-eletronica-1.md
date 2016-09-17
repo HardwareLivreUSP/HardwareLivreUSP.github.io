@@ -7,10 +7,10 @@ author:     "Lucas Silva"
 
 Alguns componentes eletrônicos são muito utilizados em projetos de Arduino. Listaremos aqui alguns deles e o que eles fazem.
 
-* Resistores:  Servem para limitar a corrente elétrica num trecho do circuito. Para saber quantos Ohm (unidade de medida de resistência) é utilizada uma tabela de cores (figura 1).</li>
+* Resistores:  Servem para limitar a corrente elétrica num trecho do circuito. Para saber quantos Ohm (unidade de medida de resistência) é utilizada uma tabela de cores.
  ![codigoCores](/post_img/codigo_de_cores_resistores.png)
  
- >fonte: http://www.arduinoecia.com.br/2013/08/codigo-de-cores-de-resistores.html
+ > <sub>fonte: http://www.arduinoecia.com.br/2013/08/codigo-de-cores-de-resistores.html</sub>
 
 * Capacitores: Servem para armazenar energia elétrica, eles podem ser polarizados ou não polarizados
   
