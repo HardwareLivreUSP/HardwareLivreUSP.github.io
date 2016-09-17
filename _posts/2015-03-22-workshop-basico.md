@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Curso de Eletrônica Básica com Arduino"
+title:      "Workshop de Eletrônica Básica e Arduino"
 date:       2015-03-22
 author:     "blackjuice - Gustavo Estrela"
 img: 		    "post_img/curso-basico-1.jpg"
