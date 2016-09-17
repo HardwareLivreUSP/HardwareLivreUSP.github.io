@@ -11,12 +11,12 @@ PINAGEM:
 
 No plug do fio marrom, ligaremos no GND da Arduino, no do fio vermelho, ligaremos no 5V do Arduino e, por último, ligaremos o laranja em algum dos pinos digitais. No caso, ligamos no pino digital 3 do Arduino
 
-<img src="{{ site.baseurl }}/post_img/fios_servo_motor.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/fios_servo_motor.jpg" style="margin: 0 auto; max-height: 390px;" />
 Fios do Servomotor
 
 Após as ligações, a placa ficará parecida com a figura abaixo:
 
-<img src="{{ site.baseurl }}/post_img/servo_motor_arduino.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/servo_motor_arduino.jpg" style="margin: 0 auto; max-height: 390px;" />
 Servomotor ligado ao Arduino
 
 
