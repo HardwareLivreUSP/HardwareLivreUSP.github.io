@@ -19,7 +19,7 @@ Medindo a Tensão:
 
 Suponhamos que montamos um circuito elétrico para realizar determinado projeto usando o Arduino e precisamos verificar a tensão, para isso, precisamos ligar o nosso multímetro em paralelo ao circuito (figura 2) enquanto ele está ligado. Para medir a tensão de uma fonte de energia, basta ligar os conectores do multímetro aos polos positivo e negativo da fonte (caso você ponha o conector positivo no negativo e o negativo no positivo, a tensão aparecerá negativa). Ligamos o voltímetro em paralelo ao circuito, pois a tensão num circuito em série é a mesma.
 
-<img src="{{ site.baseurl }}/post-img/measuring-voltage.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/measuring-voltage.jpg" style="margin: 0 auto; max-height: 390px;">
 
 Figura 2 – Medindo a tensão de um circuito
 
@@ -31,7 +31,7 @@ Medindo a Corrente:
 
 Para medirmos a corrente de um circuito, devemos ligar o multímetro em série ao circuito, pois num circuito em série, a corrente é a mesma. Para a medição da corrente de um circuito, é preciso levar em consideração se ela é alternada ou contínua e assim selecionar adequadamente as escalas. Caso a medição seja feita de maneira errada, o fusível do multímetro queima.
 
-<img src="{{ site.baseurl }}/post-img/measuring-current.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/measuring-current.jpg" style="margin: 0 auto; max-height: 390px;">
 
 Figura 3 – Medindo a corrente usando o multímetro
 
@@ -41,7 +41,7 @@ Medindo a Resistência:
 
 Para medir a resistência dum resistor (caso você não tenha uma tabela com o esquema de cores a mão ou simplesmente esteja com pressa), basta ligar o multímetro no resistor de acordo com a figura 4.
 
-<img src="{{ site.baseurl }}/post-img/multimeters-resistance-measurement.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/multimeters-resistance-measurement.jpg" style="margin: 0 auto; max-height: 390px;">
 
 Figura 4 – Medindo a resistência utilizando um multímetro
 
