@@ -3,6 +3,7 @@ layout:     post
 title:      "Encontro #1 em 13/11/13"
 date:       2013-11-13
 author:     "dj"
+img: 		    "img/cook.jpg"
 ---
 O primeiro encontro do grupo foi realizado em 13 de novembro de 2013 na sala 254A do IME/USP. Neste encontro foi apresentada uma introdução a alguns conceitos de eletrônica e foram apresentados alguns modelos de Arduino. Houve uma grande discussão sobre as principais diferenças e semelhanças entre os modelos e sobre as diferentes possibilidades de desenvolvimento utilizando o Arduino ou apenas o micro-controladorATMEGA.
 
