@@ -20,7 +20,7 @@ Medindo a Tensão:
 
 Suponhamos que montamos um circuito elétrico para realizar determinado projeto usando o Arduino e precisamos verificar a tensão, para isso, precisamos ligar o nosso multímetro em paralelo ao circuito (figura 2) enquanto ele está ligado. Para medir a tensão de uma fonte de energia, basta ligar os conectores do multímetro aos polos positivo e negativo da fonte (caso você ponha o conector positivo no negativo e o negativo no positivo, a tensão aparecerá negativa). Ligamos o voltímetro em paralelo ao circuito, pois a tensão num circuito em série é a mesma.
 
-<img src="{{ site.baseurl }}/post_img/measuring-voltage.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/measuring-voltage.gif" style="margin: 0 auto; max-height: 390px;">
 
 Figura 2 – Medindo a tensão de um circuito
 
