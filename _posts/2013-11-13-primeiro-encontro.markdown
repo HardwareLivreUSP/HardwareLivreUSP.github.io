@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Primeiro Encontro"
+title:      "Encontro #1 em 13/11/13"
 date:       2013-11-13
 author:     "dj"
 ---
