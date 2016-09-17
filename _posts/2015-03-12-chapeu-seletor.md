@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Projeto: Chapéu Seletor"
-date:       2013-11-13
+date:       2015-03-12
 author:     "blackjuice - Gustavo Estrela"
 ---
 
@@ -14,7 +14,9 @@ Este post não pretende explicar como fizemos o Chapéu, falaremos disso em um o
 * Assim, o Arduino-2 (do Chapéu) recebe os dados para controlar o motor servo, imitando a movimentação da boca.
 
 <img src="{{ site.baseurl }}/post_img/chapeu3.jpg" style="margin: 0 auto; max-height: 390px;">
+
 <img src="{{ site.baseurl }}/post_img/chapeu2.jpg" style="margin: 0 auto; max-height: 390px;">
+
 <img src="{{ site.baseurl }}/post_img/chapeu1.jpg" style="margin: 0 auto; max-height: 390px;">
 
 
