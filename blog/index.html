@@ -25,7 +25,7 @@ Veja abaixo as principais atualizações do grupo.
         </div>
         <div class="col-md-4">
             {% if post.img %}
-            <a href="#" class="thumbnail">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail">
               <img src="{{ site.baseurl }}/{{ post.img }}"  style="max-height: 120px;">
             </a>
             {% endif %}
