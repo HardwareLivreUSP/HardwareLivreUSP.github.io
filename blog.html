@@ -18,7 +18,11 @@ header-img: "img/logo.jpg"
     <p class="post-meta">Postado por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} em {{ post.date | date: "%-d/%m/%Y" }}</p>
 </div>
 
-{% if post.img %}{{ post.img }}{% endif %}
+{% if post.img %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.img }}
+    </a>
+{% endif %}
 <hr>
 {% endfor %}
 
