@@ -9,7 +9,7 @@ author:     "Lucas Silva"
 
 Um equipamento de grande utilidade na hora de montar placas e testar componentes é o multímetro (figura 1), pois ele nos permite fazer medições de várias grandezas elétricas. A seguir faremos um tutorial de como utilizá-lo para efeturar as medições. Primeiramente, notamos que, para cada grandeza elétrica, há diversas escalas para se fazer as medições, para determinarmos qual escala usar, devemos ir selecionando a menor (no caso do multímetro digital) ou a maior (no caso do analógico) e ir descendo até ele deixar de mostrar apenas zeros. Vale ressaltar que se você já tem uma noção da grandeza do que irá medir, deve selecionar a escala do multímetro onde a grandeza esteja no intervalo e não nas extremidades. Exemplo: suponha que você deseja medir uma fonte de 20V, deveremos escolher a escala do 200V no nosso multímetro, entretanto, se fosse uma fonte de 15V, a escala do 20V já bastaria.
 
-<img src="{{ site.baseurl }}/post-img/multimetro.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/multimetro.jpg" style="margin: 0 auto; max-height: 390px;">
 
 Figura 1 – Multímetro digital
 
