@@ -14,17 +14,17 @@ Infelizmente tivemos alguns erros:
 AVISO: sempre que tentar fazer um POV Clock os dispositivos devem estar bem presos. A bateria pode voar! Tomem cuidado ao realizar esse tipo de projeto.
 
 
-<img src="{{ site.baseurl }}/img/pov1.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov1.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/img/pov2.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov2.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/img/pov3.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov3.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/img/pov4.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov4.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/img/pov5.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov5.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/img/pov6.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov6.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/img/pov7.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/pov7.jpg" style="margin: 0 auto; max-height: 390px;">
 
