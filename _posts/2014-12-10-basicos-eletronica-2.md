@@ -3,6 +3,7 @@ layout:     post
 title:      "Básicos de Eletrônica – Parte II"
 date:       2014-12-10
 author:     "Lucas Silva"
+img:        "post_img/multimeters-resistance-measurement.jpg"
 ---
 
 
