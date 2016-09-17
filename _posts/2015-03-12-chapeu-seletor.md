@@ -3,6 +3,7 @@ layout:     post
 title:      "Projeto: Chapéu Seletor"
 date:       2015-03-12
 author:     "blackjuice - Gustavo Estrela"
+img:        "post_img/chapeu3.jpg"
 ---
 
 No dia 23 de Fevereiro de 2015, fizemos o Chapéu Seletor, personagem da obra Harry Potter, de J. K. Rowling, para a [Comissão de Trote IME-USP](https://www.facebook.com/troteimeusp). O Chapéu tinha o propósito de auxiliar a comissão em separar os calouros do IME de 2015 em grupos para suas atividades afins.
