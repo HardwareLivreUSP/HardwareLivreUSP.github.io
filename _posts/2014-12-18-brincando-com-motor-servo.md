@@ -3,6 +3,7 @@ layout:     post
 title:      "Brincando com Motor Servo"
 date:       2014-12-18
 author:     "Lucas Silva"
+img:        "post_img/servo_motor_arduino.jpg"
 ---
 Servomotores, diferente dos motores CC comuns, possuem uma entrada extra para controlar sua rotação. Eles recebem um ângulo e se movimentam para ficar de acordo com a informação recebida. O Arduino já possui uma biblioteca própria para trabalhar com servomotores, a Servo.h, nesse tutorial, será feita uma breve introdução a ela.
 
