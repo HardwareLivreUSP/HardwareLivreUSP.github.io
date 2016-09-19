@@ -6,7 +6,7 @@ author:     "Capella"
 img:        "post_img/geni.jpg"
 ---
 
-Nesse semestre em parceria com o [NEU](http://www.uspempreende.org/) vamos realizar dois Workshops.]
+Nesse semestre em parceria com o [NEU](http://www.uspempreende.org/) vamos realizar dois Workshops.
 
 O primeiro deles será detinados a pessoas que possuem noções de programação que querem aprender a mexer com Arduino. E o segundo será para aqueles que já mexeram com Arduino só que querem saber algumas curiosidades sobre ele.
 
