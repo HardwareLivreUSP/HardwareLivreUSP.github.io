@@ -3,6 +3,7 @@ layout:     post
 title:      "Tutorial: Introdução ao Arduino usando uma Matriz de LED"
 date:       2016-09-15
 author:     "Leonardo Haddad Carlos"
+img:        "post_img/matrizdeled.jpg"
 ---
 
 ## Hardware Livre USP
