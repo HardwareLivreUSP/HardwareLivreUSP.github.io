@@ -19,7 +19,7 @@ Por exemplo, vamos supor que queremos ligar o terceiro LED da segunda linha. Ent
 Para a construção do exemplo desse tutorial, o modelo de matriz utilizado foi a 20257ND.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/matriz-20257ND.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/led_matrix/matriz-20257ND.jpg" style="margin: 0 auto; max-height: 390px;" />
 Matriz de LED modelo 20257ND
 </p>
 
@@ -36,7 +36,7 @@ Voltando ao nosso exemplo da seção anterior, onde queremos ligar o terceiro LE
 Agora que você já sabe como usar o datasheet para identificar as funções de cada pino da matriz, é hora de conectar esses pinos com as portas do Arduino. Existem duas formas principais de fazer essa conexão: através de uma protoboard (veja a imagem abaixo) e cabos jumpers, no caso de projetos em fase de prototipação, ou através de um circuito impresso especificamente para o projeto em questão, no caso de produtos já validados na protoboard. Como esse tutorial visa introduzir o assunto a pessoas com pouco conhecimento na área, omitiremos o procedimento de criação de circuitos impressos e focaremos apenas na montagem dos protótipos utilizando a protoboard.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/led_matrix/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" />
 Protoboard
 </p>
 
@@ -49,7 +49,7 @@ O próximo passo é pegar alguns jumpers (condutores utilizados para conectar di
 Lembre-se sempre de registrar o mapeamento dos pinos para que seja possível manipular corretamente a matriz. Uma das formas mais eficientes de registrar esse mapeamento é através de arrays, pois esses mesmos arrays podem ser utilizados no código para simplificar as conversões que serão necessárias para acessar um determinado LED: a partir da linha e da coluna do LED em questão, descobrir os pinos associados e, a partir disso, as portas do Arduino às quais esses pinos estão ligados.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/jumpers.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/led_matrix/jumpers.jpg" style="margin: 0 auto; max-height: 390px;" />
 Jumpers
 </p>
 
@@ -63,10 +63,19 @@ const int colsPins[] = {13, 3, 4, 10, 6};
 
 Os vetores linesPins e colsPins guardam o mapeamento entre os LED's e os pinos da matriz, enquanto o vetor pinsPorts guarda o mapeamento entre os pinos da matriz e as portas do Arduino (que é definido pelas ligações feitas com os jumpers).
 
-Isso significa que, segundo o vetor pinPorts, o primeiro pino da matriz está conectado na porta 11 do Arduino, enquanto o segundo pino está conectado na porta 2 e o terceiro pino da matriz está conectado na porta 3. Além disso, os vetores linesPins e colsPins nos mostram que esses três pinos da matriz controlam, respectivamente, a quinta linha da matriz (pois o valor 1 está na quinta posição do linesPins), a sétima linha da matriz (pois o valor 2 está na sétima posição do linesPins) e a segunda coluna da matriz (pois o valor 3 está na segunda posição do colsPins). A imagem abaixo ilustra nosso protótipo de matriz de LED, montada com base nos arrays de mapeamento definidos acima.
+Isso significa que, segundo o vetor pinPorts, o primeiro pino da matriz está conectado na porta 11 do Arduino, enquanto o segundo pino está conectado na porta 2 e o terceiro pino da matriz está conectado na porta 3. Além disso, os vetores linesPins e colsPins nos mostram que esses três pinos da matriz controlam, respectivamente, a quinta linha da matriz (pois o valor 1 está na quinta posição do linesPins), a sétima linha da matriz (pois o valor 2 está na sétima posição do linesPins) e a segunda coluna da matriz (pois o valor 3 está na segunda posição do colsPins).
+
+A imagem abaixo ilustra nosso protótipo de matriz de LED, montada com base nos arrays de mapeamento definidos acima.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/prototype.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/led_matrix/prototype.jpg" style="margin: 0 auto; max-height: 390px;" />
+Protótipo
+</p>
+
+Note que foi necessário utilizar duas protoboards para montar o protótipo. Isso acontece devido à disposição dos oito pinos da matriz, que, conforme é possível ver na imagem abaixo, faz com que seja impossível encontrar um encaixe (usando uma única protoboard) no qual cada pino da matriz se conecte a um circuito diferente da protoboard. Portanto, usamos uma protoboard para cada fileira de pinos da matriz.
+
+<p style="text-align: center;">
+    <img src="{{ site.baseurl }}/post_img/led_matrix/pins.jpg" style="margin: 0 auto; max-height: 390px;" />
 Protótipo
 </p>
 
@@ -97,9 +106,6 @@ License
 ----
 
 MIT
-
-
-**Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
