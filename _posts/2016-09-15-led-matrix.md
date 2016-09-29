@@ -36,7 +36,7 @@ Voltando ao nosso exemplo da seção anterior, onde queremos ligar o terceiro LE
 Agora que você já sabe como usar o datasheet para identificar as funções de cada pino da matriz, é hora de conectar esses pinos com as portas do Arduino. Existem duas formas principais de fazer essa conexão: através de uma protoboard (veja a imagem abaixo) e cabos jumpers, no caso de projetos em fase de prototipação, ou através de um circuito impresso especificamente para o projeto em questão, no caso de produtos já validados na protoboard. Como esse tutorial visa introduzir o assunto a pessoas com pouco conhecimento na área, omitiremos o procedimento de criação de circuitos impressos e focaremos apenas na montagem dos protótipos utilizando a protoboard.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/led_matrix/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/led_matrix/protoboard.jpg" style="margin: 0 auto; max-height: 390px;" /> <<br/>
 Protoboard
 </p>
 
