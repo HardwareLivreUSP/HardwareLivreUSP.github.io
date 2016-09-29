@@ -10,7 +10,7 @@ img:        "post_img/matrizdeled.jpg"
 
 ## Atenção! Este tutorial ainda está em construção e, portanto, incompleto!
 <br/>
-Esse tutorial, destinado a iniciantes, cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos às portas do Arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre, e por isso foi escolhida para esse tutorial inicial.
+Esse tutorial, destinado a iniciantes, cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos às portas do Arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre, e por isso foi escolhida para esse tutorial inicial. Note que esse tutorial é feito para pessoas que sejam iniciantes no Arduino, mas que já conheçam as noções básicas de programação.
 
 Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelas portas do Arduino e associadas respectivamente às entradas e saídas de energia da matriz.
 
@@ -72,12 +72,68 @@ A imagem abaixo ilustra nosso protótipo de matriz de LED, montada com base nos 
 Protótipo
 </p>
 
-Note que foi necessário utilizar duas protoboards para montar o protótipo. Isso acontece devido à disposição dos oito pinos da matriz, que, conforme é possível ver na imagem abaixo, faz com que seja impossível encontrar um encaixe (usando uma única protoboard) no qual cada pino da matriz se conecte a um circuito diferente da protoboard. Portanto, usamos uma protoboard para cada fileira de pinos da matriz.
+Note que foi necessário utilizar duas protoboards para montar o protótipo. Isso acontece devido à disposição dos oito pinos da matriz, que, conforme é possível ver na imagem abaixo, faz com que seja impossível encontrar um encaixe (usando uma única protoboard) no qual cada pino da matriz se conecte a um circuito (trilha) diferente da protoboard. Portanto, usamos uma protoboard para cada fileira de pinos da matriz.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/led_matrix/pins.jpg" style="margin: 0 auto; max-height: 390px;" />
-Protótipo
+Pinos da Matriz
 </p>
+
+### Desenvolvendo um software para controlar a matriz
+
+Hora de colocar a mão na massa! O primeiro passo para programar para Arduino é baixar a IDE no [site oficial][arduino].
+
+Essa é a "cara" de um programa em Arduino:
+
+```sh
+
+// defines e variáveis globais
+
+// routines/functions
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // some initialization code
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  // some code to iterate over
+}
+```
+
+A função setup é (to be continued)...
+
+Para terminar de montar seu ambiente de desenvolvimento, conecte o seu protótipo ao computador através do cabo USB, conforme mostra a imagem abaixo. Assim, você já estará pronto para enviar códigos para o dispositivo e testar seu programa quantas vezes precisar ao longo do desenvolvimento.
+
+<p style="text-align: center;">
+    <img src="{{ site.baseurl }}/post_img/led_matrix/usb.jpg" style="margin: 0 auto; max-height: 390px;" />
+Pinos da Matriz
+</p>
+
+Naturalmente, nossa primeira implementação será uma função que, dada uma linha e uma coluna, acende o LED associado. Ou, melhor ainda, desenvolveremos uma função que recebe uma linha, uma coluna e um estado (ligado ou desligado) e atribui esse estado ao LED associado.
+
+Lembra dos vetores pinsPorts, linesPins e colsPins que definimos quando falamos sobre mapeamentos? Esse é o momento de usar esse vetores, que servirão como conversores que transformarão os valores da linha e da coluna nos índices dos pinos cujos valores devem ser alterados para atingir o objetivo esperado (acender ou apagar o LED).
+
+```sh
+void setLedState(int lin, int col, int state) {
+  int energyPort = 13;
+  int groundPort = 0;
+  // discover energyPort and groundPort from lin and col
+  energyPort = pinsPorts[linesPins[lin]];
+  groundPort = pinsPorts[colsPins[col]];
+  if (state > 0) {
+    digitalWrite(energyPort, HIGH);
+    digitalWrite(groundPort, LOW);
+  }
+  else {
+    digitalWrite(energyPort, LOW);
+    digitalWrite(groundPort, HIGH);
+  }
+}
+```
+
+
 
 ### Ferramentas
 Para criação desse tutorial, foi utilizado um editor de markdown de código aberto chamado [Dillinger][dill].
@@ -110,4 +166,5 @@ MIT
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [dill]: <https://github.com/joemccann/dillinger>
+   [arduino]: <https://www.arduino.cc>
    [datasheet-led]: <http://pdf.datasheet.global/datasheets-1/american_bright_optoelectronics/BM-20257ND.pdf>
