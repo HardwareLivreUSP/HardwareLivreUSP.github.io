@@ -12,7 +12,7 @@ img:        "post_img/matrizdeled.jpg"
 <br/>
 Esse tutorial, destinado a iniciantes, cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos às portas do Arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre, e por isso foi escolhida para esse tutorial inicial. Note que esse tutorial é feito para pessoas que sejam iniciantes no Arduino, mas que já conheçam as noções básicas de programação.
 
-Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelas portas do Arduino e associadas respectivamente às entradas e saídas de energia da matriz.
+Uma matriz de LED é um dispositivo que contém diversos LEDs dispostos em linhas e colunas, as quais são controladas pelas portas do Arduino e associadas respectivamente às entradas e saídas de energia da matriz. Isso se dá porque os LED's possuem polaridades, de forma que a polaridade positiva fica associada à linha, enquanto a polaridade negativa fica associada à coluna.
 
 Por exemplo, vamos supor que queremos ligar o terceiro LED da segunda linha. Então, definimos a porta associada à segunda linha como porta de energia (configuramos a porta como potência alta, que no Arduino representa 5V) e a porta associada à terceira coluna como porta de terra (configuramos a porta como potência baixa, que no Arduino representa 0V).
 
