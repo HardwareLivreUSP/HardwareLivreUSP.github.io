@@ -16,9 +16,12 @@ Primeiramente deixo fotos e vídeos sobre o projeto depois de concluído para ex
 
 <img src="{{ site.baseurl }}/post_img/floppys3.jpg" style="margin: 0 auto; max-height: 390px;">
 
+<p>
 <iframe width="584" height="329" src="https://www.youtube.com/embed/hsN9MINXFiQ" frameborder="0" allowfullscreen>Floppys tocando Tetris</iframe>
-
+</p>
+<p>
 <iframe width="584" height="329" src="https://www.youtube.com/embed/Z7V2LiwLtbM" frameborder="0" allowfullscreen>Floppys tocando Crash Bandecoot Wrapped</iframe>
+</p>
 
 Agora que já temos uma visão do projeto em seu estado final mãos a obra!
 
