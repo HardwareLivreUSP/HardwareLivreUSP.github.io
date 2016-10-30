@@ -45,6 +45,7 @@ As principais funções que usamos no modo MIDI File foram:
 No modo MIDI IN Port você pode executar entradas no formato MIDI diretamente nos floppys. Por exemplo, se você tiver um teclado com saída no formato MIDI você pode conectá-lo ao seu computador e ter as notas tocadas nele reproduzidas pelos floppys.
 
 Arquivos MIDI
+
 O projeto moppy tem três arquivos MIDI para teste na pasta Moppy/Java/MoppyDesk/samplesongs/. Mais arquivos no formato MIDI podem ser encontrados em diversos sites pela internet, uma sugestão é o <a href="http://www.midiworld.com/">midiworld</a>.
 
 Então é isso, com o projeto montado e tudo configurado resta apenas apreciar as suas músicas favoritas tocadas por uma orquestra de drivers de disquete. =D
