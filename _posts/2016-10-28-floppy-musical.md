@@ -26,15 +26,25 @@ Primeiramente este projeto é baseado no projeto do Sammy que você encontra <a 
 
 Pontos importantes na hora de montar o projeto (hardware)
 
-Além dos pinos Step e Control que devem ser ligado ao arduino conforme descrito pelo Sammy, você também deve ligar os pinos 12 e 13 (pinos em vermelo na imagem) em curto no floppy para que ele ligue!
+Além dos pinos Step e Control que devem ser ligados à Arduino conforme descrito pelo Sammy, você também deve ligar os pinos 11 e 12 (pinos em vermelo na imagem) em curto no floppy/driver de disquete para que ele ligue!
 
 <img src="{{ site.baseurl }}/post_img/pinagem-floppy.jpg" style="margin: 0 auto; max-height: 390px;">
 
-Você perceberá que o led indicador de ligado e desligado do floppy ficará ligado quando o floppy estiver energizado e com os pinos 12 e 13 em curto.
+Você perceberá que o led indicador de ligado e desligado ficará ligado quando o floppy estiver energizado e com os pinos 11 e 12 em curto. Se por algum motivo o pino 11 não estiver presente você pode conectar o pino 12 a qualquer um dos pinos de número ímpar que também deve funcionar. Isso por que na verdade todos os pinos de número ímpar estão em curto no floppy.
 
-Outra coisa importante a se saber é qual a voltagem de operação de um floppy e qual a corrente necessária para alimentá-lo. Por padrão cada floppy opera a 5 volts e segundo <a href="http://forum.arduino.cc/index.php?topic=152419.0">este tópico</a> cada floppy deve ser alimentado com uma corrente que pode variar de 0,3 a 0,7 ampere. Se você tiver uma fonte de computador você pode usá-la para alimentar os floppys sem se preocupar o com esse tipo de coisa, basta ligar o(s) driver(s) na fonte exatamente como você faria se o(s) estivesse instalando em um computador. Porém, se você não tiver uma fonte de computador e/ou tiver muitos floppys você provavelmente vai precissar usar uma fonte convencional e então deverá atentar para as especificações de voltagem e corrente dos floppys. Por exemplo, para o projeto que montamos com 4 floppys foi necessária uma fonte de 5 volts / 2 amperes para alimentá-los.
+Outra coisa importante a se saber é a voltagem de operação e a corrente necessária para alimentar cada floppy. Por padrão cada floppy opera a 5 volts e segundo <a href="http://forum.arduino.cc/index.php?topic=152419.0">este tópico</a> cada um deve ser alimentado com uma corrente que pode variar de 0,3 a 0,7 ampere. Se você tiver uma fonte de computador você pode usá-la para alimentar o(s) floppy(s) sem se preocupar o com esse tipo de coisa, basta liga-lo(s) na fonte exatamente como você faria se o(s) estivesse instalando em um computador. Porém, se você não tiver uma fonte de computador e/ou tiver muitos floppys você provavelmente vai precissar usar uma fonte convencional e então deverá atentar para as especificações de voltagem e corrente deles. Por exemplo, para o projeto que montamos com 4 floppys foi necessária uma fonte de 5 volts / 2 amperes para alimentá-los.
 
-(post em construção)
-//TODO Se os gnd de cada floppy estiverem em curto então basta ligar um deles ao gnd do Arduino.
-//TODO Descrever um algumas das funções do programa do Sammy que utilizamos e o que elas fazem.
-//TODO Pôr um link para o .jar do projeto compilado.
+O Moppy Control Application (programa Java)
+
+As principais funções que usamos no modo MIDI File foram:
+* "Moppy Serial": você seleciona a porta serial do dispositivo que se comunica com o(s) floppy(s) (no caso, a porta serial na qual a sua placa Arduino está conectada);
+* "Load Sequence": lhe permite selecionar um arquivo de audio no formato MIDI para execução;
+* "Enable Drive-Pooling": na estratégia Straight-Throught que executa o arquivo MIDI no estilo um canal MIDI para um floppy e na estratégia Round-Robin que executa o arquivo MIDI alternando a execução dos canais MIDI entre os floppys livres;
+* "Connect", "Start" e "Stop/Reset" para iniciar a conexão com o Arduino e com os floppys, iniciar a execução da música e para/reiniciar a música, respectivamente.
+
+No modo MIDI IN Port você pode executar entradas no formato MIDI diretamente nos floppys. Por exemplo, se você tiver um teclado com saída no formato MIDI você pode conectá-lo ao seu computador e ter as notas tocadas nele reproduzidas pelos floppys.
+
+Arquivos MIDI
+O projeto moppy tem três arquivos MIDI para teste na pasta Moppy/Java/MoppyDesk/samplesongs/. Mais arquivos no formato MIDI podem ser encontrados em diversos sites pela internet, uma sugestão é o <a href="http://www.midiworld.com/">midiworld</a>.
+
+Então é isso, com o projeto montado e tudo configurado resta apenas apreciar as suas músicas favoritas tocadas por uma orquestra de drivers de disquete. =D
