@@ -36,11 +36,11 @@ Outra coisa importante a se saber é a voltagem de operação e a corrente neces
 
 O Moppy Control Application (programa Java)
 
-As principais funções que usamos no modo MIDI File foram:
-* "Moppy Serial": você seleciona a porta serial do dispositivo que se comunica com o(s) floppy(s) (no caso, a porta serial na qual a sua placa Arduino está conectada);
-* "Load Sequence": lhe permite selecionar um arquivo de audio no formato MIDI para execução;
-* "Enable Drive-Pooling": na estratégia Straight-Throught que executa o arquivo MIDI no estilo um canal MIDI para um floppy e na estratégia Round-Robin que executa o arquivo MIDI alternando a execução dos canais MIDI entre os floppys livres;
-* "Connect", "Start" e "Stop/Reset" para iniciar a conexão com o Arduino e com os floppys, iniciar a execução da música e para/reiniciar a música, respectivamente.
+As principais funções que usamos no modo MIDI File foram:<br/>
+* "Moppy Serial": você seleciona a porta serial do dispositivo que se comunica com o(s) floppy(s) (no caso, a porta serial na qual a sua placa Arduino está conectada);<br/>
+* "Load Sequence": lhe permite selecionar um arquivo de audio no formato MIDI para execução;<br/>
+* "Enable Drive-Pooling": na estratégia Straight-Throught que executa o arquivo MIDI no estilo um canal MIDI para um floppy e na estratégia Round-Robin que executa o arquivo MIDI alternando a execução dos canais MIDI entre os floppys livres;<br/>
+* "Connect", "Start" e "Stop/Reset" para iniciar a conexão com o Arduino e com os floppys, iniciar a execução da música e para/reiniciar a música, respectivamente.<br/>
 
 No modo MIDI IN Port você pode executar entradas no formato MIDI diretamente nos floppys. Por exemplo, se você tiver um teclado com saída no formato MIDI você pode conectá-lo ao seu computador e ter as notas tocadas nele reproduzidas pelos floppys.
 
