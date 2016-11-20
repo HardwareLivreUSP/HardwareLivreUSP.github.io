@@ -14,6 +14,8 @@ Esses tutoriais são a melhor opção para quem quer aprender Arduino "do zero",
 
 Por isso, o grupo teve a ideia de traduzir esses turoriais e disponibilizá-los para a comunidade, a fim de difundir ainda mais os conhecimentos básicos e avançados sobre Arduino. Como, no entanto, alguns leitores que dominam o idioma também podem optar por fazer uso desse material, não deixarei de compartilhar boas referências que estejam disponíveis apenas em inglês.
 
+Conforme a evolução do projeto, os links para páginas em inglês do site do Arduino serão substituídos por links para as respectivas traduções criadas e hospedadas pelo grupo HardwareLivreUSP.
+
 ### Instale o Software do Arduino (IDE)
 Clique em um dos quatro links abaixo para obter instruções passo a passo (em inglês) sobre como configurar o Arduino Software (IDE) em seu computador, de acordo com seu sistema operacional.
 
