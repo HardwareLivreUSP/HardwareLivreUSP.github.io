@@ -3,7 +3,7 @@ layout:     post
 title:      "Tutoriais Arduino #1: Primeiros passos com Arduino"
 date:       2016-11-20
 author:     "Leonardo Haddad Carlos"
-img:        "post_img/arduinotutorials/logo.png"
+img:        "post_img/arduino_oscomm.png"
 ---
 
 ## Hardware Livre USP: Guia de Iniciação do Arduino
