@@ -3,14 +3,11 @@ layout:     post
 title:      "Tutoriais Arduino #1: Primeiros passos com Arduino"
 date:       2016-11-20
 author:     "Leonardo Haddad Carlos"
-img:        "post_img/arduinotutorials/logo.jpg"
+img:        "post_img/arduinotutorials/logo.png"
 ---
 
 ## Hardware Livre USP: Guia de Iniciação do Arduino
 
-
-## Atenção! Este tutorial ainda está em construção e, portanto, incompleto!
-<br/>
 Esse tutorial marca o início de um projeto que estava há algum tempo no backlog do grupo: traduzir o [guia de iniciação][arduino-guide] e os [tutoriais oficiais][arduino-tutorials] do [site do Arduino][arduino].
 
 Esses tutoriais são a melhor opção para quem quer aprender Arduino "do zero", mas são disponibilizados apenas em inglês, dificultando muito a vida de quem não domina o idioma, já que os sistemas online de tradução ainda não são tão precisos.
