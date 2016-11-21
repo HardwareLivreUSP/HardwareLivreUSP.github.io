@@ -23,22 +23,22 @@ Além disso, uma instalação portátil pode estar em um pendrive, permitindo qu
 O procedimento é composto por algumas etapas simples. Você pode usar um pendrive ou uma pasta local em sua máquina. Uma vez feito, com as bibliotecas e núcleos adicionais onde necessário, essa pasta pode ser copiada para outras máquinas.
  - [Faça o download][downloadpage] de uma versão compactada (.zip) do IDE do Arduino de acordo com o sistema operacional;
  - Uma vez concluído o download, extraia o conteúdo do arquivo na unidade escolhida (local ou pendrive);
- - Abra a pasta extraída e, em sua raiz, crie um novo diretório chamado `portátil`, ao lado dos outros;
+ - Abra a pasta extraída e, em sua raiz, crie um novo diretório chamado `portable`, ao lado dos outros;
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/portable_dirstructure.png" style="margin: 0 auto; max-height: 390px;" />
 Instalação Portátil - Estrutura de Diretórios
 </p>
 
-A estrutura da árvore de arquivos deve ser como esta; a pasta `portátil` será preenchida pelo software do Arduino (IDE), conforme necessário, pelas bibliotecas, esboços e núcleos.
+A estrutura da árvore de arquivos deve ser como esta; a pasta `portable` será preenchida pelo software do Arduino (IDE), conforme necessário, pelas bibliotecas, esboços e núcleos.
 
 Para usar esta instalação, inicie o executável do Arduino;
 
-A partir de agora, todos os sketches (esboços), bibliotecas e núcleos adicionais serão instalados na pasta `portátil`. Você pode copiar toda a pasta principal e trazê-la consigo para onde quiser: ela guardará todas as suas preferências, bibliotecas, núcleos e sketches (esboços).
+A partir de agora, todos os sketches (esboços), bibliotecas e núcleos adicionais serão instalados na pasta `portable`. Você pode copiar toda a pasta principal e trazê-la consigo para onde quiser: ela guardará todas as suas preferências, bibliotecas, núcleos e sketches (esboços).
 
 ## Nota
 
-Se você quiser atualizar uma instalação portátil para uma versão mais recente, baixe a nova versão em formato compactado e, em seguida, extraia o conteúdo em uma pasta temporária. Então, você pode mover a pasta `portátil` da antiga instalação para a pasta da nova instalação, ou então você pode copiar todos os arquivos da nova versão para a pasta antiga, sobrescrevendo todos os arquivos. De qualquer maneira, ao final do processo, você deverá ter a instalação portátil atualizada do software do Arduino (IDE) com todos os seus núcleos, bibliotecas e sketches (esboços) preservados. Lembre-se de renomear a pasta raiz para referenciar a versão de lançamento adequada, se necessário. Você deve sempre lançar o arquivo executável "Arduino" de dentro da pasta de sua instalação portátil para usar os esboços, núcleos e bibliotecas contidos nela. Se você tiver outra instalação do software do Arduino (IDE) na máquina que estiver usando, essa versão não será afetada. Bibliotecas e núcleos já instalados na máquina não serão vistos ou utilizados pela instalação portátil.
+Se você quiser atualizar uma instalação portátil para uma versão mais recente, baixe a nova versão em formato compactado e, em seguida, extraia o conteúdo em uma pasta temporária. Então, você pode mover a pasta `portable` da antiga instalação para a pasta da nova instalação, ou então você pode copiar todos os arquivos da nova versão para a pasta antiga, sobrescrevendo todos os arquivos. De qualquer maneira, ao final do processo, você deverá ter a instalação portátil atualizada do software do Arduino (IDE) com todos os seus núcleos, bibliotecas e sketches (esboços) preservados. Lembre-se de renomear a pasta raiz para referenciar a versão de lançamento adequada, se necessário. Você deve sempre lançar o arquivo executável "Arduino" de dentro da pasta de sua instalação portátil para usar os esboços, núcleos e bibliotecas contidos nela. Se você tiver outra instalação do software do Arduino (IDE) na máquina que estiver usando, essa versão não será afetada. Bibliotecas e núcleos já instalados na máquina não serão vistos ou utilizados pela instalação portátil.
 
 License
 ----
