@@ -19,21 +19,21 @@ Nota: Versões do software do Arduino (IDE) anteriores a 1.0 salvam os esboços 
 <img src="{{ site.baseurl }}/post_img/arduinotutorials/env_verify.png" style="float: left; max-height: 50px;" /> &nbsp;
 Verify (verificar): compila seu código e busca os erros existentes.
 
-<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_upload.png" style="margin: 0 auto; max-height: 50px;" />
+<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_upload.png" style="float: left; max-height: 50px;" /> &nbsp;
 Upload (enviar): compila seu código e faz o upload para a placa configurada. Falaremos mais sobre upload ainda nesse tutorial.
 Nota: Se você estiver usando um programador externo com sua placa, você pode segurar (manter pressionada) a tecla "shift" do computador ao usar este ícone. Se fizer isso, o texto mudará para "Upload using Programmer" (Envio usando Programador).
 
-<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_new.png" style="margin: 0 auto; max-height: 50px;" />
+<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_new.png" style="float: left; max-height: 50px;" /> &nbsp;
 New (novo): cria um novo esboço.
 
-<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_open.png" style="margin: 0 auto; max-height: 50px;" />
+<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_open.png" style="float: left; max-height: 50px;" /> &nbsp;
 Open (abrir): apresenta um menu com todos os esboços do seu sketchbook (caderno de esboços). Ao clicar em um esboço, ele será carregado dentro da janela atual, substituindo seu conteúdo.
 Nota: devido a um bug em Java, este menu não se desloca (scroll); se você precisar abrir um esboço que esteja no final da lista, use o menu File | Sketchbook (Arquivo | Caderno de Esboços).
 
-<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_save.png" style="margin: 0 auto; max-height: 50px;" />
+<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_save.png" style="float: left; max-height: 50px;" /> &nbsp;
 Save (salvar): salva seu esboço.
 
-<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_serial.png" style="margin: 0 auto; max-height: 50px;" />
+<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_serial.png" style="float: left; max-height: 50px;" /> &nbsp;
 Serial Monitor (monitor serial): abre o monitor serial. Falaremos mais sobre o monitor serial ainda nesse tutorial.
 
 Outros comandos são encontrados nos cinco menus: `File` (arquivo), `Edit` (editar), `Sketch` (esboço), `Tools` (ferramentas), `Help` (ajuda). Os menus são sensíveis a contexto, o que significa que apenas os itens relevantes para o trabalho atual estarão disponíveis.
