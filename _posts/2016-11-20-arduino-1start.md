@@ -63,7 +63,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [learn-cores]: <https://www.arduino.cc/en/Guide/Cores>
    [learn-libraries]: <https://www.arduino.cc/en/Guide/Libraries>
    [learn-ide]: <https://www.arduino.cc/en/Guide/Environment>
-   [learn-intro]: <https://www.arduino.cc/en/Guide/Introduction>
+   [learn-intro]: </2016/11/20/arduino-6intro/>
    [windows-steps]: </2016/11/20/arduino-2windows/>
    [mac-steps]: </2016/11/20/arduino-3mac/>
    [linux-steps]: </2016/11/20/arduino-4linux/>
