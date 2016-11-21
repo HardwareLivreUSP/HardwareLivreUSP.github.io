@@ -16,8 +16,8 @@ Os programas escritos usando o software do Arduino (IDE) formam sketches (esboç
 
 Nota: Versões do software do Arduino (IDE) anteriores a 1.0 salvam os esboços com a extensão .pde. No entanto, é possível abrir esses arquivos com a versão 1.0, e você será instruído a salvar o esboço com a extensão .ino.
 
-<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_verify.png" style="float: left; max-height: 50px;" />
-   Verify (verificar): compila seu código e busca os erros existentes.
+<img src="{{ site.baseurl }}/post_img/arduinotutorials/env_verify.png" style="float: left; max-height: 50px;" /> &nbsp
+Verify (verificar): compila seu código e busca os erros existentes.
 
 <img src="{{ site.baseurl }}/post_img/arduinotutorials/env_upload.png" style="margin: 0 auto; max-height: 50px;" />
 Upload (enviar): compila seu código e faz o upload para a placa configurada. Falaremos mais sobre upload ainda nesse tutorial.
