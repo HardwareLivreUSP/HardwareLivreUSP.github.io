@@ -45,10 +45,10 @@ License
 
 O texto do guia de iniciação do Arduino está publicado sob a licença [Creative Commons Attribution-ShareAlike 3.0][ccasa3]. Os exemplos de código do guia são disponibilizados para o domínio público.
 
-'''
+```sh
 Tradução feita com base na revisão de 16/08/2016 feita por "SM".
 Link para a página original: [Getting Started Guide - IDE Portátil][originalpage].
-'''
+```
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
