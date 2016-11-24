@@ -14,6 +14,8 @@ Esse guia, construído com base na experiência pessoal dos membros do grupo, co
 
  - [New Port][newport]: possui preços razoáveis e uma boa variedade de sensores. Endereço: R. Vitória, 24 - Santa Ifigênia, São Paulo - SP.
 
+ - [Mamute][mamute]: componentes eletrônicos no geral. Endereço: R. Vitória, 125 - Santa Ifigênia, São Paulo - SP.
+
  - [MDR][mdrcomp]: loja boa para comprar materiais em geral. Endereço: R. dos Timbiras, 272 - Santa Ifigênia, São Paulo - SP.
 
  - [Sampolly][sampolly]: loja para comprar componentes usados. Ao lado da MDR. Endereço: R. dos Timbiras, 256 - Santa Ifigênia, São Paulo - SP.
@@ -34,6 +36,7 @@ Esse guia, construído com base na experiência pessoal dos membros do grupo, co
  - 12 x LEDs (4 de cada: vermelhos, amarelos, verdes)
  -  1 x Chip 74HC595 shift register
  - 60 x Resistores (10 de cada: 220, 330, 1K, 2K2, 4K7, 10K)
+ -  1 x Sensor de distância ultrassônico
  -  1 x Motor DC 6 ou 5 volts
  -  1 x Auto-falante (speaker) 
  -  1 x Potenciômetro 10K
@@ -71,8 +74,9 @@ Esse guia, construído com base na experiência pessoal dos membros do grupo, co
 
    [mercadolivre]: <http://eletronicos.mercadolivre.com.br/pecas-componentes-eletricos/>
    [pandoralab]: <https://pandoralab.com.br/>
+   [multcomercial]: <http://www.multcomercial.com.br/>
    [sampolly]: <http://sampolly-eletro-eletronica-ltda.betoget.com.br/>
    [mdrcomp]: <http://www.mrdcomp.com.br/>
+   [mamute]: <http://www.mamuteeletronica.com.br/>
    [newport]: <http://newportcom.com.br/>
-   [multcomercial]: <http://www.multcomercial.com.br/>
    [arduino]: <https://www.arduino.cc>
