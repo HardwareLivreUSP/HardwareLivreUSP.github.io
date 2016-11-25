@@ -18,7 +18,7 @@ Conecte sua placa Uno com um cabo USB A B; às vezes este cabo é chamado de cab
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/uno_board.jpg" style="margin: 0 auto; max-height: 390px;" />
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/uno_cable.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/usb_cable.jpg" style="margin: 0 auto; max-height: 390px;" />
 </p>
 
 A conexão USB com o PC é necessária para enviar programas para serem executados na placa. Além disso, a Uno automaticamente tira energia do USB ou de qualquer outra fonte de alimentação externa à qual esteja conectado. Conecte a placa ao computador usando o cabo USB. O LED de alimentação verde (rotulado PWR) deve acender.
@@ -49,7 +49,7 @@ Nota: se o software do Arduino for carregado no idioma errado, você poderá alt
 Abra o esçobo do exemplo de piscar o LED: `File`> `Examples`> `01.Basics`> `Blink`.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/uno_blink.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink.jpg" style="margin: 0 auto; max-height: 390px;" />
 `File`> `Examples`> `01.Basics`> `Blink`
 </p>
 
@@ -74,7 +74,7 @@ Selecione a porta serial correspondente
 Agora, basta clicar no botão "Upload" no IDE. Espere alguns segundos - você deve ver os leds RX e TX da placa piscando. Se o envio for bem-sucedido, a mensagem "Done uploading." Irá aparecer na barra de estado (status).
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/uno_send.jpg" style="margin: 0 auto; max-height: 130px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink_send.jpg" style="margin: 0 auto; max-height: 130px;" />
 </p>
 
 Alguns segundos após o carregamento terminar, você deve ver o pino 13 (L) LED na placa começar a piscar (em laranja). Se sim, parabéns! Você conseguiu configurar e rodar sua Arduino ou Genuino. Se você tiver problemas, consulte as [sugestões de solução de problemas][troubleshooting].

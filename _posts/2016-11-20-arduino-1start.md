@@ -91,7 +91,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [board-nano]: <https://www.arduino.cc/en/Guide/ArduinoNano>
    [board-mkrthousand]: <https://www.arduino.cc/en/Guide/MKR1000>
    [board-mini]: <https://www.arduino.cc/en/Guide/ArduinoMini>
-   [board-mega]: <https://www.arduino.cc/en/Guide/ArduinoMega2560>
+   [board-mega]: </2016/11/25/arduino-13board-mega/>
    [board-lilypadusb]: <https://www.arduino.cc/en/Guide/ArduinoLilyPadUSB>
    [board-lilypad]: <https://www.arduino.cc/en/Guide/ArduinoLilyPad>
    [board-leonardo]: <https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro>
