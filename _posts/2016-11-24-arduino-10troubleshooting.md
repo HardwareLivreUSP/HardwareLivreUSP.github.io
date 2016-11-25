@@ -71,6 +71,7 @@ Se ainda assim não funcionar, você pode pedir ajuda [no fórum][forum]. Inclua
 ## Por que vejo a mensagem "Build folder disappeared or could not be written" no Mac OS X?
 
 `A pasta de compilação desapareceu ou não pôde ser escrita.`
+
 Você arrastou o Arduino.app para fora da imagem de disco (e para, digamos, a pasta Aplicativos)? Caso contrário, você não poderá fazer o upload dos exemplos.
 
 ## Por que o software do Arduino não é executado depois que eu atualizei o Java no meu Mac?
@@ -132,6 +133,7 @@ Algumas das placas Arduino Diecimila foram acidentalmente gravadas/queimadas com
 Se você receber um erro ao clicar duas vezes no executável arduino.exe no Windows, por exemplo:
 
 `Arduino has encountered a problem and needs to close.`
+
 `Arduino encontrou um problema e precisa ser fechado.`
 
 Você precisará iniciar o Arduino usando o arquivo run.bat. Por favor, seja paciente, o ambiente Arduino pode levar algum tempo para abrir.
@@ -164,6 +166,7 @@ Você provavelmente tem uma versão antiga da biblioteca de comunicações em al
 ## E o erro "Could not find the main class."?
 
 `Não foi possível encontrar a classe principal.`
+
 Se você receber esse erro ao iniciar o Arduino:
 
 ```sh
