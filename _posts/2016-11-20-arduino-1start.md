@@ -24,6 +24,31 @@ Clique em um dos quatro links abaixo para obter instruções passo a passo sobre
  - [Linux][linux-steps]
  - [IDE Portátil (Windows e Linux)][portable-steps]
 
+### Instruções para as Placas
+
+ - [101][board-oneoone]
+ - [Due][board-due]
+ - [Gemma][board-gemma]
+ - [Intel Edison][board-edison]
+ - [Intel Galileo Gen2][board-galileogentwo]
+ - [Leonardo and Micro][board-leonardo]
+ - [LilyPad][board-lilypad]
+ - [LilyPad USB][board-lilypadusb]
+ - [MEGA2560][board-mega]
+ - [Mini][board-mini]
+ - [MKR1000][board-mkrthousand]
+ - [Nano][board-nano]
+ - [Pro][board-pro]
+ - [Pro Mini][board-promini]
+ - [UNO][board-uno]
+ - [Yún][board-yun]
+ - [Zero][board-zero]
+ - [ADK][board-adk]
+ - [Esplora][board-esplora]
+ - [ISP][board-isp]
+ - [TFT LCD Screen][board-tftlcdscreen]
+ - [Arduino Robot][board-robot]
+
 ### Aprenda sobre Arduino
  - Leia uma [introdução][learn-intro] sobre o que é o Arduino e por que você gostaria de usá-lo.
  - O que é o [software do Arduino (IDE)][learn-ide] e como altero o idioma padrão?
@@ -53,6 +78,28 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
 
 
    [placeholder]: <>
+   [board-robot]: <https://www.arduino.cc/en/Guide/Robot>
+   [board-tftlcdscreen]: <https://www.arduino.cc/en/Guide/TFT>
+   [board-isp]: <https://www.arduino.cc/en/Guide/ArduinoISP>
+   [board-esplora]: <https://www.arduino.cc/en/Guide/ArduinoEsplora>
+   [board-adk]: <https://www.arduino.cc/en/Guide/ArduinoADK>
+   [board-zero]: <https://www.arduino.cc/en/Guide/ArduinoZero>
+   [board-yun]: <https://www.arduino.cc/en/Guide/ArduinoYun>
+   [board-uno]: </2016/11/25/arduino-12board-uno/>
+   [board-promini]: <https://www.arduino.cc/en/Guide/ArduinoProMini>
+   [board-pro]: <https://www.arduino.cc/en/Guide/ArduinoPro>
+   [board-nano]: <https://www.arduino.cc/en/Guide/ArduinoNano>
+   [board-mkrthousand]: <https://www.arduino.cc/en/Guide/MKR1000>
+   [board-mini]: <https://www.arduino.cc/en/Guide/ArduinoMini>
+   [board-mega]: <https://www.arduino.cc/en/Guide/ArduinoMega2560>
+   [board-lilypadusb]: <https://www.arduino.cc/en/Guide/ArduinoLilyPadUSB>
+   [board-lilypad]: <https://www.arduino.cc/en/Guide/ArduinoLilyPad>
+   [board-leonardo]: <https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro>
+   [board-galileogentwo]: <https://www.arduino.cc/en/Guide/IntelGalileoGen2>
+   [board-edison]: <https://www.arduino.cc/en/Guide/IntelEdison>
+   [board-gemma]: <https://www.arduino.cc/en/Guide/ArduinoGemma>
+   [board-due]: <https://www.arduino.cc/en/Guide/ArduinoDue>
+   [board-oneoone]: <https://www.arduino.cc/en/Guide/Arduino101>
    [originalpage]: <https://www.arduino.cc/en/Guide/HomePage>
    [arduino-hub]: <https://create.arduino.cc/projecthub>
    [starterkit]: <https://store.arduino.cc/product/GKX00007>
