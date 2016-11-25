@@ -29,7 +29,7 @@ Clique em um dos quatro links abaixo para obter instruções passo a passo sobre
  - O que é o [software do Arduino (IDE)][learn-ide] e como altero o idioma padrão?
  - [Bibliotecas][learn-libraries]: Usando e instalando bibliotecas do Arduino.
  - [Núcleos][learn-cores]: Precisa adicionar uma nova placa à sua IDE? Instale o núcleo associado.
- - [Solução de problemas][learn-troubleshooting]: Conselhos sobre o que fazer se algo der errado.
+ - [Solução de problemas][learn-troubleshooting] (em inglês): Conselhos sobre o que fazer se algo der errado.
 
 Para obter uma lista completa dos tutoriais (em inglês), visite a [seção de Fundações (Foundations)][learn-foundations], onde você encontrará um conhecimento aprofundado sobre os princípios e técnicas por trás da plataforma Arduino.
 Desenvolver os projetos do [Arduino StarterKit][learn-starterkit] e ler o [livro 'Getting Started in Arduino'][learn-book] (disponível em inglês) são ótimas maneiras de começar a aprender e a colocar as mãos na massa com os principais conceitos da plataforma Arduino: programação e eletrônica.
@@ -58,11 +58,11 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [starterkit]: <https://store.arduino.cc/product/GKX00007>
    [learn-book]: <https://store.arduino.cc/product/B000001>
    [learn-starterkit]: <https://www.arduino.cc/en/Main/ArduinoStarterKit>
-   [learn-foundations]: <https://www.arduino.cc/en/Tutorial/Foundations>
-   [learn-troubleshooting]: <https://www.arduino.cc/en/Guide/Troubleshooting>
-   [learn-cores]: <https://www.arduino.cc/en/Guide/Cores>
-   [learn-libraries]: <https://www.arduino.cc/en/Guide/Libraries>
-   [learn-ide]: <https://www.arduino.cc/en/Guide/Environment>
+   [learn-foundations]: </2016/11/25/arduino-11foundations/>
+   [learn-troubleshooting]: </2016/11/25/arduino-10troubleshooting/>
+   [learn-cores]: </2016/11/24/arduino-9cores/>
+   [learn-libraries]: </2016/11/24/arduino-8libraries/>
+   [learn-ide]: </2016/11/21/arduino-7environment/>
    [learn-intro]: </2016/11/20/arduino-6intro/>
    [windows-steps]: </2016/11/20/arduino-2windows/>
    [mac-steps]: </2016/11/20/arduino-3mac/>

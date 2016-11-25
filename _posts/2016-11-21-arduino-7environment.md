@@ -28,7 +28,7 @@ New (novo): cria um novo esboço.
 
 <img src="{{ site.baseurl }}/post_img/arduinotutorials/env_open.png" style="float: left; max-height: 50px;" /> &nbsp;
 Open (abrir): apresenta um menu com todos os esboços do seu sketchbook (caderno de esboços). Ao clicar em um esboço, ele será carregado dentro da janela atual, substituindo seu conteúdo.
-Nota: devido a um bug em Java, este menu não se desloca (scroll); se você precisar abrir um esboço que esteja no final da lista, use o menu File | Sketchbook (Arquivo | Caderno de Esboços).
+Nota: devido a um bug em Java, este menu não se desloca (scroll); se você precisar abrir um esboço que esteja no final da lista, use o menu `File` (Arquivo)> `Sketchbook` (Caderno de Esboços).
 
 <img src="{{ site.baseurl }}/post_img/arduinotutorials/env_save.png" style="float: left; max-height: 50px;" /> &nbsp;
 Save (salvar): salva seu esboço.
@@ -99,7 +99,7 @@ Esta é a única função interativa do menu Help (ajuda): essa função selecio
 
 ## Sketchbook (caderno de esboços)
 
-O software do Arduino (IDE) usa o conceito de um sketchbook: um lugar padrão para armazenar seus programas (ou esboços). Os esboços do seu sketchbook podem ser abertos a partir do menu `File` | `Sketchbook` ou do botão `Open` (Abrir) na barra de ferramentas. Na primeira vez que você executar o software do Arduino, ele criará automaticamente um diretório para o seu sketchbook. É possível visualizar ou alterar a localização do sketchbook partir da caixa de diálogo (janela) de `Preferências`.
+O software do Arduino (IDE) usa o conceito de um sketchbook: um lugar padrão para armazenar seus programas (ou esboços). Os esboços do seu sketchbook podem ser abertos a partir do menu `File` (Arquivo)> `Sketchbook` (Caderno de Esboços) ou do botão `Open` (Abrir) na barra de ferramentas. Na primeira vez que você executar o software do Arduino, ele criará automaticamente um diretório para o seu sketchbook. É possível visualizar ou alterar a localização do sketchbook partir da caixa de diálogo (janela) de `Preferências`.
 
 `A partir da versão 1.0, os arquivos são salvos com uma extensão de arquivo .ino. Versões anteriores usam a extensão .pde. Você ainda pode abrir arquivos nomeados .pde na versão 1.0 e posterior, e o software renomeará automaticamente a extensão para .ino.`
 
@@ -109,7 +109,7 @@ Permite gerenciar esboços com mais de um arquivo (cada um deles aparece em sua 
 
 ## Enviando o código para a placa (Uploading)
 
-Antes de carregar seu esboço, você precisa selecionar os itens corretos nos menus `Tools` | `Board` e `Tools`> `Port`. As placas, como já foi mencionado, estão descritas ainda ness tutorial, mais abaixo. No Mac, a porta serial é provavelmente algo como `/dev/tty.usbmodem241` (para uma placa Uno, uma Mega2560 ou uma Leonardo) ou `/dev/tty.usbserial-1B1` (para uma placa USB Duemilanove ou anterior), ou `/dev/tty.USA19QW1b1P1.1` (para uma placa serial conectada com um Keyspan USB-to-Serial adapter (adaptador Keyspan USB-para-Serial). No Windows, provavelmente é `COM1`/`COM2` (para uma placa serial) ou `COM4`/​​`COM5`/`COM7`/superior (para uma placa USB) - para descobrir, você procura o dispositivo serial USB na seção de portas do Gerenciador de Dispositivos (Device Manager) do Windows. No Linux, deve ser `/dev/ttyACMx`, `/dev/ttyUSBx` ou similar. Depois de selecionar a porta serial e a placa correta, pressione o botão de upload na barra de ferramentas ou selecione o item `Upload` no menu `Sketch`. As placas Arduino atuais serão redefinidas automaticamente e o upload será iniciado. Com placas mais antigas (pré-Diecimila), que não têm auto-reset, você precisará pressionar o botão de reinicialização na placa antes de iniciar o upload. Na maioria das placas, os LEDs RX e TX piscam à medida que o esboço é carregado. O software do Arduino (IDE) exibirá uma mensagem quando o upload estiver concluído (ou mostrar um erro, caso o upload falhe).
+Antes de carregar seu esboço, você precisa selecionar os itens corretos nos menus `Tools` (Ferramentas)> `Board` (Placa) e `Tools` (Ferramentas)> `Port` (Porta). As placas, como já foi mencionado, estão descritas ainda ness tutorial, mais abaixo. No Mac, a porta serial é provavelmente algo como `/dev/tty.usbmodem241` (para uma placa Uno, uma Mega2560 ou uma Leonardo) ou `/dev/tty.usbserial-1B1` (para uma placa USB Duemilanove ou anterior), ou `/dev/tty.USA19QW1b1P1.1` (para uma placa serial conectada com um Keyspan USB-to-Serial adapter (adaptador Keyspan USB-para-Serial). No Windows, provavelmente é `COM1`/`COM2` (para uma placa serial) ou `COM4`/​​`COM5`/`COM7`/superior (para uma placa USB) - para descobrir, você procura o dispositivo serial USB na seção de portas do Gerenciador de Dispositivos (Device Manager) do Windows. No Linux, deve ser `/dev/ttyACMx`, `/dev/ttyUSBx` ou similar. Depois de selecionar a porta serial e a placa correta, pressione o botão de upload na barra de ferramentas ou selecione o item `Upload` no menu `Sketch`. As placas Arduino atuais serão redefinidas automaticamente e o upload será iniciado. Com placas mais antigas (pré-Diecimila), que não têm auto-reset, você precisará pressionar o botão de reinicialização na placa antes de iniciar o upload. Na maioria das placas, os LEDs RX e TX piscam à medida que o esboço é carregado. O software do Arduino (IDE) exibirá uma mensagem quando o upload estiver concluído (ou mostrar um erro, caso o upload falhe).
 
 Quando você faz o upload de um esboço, você está usando o `bootloader` (carregador de inicialização) Arduino, um pequeno programa que foi carregado no microcontrolador em sua placa. Ele permite que você envie o código sem usar qualquer hardware adicional. O bootloader está ativo por alguns segundos quando a placa é reinicializada; então ele inicia o último esboço que foi enviado para o microcontrolador. O bootloader piscará o LED on-board (pino 13) quando ele for iniciado (ou seja, quando a placa é reiniciada).
 
@@ -189,7 +189,7 @@ O texto do guia de iniciação do Arduino está publicado sob a licença [Creati
 Tradução feita com base na revisão de 07/09/2015 feita por "SM".
 ```
 
-Link para a página original: [Getting Started Guide - Introduction][originalpage].
+Link para a página original: [Getting Started Guide - Environment][originalpage].
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 

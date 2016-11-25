@@ -43,10 +43,10 @@ Link para a página original: [Getting Started Guide - Introduction][originalpag
    [arduinohub]: <https://create.arduino.cc/projecthub>
    [guidehome]: </2016/11/20/arduino-1start/>
    [standalone]: <https://www.arduino.cc/en/Main/Standalone>
-   [forum]: <http://forum.arduino.cc/>
+   [forum]: <http://forum.arduino.cc>
    [processing]: <https://processing.org/>
    [downloadpage]: <https://www.arduino.cc/en/Main/Software>
-   [wiring]: <http://wiring.org.co/>
+   [wiring]: <http://wiring.org.co>
    [language]: <https://www.arduino.cc/en/Reference/HomePage>
    [products]: <https://www.arduino.cc/en/Main/Products>
    [originalpage]: <https://www.arduino.cc/en/Guide/Introduction>
