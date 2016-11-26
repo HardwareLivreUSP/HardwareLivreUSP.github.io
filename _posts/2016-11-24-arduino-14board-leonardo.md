@@ -92,7 +92,7 @@ Selecione a porta serial correspondente
 Clique no botão `Enviar` no canto superior esquerdo para carregar e executar o esboço na sua placa:
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink_send.jpg" style="margin: 0 auto; max-height: 130px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink_send.png" style="margin: 0 auto; max-height: 130px;" />
 </p>
 
 Após o processo de compilação e upload, você verá a mensagem Done Uploading eo LED interno da placa deve começar a piscar.

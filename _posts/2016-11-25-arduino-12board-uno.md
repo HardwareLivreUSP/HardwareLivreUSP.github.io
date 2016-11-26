@@ -74,7 +74,7 @@ Selecione a porta serial correspondente
 Agora, basta clicar no botão "Upload" no IDE. Espere alguns segundos - você deve ver os leds RX e TX da placa piscando. Se o envio for bem-sucedido, a mensagem "Done uploading." Irá aparecer na barra de estado (status).
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink_send.jpg" style="margin: 0 auto; max-height: 130px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink_send.png" style="margin: 0 auto; max-height: 130px;" />
 </p>
 
 Alguns segundos após o carregamento terminar, você deve ver o pino 13 (L) LED na placa começar a piscar (em laranja). Se sim, parabéns! Você conseguiu configurar e rodar sua Arduino ou Genuino. Se você tiver problemas, consulte as [sugestões de solução de problemas][troubleshooting].
