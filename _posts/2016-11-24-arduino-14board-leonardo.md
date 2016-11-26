@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Tutoriais Arduino #14: Placas - Leonardo"
+title:      "Tutoriais Arduino #14: Placas - Leonardo/Micro"
 date:       2016-11-25
 author:     "Leonardo Haddad Carlos"
 img:        "post_img/arduino_oscomm.png"
@@ -66,7 +66,7 @@ Agora que sua placa está conectada ao seu computador e os drivers estão instal
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink.jpg" style="margin: 0 auto; max-height: 390px;" />
-`File`> `Examples`> `01.Basics`> `Blink`
+File> Examples> 01.Basics> Blink
 </p>
 
 ### Selecione sua Placa
@@ -80,7 +80,7 @@ Escolha ou a Arduino/Leonardo Uno ou a Arduino/Genuino Micro
 
 ### Selecione sua Porta Serial
 
-Selecione o dispositivo serial da placa a partir do menu `Tools` | `Serial Port`. A maneira mais fácil de descobrir a porta é desconectar sua placa e reabrir o menu; a entrada que desaparecer é a sua placa Arduino/Genuino. Reconecte a placa, reinicie o IDE e selecione essa porta serial.
+Selecione o dispositivo serial da placa a partir do menu `Tools`> `Serial Port`. A maneira mais fácil de descobrir a porta é desconectar sua placa e reabrir o menu; a entrada que desaparecer é a sua placa Arduino/Genuino. Reconecte a placa, reinicie o IDE e selecione essa porta serial.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/mega_chooseserial.jpg" style="margin: 0 auto; max-height: 390px;" />

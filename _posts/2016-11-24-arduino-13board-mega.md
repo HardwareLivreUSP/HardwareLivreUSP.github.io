@@ -50,7 +50,7 @@ Abra o esçobo do exemplo de piscar o LED: `File`> `Examples`> `01.Basics`> `Bli
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/exp_blink.jpg" style="margin: 0 auto; max-height: 390px;" />
-`File`> `Examples`> `01.Basics`> `Blink`
+File> Examples> 01.Basics> Blink
 </p>
 
 ### Selecione o Tipo da Placa e a Porta
@@ -62,7 +62,7 @@ Você precisará selecionar a entrada no menu `Tools`> placa que corresponde à 
 Selecione a placa Arduino/Genuino Mega2560
 </p>
 
-Selecione o dispositivo serial da placa a partir do menu `Tools` | `Serial Port`. É provável que seja `COM3` ou superior (`COM1` e `COM2` são normalmente reservados para portas de série de hardware). Para descobrir, você pode desconectar sua placa e reabrir o menu; a entrada que desaparecer deverá ser sua placa Arduino/Genuino. Reconecte a placa e selecione essa porta serial.
+Selecione o dispositivo serial da placa a partir do menu `Tools`> `Serial Port`. É provável que seja `COM3` ou superior (`COM1` e `COM2` são normalmente reservados para portas de série de hardware). Para descobrir, você pode desconectar sua placa e reabrir o menu; a entrada que desaparecer deverá ser sua placa Arduino/Genuino. Reconecte a placa e selecione essa porta serial.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/mega_chooseserial.jpg" style="margin: 0 auto; max-height: 390px;" />
