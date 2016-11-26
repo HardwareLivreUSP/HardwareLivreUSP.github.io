@@ -58,7 +58,7 @@ Depois de alguns momentos, você verá a mensagem dizendo que o assistente termi
 
 #### Linux
 
-Não há necessidade de instalar drivers para o Ubuntu 10.0.4.
+Não há necessidade de instalar drivers para o Ubuntu 10.0.4
 
 ### Abra o Exemplo do Blink
 
