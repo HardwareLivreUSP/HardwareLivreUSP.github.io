@@ -26,7 +26,7 @@ Link para a página original: [Getting Started Guide - Boards - LilyPad][origina
 
 
    [placeholder]: <>
-   [lilyusb]: <https://www.arduino.cc/en/Guide/ArduinoLilyPadUSB>
+   [lilyusb]: </2016/11/27/arduino-21lilypadusb/>
    [lilyosx]: </2016/11/27/arduino-20lilypad-mac/>
    [lilywindows]: </2016/11/27/arduino-19lilypad-windows/>
    [lilysnap]: <http://lilypadarduino.org/?p=289>

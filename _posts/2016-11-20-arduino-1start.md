@@ -92,7 +92,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [board-mkrthousand]: <https://www.arduino.cc/en/Guide/MKR1000>
    [board-mini]: <https://www.arduino.cc/en/Guide/ArduinoMini>
    [board-mega]: </2016/11/25/arduino-13board-mega/>
-   [board-lilypadusb]: <https://www.arduino.cc/en/Guide/ArduinoLilyPadUSB>
+   [board-lilypadusb]: </2016/11/27/arduino-21lilypadusb/>
    [board-lilypad]: </2016/11/25/arduino-18board-lilypad/>
    [board-leonardo]: </2016/11/25/arduino-14board-leonardo/>
    [board-galileogentwo]: <https://www.arduino.cc/en/Guide/IntelGalileoGen2>
