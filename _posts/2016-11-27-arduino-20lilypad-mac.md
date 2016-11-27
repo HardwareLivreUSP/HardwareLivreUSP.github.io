@@ -8,11 +8,11 @@ img:        "post_img/arduino_oscomm.png"
 
 ## Primeiros Passos com a Arduino LilyPad no Mac OS X
 
-Este documento explica como conectar sua placa LilyPad Arduino a um computador Mac OS X e fazer o upload de seu primeiro esboço.
+Este documento explica como conectar sua placa Arduino LilyPad a um computador Mac OS X e fazer o upload de seu primeiro esboço.
 
 ## 1 | Obtenha uma Arduino LilyPad, uma placa FTDI e um cabo USB
 
-Neste tutorial, assumimos que você está usando uma [Arduino LilyPad Main Board][lilymain], [Simple Board][lilysimple] ou [SimpleSnap][lilysnap]. Este tutorial também funcionará para as placas LilyPad Arduino Protosnap: a [ProtoSnap LilyPad Development Board][lilyprotodev] e a [Protosnap LilyPad Simple Board][lilyprotosimple]. Se você tiver uma [LilyPad Arduino USB][lilyusb], leia a página correspondente no manual de iniciação para obter instruções de configuração.
+Neste tutorial, assumimos que você está usando uma [Arduino LilyPad Main Board][lilymain], [Simple Board][lilysimple] ou [SimpleSnap][lilysnap]. Este tutorial também funcionará para as placas Arduino LilyPad Protosnap: a [ProtoSnap LilyPad Development Board][lilyprotodev] e a [Protosnap LilyPad Simple Board][lilyprotosimple]. Se você tiver uma [Arduino LilyPad USB][lilyusb], leia a página correspondente no manual de iniciação para obter instruções de configuração.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/lily_boards.jpg" style="margin: 0 auto; max-height: 390px;" />
@@ -38,7 +38,7 @@ Copie o aplicativo Arduino para a pasta Aplicativos.
 
 ## 4 | Instale os drivers FTDI
 
-Você precisará instalar os drivers para a placa FTDI, que permite programar a LilyPad Arduino. Você precisa baixar a versão mais recente dos drivers no [site da FTDI][ftdiwebsite].
+Você precisará instalar os drivers para a placa FTDI, que permite programar a Arduino LilyPad. Você precisa baixar a versão mais recente dos drivers no [site da FTDI][ftdiwebsite].
 
 Mais abaixo, ainda nessa página, há uma tabela listando drivers para diferentes computadores. Clique no driver mais recente que é compatível com seu computador. Se o computador estiver usando o OS 10.5 ou superior, você deve usar os drivers x64 (64 bits). Se o computador estiver usando o OS 10.4, você deve usar os drivers x86 (32 bits). Caso contrário, você deve usar os drivers PPC (PowerPC). Para determinar qual sistema operacional seu computador tem, clique no ícone da maçã no canto superior direito da tela e clique em "Sobre este Mac".
 
@@ -71,7 +71,7 @@ Abra o esboço do exemplo do Blink de LED: `File`> `Examples`> `1.Basics`> `Blin
 
 ## 8 | Selecione sua placa
 
-Você precisará selecionar a entrada no menu `Tools`> `Board` que corresponde ao seu LilyPad Arduino. Se sua placa foi comprada em 2012 ou posteriormente, você deve selecionar `LilyPad Arduino w/ ATmega328` a partir deste menu.
+Você precisará selecionar a entrada no menu `Tools`> `Board` que corresponde à sua Arduino LilyPad. Se sua placa foi comprada em 2012 ou posteriormente, você deve selecionar `LilyPad Arduino w/ ATmega328` a partir deste menu.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/lilymac_chooseboard.jpg" style="margin: 0 auto; max-height: 390px;" />
@@ -95,8 +95,8 @@ Se você tiver problemas, consulte as sugestões de [solução de problemas][tro
 
 ## 11 | Recursos Adicionais
 
- - lilypadarduino.org: um guia completo para começar com a LilyPad
- - Categoria da LilyPad no SparkFun: sensores, atuadores e outras placas para uso com a LilyPad Arduino
+ - [lilypadarduino.org][lilypadguide]: um guia completo para começar com a LilyPad.
+ - [Categoria da LilyPad no SparkFun][lilysparkfun]: sensores, atuadores e outras placas para uso com a Arduino LilyPad.
 
 License
 ----
