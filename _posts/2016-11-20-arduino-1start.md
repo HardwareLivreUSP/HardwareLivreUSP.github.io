@@ -81,7 +81,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [board-robot]: <https://www.arduino.cc/en/Guide/Robot>
    [board-tftlcdscreen]: <https://www.arduino.cc/en/Guide/TFT>
    [board-isp]: <https://www.arduino.cc/en/Guide/ArduinoISP>
-   [board-esplora]: <https://www.arduino.cc/en/Guide/ArduinoEsplora>
+   [board-esplora]: </2016/11/25/arduino-16board-esplora/>
    [board-adk]: <https://www.arduino.cc/en/Guide/ArduinoADK>
    [board-zero]: <https://www.arduino.cc/en/Guide/ArduinoZero>
    [board-yun]: <https://www.arduino.cc/en/Guide/ArduinoYun>
@@ -98,7 +98,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [board-galileogentwo]: <https://www.arduino.cc/en/Guide/IntelGalileoGen2>
    [board-edison]: <https://www.arduino.cc/en/Guide/IntelEdison>
    [board-gemma]: <https://www.arduino.cc/en/Guide/ArduinoGemma>
-   [board-due]: <https://www.arduino.cc/en/Guide/ArduinoDue>
+   [board-due]: </2016/11/25/arduino-15board-due/>
    [board-oneoone]: <https://www.arduino.cc/en/Guide/Arduino101>
    [originalpage]: <https://www.arduino.cc/en/Guide/HomePage>
    [arduino-hub]: <https://create.arduino.cc/projecthub>
