@@ -106,7 +106,7 @@ Se você tiver problemas, consulte as sugestões de [solução de problemas][tro
  - lilypadarduino.org: um guia completo para começar com a LilyPad
  - Categoria da LilyPad no SparkFun: sensores, atuadores e outras placas para uso com a LilyPad Arduino
 
-	License
+License
 ----
 
 O texto do guia de iniciação do Arduino está publicado sob a licença [Creative Commons Attribution-ShareAlike 3.0][ccasa3]. Os exemplos de código do guia são disponibilizados para o domínio público.

@@ -225,6 +225,8 @@ Link para a página original: [Getting Started Guide - Boards - Esplora][origina
 
    [placeholder]: <>
    [exploraexamples]: </2016/11/27/more-esplora-examples/>
+   [getcode-inputoutput]: <https://www.arduino.cc/en/Guide/ArduinoEsplora?action=sourceblock&num=3>
+   [getcode-write]: <https://www.arduino.cc/en/Guide/ArduinoEsplora?action=sourceblock&num=3>
    [getcode-leds]: <https://www.arduino.cc/en/Guide/ArduinoEsplora?action=sourceblock&num=1>
    [elibzipfile]: <https://www.arduino.cc/en/uploads/Guide/Esplora.zip>
    [downloadpage]: <https://www.arduino.cc/en/Main/Software>
