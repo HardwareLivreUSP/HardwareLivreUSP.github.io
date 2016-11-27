@@ -6,7 +6,7 @@ author:     "Leonardo Haddad Carlos"
 img:        "post_img/arduino_oscomm.png"
 ---
 
-## Primeiros Passos com a Arduino/Genuino Esplora
+## Primeiros Passos com a Arduino Esplora
 
 O Arduino Esplora é um dispositivo que tem um computador minúsculo chamado microcontrolador, e um número de entradas e saídas. Para entradas, há um joystick, quatro botões, um sensor de luz, um potenciômetro linear (slider), um microfone, um sensor de temperatura e um acelerômetro. Para as saídas há um buzzer (emossor de sons) e um LED de três cores. À primeira vista, parece um controle de videogame.
 

@@ -6,7 +6,7 @@ author:     "Leonardo Haddad Carlos"
 img:        "post_img/arduino_oscomm.png"
 ---
 
-## Primeiros Passos com a Arduino/Genuino Due
+## Primeiros Passos com a Arduino Due
 
 Para conectar a Arduino Due ao seu computador, você precisará de um cabo USB Micro-B. O cabo USB fornece energia e permite programar a placa.
 

@@ -6,7 +6,7 @@ author:     "Leonardo Haddad Carlos"
 img:        "post_img/arduino_oscomm.png"
 ---
 
-## Primeiros Passos com a Arduino/Genuino Leonardo e Micro
+## Primeiros Passos com a Arduino Leonardo e Micro
 
 As placas Leonardo e Micro usam um ATmega32U4 para oferecer mais recursos em comparação com a Uno. Neste guia, explicamos como colocar a placa em operação e quais são as diferenças com a Uno.
 
