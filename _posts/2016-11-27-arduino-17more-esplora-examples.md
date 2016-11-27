@@ -278,7 +278,7 @@ Você também pode usar as [bibliotecas de Mouse e Teclado USB][mouse-keyboard] 
 As outros Arduinos oferecem duas outras formas de comunicação serial, SPI (a usando [biblioteca SPI][spilib]) e [I2C (usando a biblioteca Wire)][wireref]. A Esplora pode se comunicar via SPI usando o cabeçalho (header) ICSP que também é usado para a programação serial em circuito (opcional) da placa. Os pinos do conector ICSP são dispostos como segue. O pino 1 é o pino mais próximo do ponto branco da placa Esplora. É o pino inferior direito se você está segurando o Esplora com o conector USB virado para cima:
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/esplora_spi.png" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/esplora_spi.jpg" style="margin: 0 auto; max-height: 390px;" />
 Para conectar um dispositivo SPI à Esplora, você terá que fazer seu próprio cabo para este conector.
 </p>
 
