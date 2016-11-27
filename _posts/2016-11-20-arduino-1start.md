@@ -88,7 +88,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [board-uno]: </2016/11/25/arduino-12board-uno/>
    [board-promini]: <https://www.arduino.cc/en/Guide/ArduinoProMini>
    [board-pro]: <https://www.arduino.cc/en/Guide/ArduinoPro>
-   [board-nano]: <https://www.arduino.cc/en/Guide/ArduinoNano>
+   [board-nano]: </2016/11/27/arduino-22nano/>
    [board-mkrthousand]: <https://www.arduino.cc/en/Guide/MKR1000>
    [board-mini]: <https://www.arduino.cc/en/Guide/ArduinoMini>
    [board-mega]: </2016/11/25/arduino-13board-mega/>

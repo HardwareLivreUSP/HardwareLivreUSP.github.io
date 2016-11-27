@@ -8,7 +8,16 @@ img:        "post_img/arduino_oscomm.png"
 
 ## Primeiros Passos com a Arduino Nano
 
-Para programar a Arduino Nano, conecte-a ao computador com um cabo Micro-USB e escolha a placa correta no menu.
+<p style="text-align: center;">
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/nano_board.jpg" style="margin: 0 auto; max-height: 390px;" />
+Conectando a Arduino Nano 2.2 a um computador com um cabo USB Mini-B. Observe o LED de alimentação azul embaixo da placa.
+</p>
+
+Para conectar a Arduino Nano ao seu computador, você precisará de um cabo USB Mini-B. Ele também fornecerá energia para a placa, conforme indicado pelo LED azul (que está na parte inferior da Arduino Nano 2.x e na parte superior da Arduino Nano 3.0).
+
+Se você tiver uma Arduino Nano 3.0, você precisará selecionar `Arduino Duemilanove or Nano w/ ATmega328` a partir do menu `Tools`> `Board`. Se você tem uma Arduino Nano 2.x, selecione `Arduino Diecimila`, `Duemilanove`, ou `Nano w/ ATmega168`. Selecione a porta serial correta a partir do menu `Tools`> `Serial Port`. Em seguida, basta pressionar o botão de upload no ambiente Arduino. A placa será automaticamente reiniciada e o sketch será carregado. Se você tiver algum problema, consulte o [guia de solução de problemas][troubleshooting].
+
+For more details on the Arduino Nano, see the [hardware page][nanohwpage].
 
 License
 ----
@@ -21,6 +30,7 @@ Link para a página original: [Getting Started Guide - Boards - Nano][originalpa
 
 
    [placeholder]: <>
+   [nanohwpage]: <https://www.arduino.cc/en/Main/ArduinoBoardNano>
    [reference]: <https://www.arduino.cc/en/Reference/HomePage>
    [tutexamples]: <https://www.arduino.cc/en/Tutorial/HomePage>
    [troubleshooting]: </2016/11/25/arduino-10troubleshooting/>
