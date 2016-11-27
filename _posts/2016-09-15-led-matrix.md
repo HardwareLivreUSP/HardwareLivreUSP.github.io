@@ -8,7 +8,6 @@ img:        "post_img/led_matrix/matriz-20257ND.jpg"
 
 ## Hardware Livre USP
 
-## Atenção! Este tutorial ainda está em construção e, portanto, incompleto!
 <br/>
 Esse tutorial, destinado a iniciantes, cobrirá o desenvolvimento de um software, escrito em Arduino, que controla uma `matriz de LED`, tal como a montagem do hardware usando jumpers (cabos utilizados para conectar dispositivos às portas do Arduino) e uma protoboard (componente composto por circuitos, utilizado para prototipar projetos). Devido à sua simplicidade, a matriz de LED é um ótimo projeto para iniciantes que queiram dar os primeiros passos dentro do universo de programação de hardware livre, e por isso foi escolhida para esse tutorial inicial. Note que esse tutorial é feito para pessoas que sejam iniciantes no Arduino, mas que já conheçam as noções básicas de programação.
 
@@ -102,13 +101,17 @@ void loop() {
 }
 ```
 
-A função setup é (to be continued)...
+A função `setup` é função responsável pela inicialização do programa. Todos os valores iniciais e ajustes de ambiente devem ser feitos nessa função, que será executada uma única vez no início do programa, antes do `loop` iniciar sua execução.
+
+A função `loop` é a função responsável pelo laço eterno do programa. Ou seja, ela fica repetindo seu código (como dentro de um `while (true)` até o fim da execução do programa, iniciando após a execução da função `setup`.
+
+Esse paradigma de desenvolvimento baseado em `setup` e `loop` é muito semelhante ao paradigma usado no desenvolvimento de jogos.
 
 Para terminar de montar seu ambiente de desenvolvimento, conecte o seu protótipo ao computador através do cabo USB, conforme mostra a imagem abaixo. Assim, você já estará pronto para enviar códigos para o dispositivo e testar seu programa quantas vezes precisar ao longo do desenvolvimento.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/led_matrix/usb.jpg" style="margin: 0 auto; max-height: 390px;" />
-Pinos da Matriz
+Cabo USB
 </p>
 
 Naturalmente, nossa primeira implementação será uma função que, dada uma linha e uma coluna, acende o LED associado. Ou, melhor ainda, desenvolveremos uma função que recebe uma linha, uma coluna e um estado (ligado ou desligado) e atribui esse estado ao LED associado.
@@ -133,30 +136,52 @@ void setLedState(int lin, int col, int state) {
 }
 ```
 
+Adicione uma chamada para essa função em sua função setup e envie esse código para a placa, para ver sua execução.
 
+Depois, dinta-se livre para brincar e tentar criar coisas mais robustas.
+
+Exemplo: um script que recebe uma configuração para a matriz de LED (informando quais LEDs devem estar acesos e quais não devem).
+
+Para pensar: essa implementação não será tão simples quanto apenas chamar setLedState(..,..,1) para os LEDs que devem estar acesos. Como sabemos, a matriz de LED opera através de uma lógica de multiplexação que coordena o envio de energia linha-a-linha e coluna-a-coluna. Digamos, por exemplo que queremos acender os LEDs (2,2), (2,3) e (3,3) apenas. Para acender o LED (2,2), nosso programa irá enviar energia para a segunda linha e para a segunda coluna, acendendo o LED correto. No entanto, ao ativar o LED (3,3), as coisas saem do controle, pois:
+ - Como a linha 2 e a coluna 2 estão recebendo energia, o LED (2,2) acende: tudo certo por enquanto.
+ - Como a linha 3 e a coluna 3 estão recebendo energia, o LED (3,3) acende: tudo certo por enquanto.
+ - Como a linha 2 e a coluna 3 estão recebendo energia, o LED (2,3) acende: tudo certo por enquanto.
+ - Como a linha 3 e a coluna 2 estão recebendo energia, o LED (3,2) acende: `mas não queremos que isso aconteça`.
+
+Solução: para resolver esse problema, brincamos com uma característica do corpo humano que diz que nossa visão, ao captar imagens que se alternam muito rapidamente, forma uma única imagem unindo todas as imagens captadas. Portanto, a lógica é simples:
+ - configuramos a coluna 2 como porta de energia (HIGH).
+ - configuramos a linha 2 como porta de energia (HIGH).
+ - esperamos um tempo (delay) muito curto. // aqui, (2,2) está aceso
+ - configuramos a linha 2 como porta de terra (LOW).
+ - configuramos a coluna 2 como porta de terra (LOW).
+ - configuramos a coluna 3 como porta de energia (HIGH).
+ - configuramos a linha 2 como porta de energia (HIGH).
+ - configuramos a linha 3 como porta de energia (HIGH).
+ - esperamos um tempo (delay) muito curto. // aqui, (2,3) e (3,3) estão acesos
+ - configuramos a linha 2 como porta de terra (LOW).
+ - configuramos a linha 3 como porta de terra (LOW).
+ - configuramos a coluna 3 como porta de terra (LOW).
+ - repetimos o processo.
+
+Isso significa que nossa solução, dessa vez, terá que ser executada na função `loop`, e não na função `start`. Note também que, nesse caso, estamos alternando por colunas, mas poderíamos muito bem ter feito a alternância por linhas:
+ - configuramos a linha 2 como porta de energia (HIGH).
+ - configuramos a coluna 2 como porta de energia (HIGH).
+ - configuramos a coluna 3 como porta de energia (HIGH).
+ - esperamos um tempo (delay) muito curto. // aqui, (2,2) e (2,3) estão acesos
+ - configuramos a coluna 2 como porta de terra (LOW).
+ - configuramos a coluna 3 como porta de terra (LOW).
+ - configuramos a linha 2 como porta de terra (LOW).
+ - configuramos a linha 3 como porta de energia (HIGH).
+ - configuramos a coluna 3 como porta de energia (HIGH).
+ - esperamos um tempo (delay) muito curto. // aqui, (3,3) está aceso
+ - configuramos a coluna 3 como porta de terra (LOW).
+ - configuramos a linha 3 como porta de terra (LOW).
+ - repetimos o processo.
+
+E isso encerra nossa introdução à programação Arduino através da matriz de LED.
 
 ### Ferramentas
 Para criação desse tutorial, foi utilizado um editor de markdown de código aberto chamado [Dillinger][dill].
-
-Podemos referenciar código:
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
-
-Podemos destacar como conceitos-chave:
-> MainConcept.
-
-Podemos criar listas assim:
-  - Primeiro passo
-  - Segundo passo
-
-Ou assim:
-* Primeiro
-* Segundo
-
-Podemos `destacar palavras`.
 
 License
 ----
