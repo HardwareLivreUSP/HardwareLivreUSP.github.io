@@ -18,16 +18,16 @@ A Leonardo e a Micro são programadas usando o software do Arduino (IDE), nosso 
 
 #### Mac
 
-A primeira vez que você conectar uma Leonardo ou Micro em um Mac, o "Assistente de Configuração do Teclado" será lançado. Não há nada para configurar com o Leonardo, então você pode fechar esse diálogo clicando no botão vermelho no canto superior esquerdo da janela.
+A primeira vez que você conectar uma Leonardo ou Micro em um Mac, o "Assistente de Configuração do Teclado" será lançado. Não há nada para configurar com a Leonardo/Micro, então você pode fechar esse diálogo clicando no botão vermelho no canto superior esquerdo da janela.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/arduinotutorials/leo_mackey.png" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/arduinotutorials/install_mackey.png" style="margin: 0 auto; max-height: 390px;" />
 Ignore a tela de configuração de teclado que abrirá no Mac
 </p>
 
 #### Windows
 
-As instruções a seguir são para Windows 7, Vista e 10. Elas são válidos também para Windows XP, com pequenas diferenças nas janelas de diálogo. Conecte sua placa e aguarde até que o Windows comece seu processo de instalação do driver. Se o instalador não iniciar automaticamente, navegue até o Gerenciador de Dispositivos do Windows (`Iniciar`> `Painel de Controle`> `Hardware`) e localize a opção referente à Arduino Leonardo. Clique com o botão direito do mouse e escolha `Atualizar driver`.
+As instruções a seguir são para Windows 7, Vista e 10. Elas também são válidas para Windows XP, com pequenas diferenças nas janelas de diálogo. Conecte sua placa e aguarde até que o Windows comece seu processo de instalação do driver. Se o instalador não iniciar automaticamente, navegue até o Gerenciador de Dispositivos do Windows (`Iniciar`> `Painel de Controle`> `Hardware`) e localize a opção referente à Arduino Leonardo. Clique com o botão direito do mouse e escolha `Atualizar driver`.
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/leo_devmanager.png" style="margin: 0 auto; max-height: 390px;" />
@@ -38,7 +38,7 @@ Na tela seguinte, escolha "Procurar o software do driver no computador" e clique
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/arduinotutorials/leo_browsedriver.png" style="margin: 0 auto; max-height: 390px;" />
-Escolhe a opção de encontrar o software do driver no computador
+Escolha a opção de encontrar o software do driver no computador
 </p>
 
 Clique no botão `Procurar...` e outra caixa de diálogo será exibida: navegue até a pasta que contém o software Arduino que você acabou de baixar. Selecione a pasta de drivers e clique em `OK` e, em seguida, clique em `Avançar`.
