@@ -93,7 +93,7 @@ Link para a página original: [Getting Started Guide - Home][originalpage].
    [board-mini]: <https://www.arduino.cc/en/Guide/ArduinoMini>
    [board-mega]: </2016/11/25/arduino-13board-mega/>
    [board-lilypadusb]: <https://www.arduino.cc/en/Guide/ArduinoLilyPadUSB>
-   [board-lilypad]: <https://www.arduino.cc/en/Guide/ArduinoLilyPad>
+   [board-lilypad]: </2016/11/25/arduino-18board-lilypad/>
    [board-leonardo]: </2016/11/25/arduino-14board-leonardo/>
    [board-galileogentwo]: <https://www.arduino.cc/en/Guide/IntelGalileoGen2>
    [board-edison]: <https://www.arduino.cc/en/Guide/IntelEdison>
