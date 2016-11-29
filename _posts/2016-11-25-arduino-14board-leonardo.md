@@ -212,6 +212,6 @@ Link para a página original: [Getting Started Guide - Boards - Leonardo/Micro][
    [environment]: </2016/11/21/arduino-7environment/>
    [stepsxp]: <https://www.arduino.cc/en/Guide/UnoDriversWindowsXP>
    [firststeps]: </2016/11/20/arduino-1start/>
-   [originalpage]: <https://www.arduino.cc/en/Guide/ArduinoMega2560>
+   [originalpage]: <https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro>
    [ccasa3]: <https://creativecommons.org/licenses/by-sa/3.0>
    [arduino]: <https://www.arduino.cc>
