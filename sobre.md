@@ -14,7 +14,7 @@ Com encontros semanais desde o final de 2013, o grupo já realizou reuniões did
 
 Quem tiver interesse em participar, basta aparecer nas reuniões que será bem recebido.
 
-* Local: Laboratório de Extenção do Bloco C no IME/USP
+* Local: Laboratório de Extensão do Bloco C no IME/USP (durante o mês de março será na sala 249-A)
 * Dia: QUINTAS-FEIRAS 
 * Horário: 16h às 20h
 
