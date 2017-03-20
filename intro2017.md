@@ -1,6 +1,10 @@
+
 ---
-layout: page
-title: "Introdução ao Hardware Livre"
+layout:     post
+title:      "Introdução ao Hardware Livre"
+date:       2017-03-20
+author:     "Gabriel Capella"
+img:        "post_img/arduino_oscomm.png"
 ---
 
 Workshop destinado a introdução de conceitos básicos para você conseguir acompanhar e enteder o que o grupo Hardware Livre USP faz.
@@ -17,4 +21,8 @@ Prática com Sensores              06/04/2017  16:00
 
 O local será na sala da Rede Linux, segundo andar, bloco B, IME - USP.
 
+<p style="text-align: center;">
+    <img src="{{ site.baseurl }}/img/intro2017.png" style="margin: 0 auto; max-height: 400px;" />
+Conectando a Arduino Nano 2.2 a um computador com um cabo USB Mini-B. Observe o LED de alimentação azul embaixo da placa.
+</p>
 
