@@ -9,9 +9,10 @@ Serão ministrada de maneira totalmente didática e gratuita, 3 workshops. Você
 
 Todos ano o grupo faz palestras iniciais no início do primeiro semestre visando ensinar e conquistar novas pessoas para o instigante mundo do Hardware Livre.
 
-
+```
 Introdução Grupo/Eletrônica       23/03/2017  16:00
 Introdução ao Arduino             30/03/2017  16:00
 Prática com Sensores              06/04/2017  16:00
 ```
 
+O local será na sala da Rede Linux, segundo andar, bloco B, IME - USP.
