@@ -66,8 +66,31 @@ Esse guia, construído com base na experiência pessoal dos membros do grupo, co
 Preço total estimado: R$ 125,00
 
 Projetos que você pode montar com este kit:
- - A maioria dos <href a=https://www.arduino.cc/en/Tutorial/BuiltInExamples>exemplos</href> em 1.Basic, 2.Digital e 3.Analog da IDE Arduino.
- - Genius (jogo da memória) - <href a=https://goo.gl/0P3qGp>https://goo.gl/0P3qGp</href>
+ - A maioria dos <href a="https://www.arduino.cc/en/Tutorial/BuiltInExamples">exemplos</href> em 1.Basic, 2.Digital e 3.Analog da IDE Arduino.
+ - Genius (jogo da memória) - <href a="https://goo.gl/0P3qGp">https://goo.gl/0P3qGp</href>
+
+Extensões do Kit Iniciante:
+Adicione os seguintes itens ao Kit Iniciante
+<table style="width:100%">
+  <tr>
+    <th>Item</th>
+    <th>Preço Estimado (unidade)</th>
+  </tr>
+  <tr>
+    <td>2 resistores de 68Ω</td>
+    <td>Sem estimativa</td>
+  </tr>
+  <tr>
+    <td>2 resistores de 470Ω</td>
+    <td>Sem estimativa</td>
+  </tr>
+  <tr>
+    <td>1 conector VGA macho</td>
+    <td>R$ 3,00</td>
+  </tr>
+</table>
+e você poderá também montar o projeto:
+ - <href a="http://www.instructables.com/id/VGA-Pong-with-Arduino-Uno/">VGA Pong</href>
 
 ## Kit Básico:
 
