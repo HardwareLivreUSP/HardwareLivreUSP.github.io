@@ -69,7 +69,7 @@ Projetos que você pode montar com este kit:
  - A maioria dos <a href="https://www.arduino.cc/en/Tutorial/BuiltInExamples">exemplos</a> em 1.Basic, 2.Digital e 3.Analog da IDE Arduino.
  - Genius (jogo da memória) - <a href="https://goo.gl/0P3qGp">https://goo.gl/0P3qGp</a>
 
-Extensões do Kit Iniciante:
+## Extensões do Kit Iniciante:
 <p>
 Adicione os seguintes itens ao Kit Iniciante
 <table style="width:100%">
