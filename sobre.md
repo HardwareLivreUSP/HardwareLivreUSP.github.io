@@ -14,9 +14,9 @@ Com encontros semanais desde o final de 2013, o grupo já realizou reuniões did
 
 Quem tiver interesse em participar, basta aparecer nas reuniões que será bem recebido.
 
-* Local: Auditório do CCSL do IME/USP
-* Dia: QUINTAS-FEIRAS 
-* Horário: 16h às 20h
+* Local: Auditório do CCSL do IME-USP
+* Dia: Quintas-feiras
+* Horário: das 16h às 20h
 
 Mapa:
 <div id="map" style="height: 300px;"></div>
