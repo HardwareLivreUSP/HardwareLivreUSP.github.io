@@ -34,8 +34,14 @@ Mapa:
         });
   }
 </script>
+<!--
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6N1gnMHeqSjmvkzRcHJqqL5F0CObDH6U&callback=initMap">
 </script>
+-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEKaZTTszaxiBwi8CH9bShUmAYG0jFcBA&callback=initMap">
+</script>
+
+<!-- nova chave da google API AIzaSyCEKaZTTszaxiBwi8CH9bShUmAYG0jFcBA -->
 
 Para aqueles que gostam de precisão: -23.5588111,-46.7317217. Para os menos precisos: R. do Matão, 1010 - Cidade Universitaria, São Paulo - SP, 05508-090.
 
