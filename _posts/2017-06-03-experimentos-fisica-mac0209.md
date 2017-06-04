@@ -3,20 +3,20 @@ layout:     post
 title:      "Experimentos de física de MAC0209"
 date:       2017-06-03
 author:     "Marcelo Schmitt"
-img:        "post_img/floppys1.jpg"
+img:        "post_img/fisica_mac0209/rampa_visao_geral.png"
 ---
 
 <p>
 Nessas últimas semanas fizemos algumas experiências de física vinculadas à disciplina MAC0209 – Modelagem e Simulação do Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP). Esse post fala um pouco sobre essas experiências.
 </p>
-<p>
+
 Foram um total de 4 experiências:
 
 - Realização de um movimento retilíneo uniforme (MRU)
 - Realização de um movimento retilíneo uniformemente variado (MRUV)
 - Realização de um movimento pendular
 - Realização de um movimento de descida sobre um plano inclinado / rampa
-</p>
+
 
 <p>
 Em cada uma dessas experiências nosso objetivo era mensurar / coletar dados experimentais de posição em relação ao tempo do objeto foco do experimento. Por exemplo, para o experimento de MRU queríamos mensurar a posição de um carrinho em um determinado instante de tempo. A partir desses dados experimentais eram então estimadas outras medidas experimentais, por exemplo a velocidade do carrinho no instante t. Em seguida comparamos os resultados experimentais com resultados obtidos por modelos matemáticos que descrevem os movimentos de interesse ou então com aproximações obtidas por métodos numéricos, a fim de criar uma discussão sobre a qualidade de se aproximar matematicamente movimentos reais por esses modelos e/ou métodos.
@@ -103,8 +103,8 @@ Pela filmagem de um dos experimentos de pêndulo.
 
 Por ceder ferramentas e componentes para a montagem dos experimentos.
 
-</br>
-</br>
+
+
 
 Este trabalho não teria ficado tão completo sem a ajuda de vocês. Muito Obrigado!
 
