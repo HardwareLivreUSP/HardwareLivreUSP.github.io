@@ -54,7 +54,7 @@ Figura 4: Setup dos experimentos.
 Segue um vídeo mostrando o funcionamento do experimento que também pode ser visto no canal da disciplina em <a href="https://youtu.be/TAoXn8SciPo">https://youtu.be/TAoXn8SciPo</a>.
 </p>
 <p>
-<iframe width="584" height="329" src="https://www.youtube.com/playlist?list=PLe0t6oVnnZOyv7_TIkfm2P33uwNrEhBni" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
+<iframe width="584" height="329" src="https://www.youtube.com/embed/TAoXn8SciPo" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
 </p>
 
 ##### Pêndulo
@@ -69,7 +69,6 @@ Figura 5: Experimento do pêndulo.
     <img src="{{ site.baseurl }}/post_img/fisica_mac0209/componentes_pendulo.jpg" style="margin: 0 auto; max-height: 390px;" />
 Figura 6: Pêndulo em detalhes.
 </p>
-
 
 ##### Descida sobre plano inclinado / rampa
 <p>
@@ -92,7 +91,7 @@ Figura 9: Carrinho utilizado como objeto para descer pelo plano inclinado / ramp
 Segue um vídeo mostrando o funcionamento dos experimentos com o pêndulo e com a rampa que também pode ser visto no canal da disciplina MAC0209 em <a href="https://youtu.be/9crAZOr8Pkw">https://youtu.be/9crAZOr8Pkw</a> .
 </p>
 <p>
-<iframe width="584" height="329" src="https://youtu.be/9crAZOr8Pkw" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
+<iframe width="584" height="329" src="https://www.youtube.com/embed/9crAZOr8Pkw" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
 </p>
 
 ##### Resultados Obtidos
