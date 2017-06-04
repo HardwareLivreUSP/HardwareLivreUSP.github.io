@@ -50,12 +50,11 @@ Figura 3: Placa Arduino usada para ler os sensores LDR e cronometrar os tempos d
 Figura 4: Setup dos experimentos.
 </p>
 
-
 <p>
 Segue um vídeo mostrando o funcionamento do experimento que também pode ser visto no canal da disciplina em <a href="https://youtu.be/TAoXn8SciPo">https://youtu.be/TAoXn8SciPo</a>.
 </p>
 <p>
-<iframe width="584" height="329" src="https://youtu.be/TAoXn8SciPo" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
+<iframe width="584" height="329" src="https://www.youtube.com/playlist?list=PLe0t6oVnnZOyv7_TIkfm2P33uwNrEhBni" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
 </p>
 
 ##### Pêndulo
