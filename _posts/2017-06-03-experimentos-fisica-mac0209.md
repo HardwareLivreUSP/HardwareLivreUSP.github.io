@@ -106,7 +106,7 @@ Figura 10: Gráfco para a análise de um dos experimentos de MRU realizados.
 Figura 11: Gráfco para a análise de um dos experimentos de MRUV realizados.
 </p>
 
-Seguem agora (Figuras 12-15) os resulatados obtidos com os experimentos de pêndulo. Essendcialmente se tratam de um gráfico contendo as medidas dos ângulos experimentais ao longo do tempo para cinco experimentos junto com o ângulo médio dos experimentos (Figura 12). Em seguida temos os gráficos de ângulo ao longo do tempo (Figura 13), velocidade angular ao longo do tempo (Figura 14), e aceleração angular ao longo do tempo (Figura 15) comparando dados experimentais do experimento número 5 com as respectivas medidas calculadas numéricamente usando os métodos de Euler-Cromer (com atrito), Euler-Cromer (sem atrito) e Euler (sem atrito).
+Seguem agora (Figuras 12 a 15) os resulatados obtidos com os experimentos de pêndulo. Essendcialmente se tratam de um gráfico contendo as medidas dos ângulos experimentais ao longo do tempo para cinco experimentos junto com o ângulo médio dos experimentos (Figura 12). Em seguida temos os gráficos de ângulo ao longo do tempo (Figura 13), velocidade angular ao longo do tempo (Figura 14), e aceleração angular ao longo do tempo (Figura 15) comparando dados experimentais do experimento número 5 com as respectivas medidas calculadas numéricamente usando os métodos de Euler-Cromer (com atrito), Euler-Cromer (sem atrito) e Euler (sem atrito).
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/fisica_mac0209/pendulo_medias.png" style="margin: 0 auto; max-height: 390px;" />
@@ -125,7 +125,7 @@ Figura 14: Gráfico comparando a velocidade angular obtida experimentalmente com
 Figura 15: Gráfico comparando a aceleração angular obtida experimentalmente com a aceleração angular obtida com o método de Euler-Cromer considerando atrito.
 </p>
 
-Por fim temos os resultados obtidos com os experimentos de descida sobre plano inclinado / rampa (Figuras 16-19) que consistem nos gráfico contendo as medidas dos posições experimentais ao longo do tempo para os cinco experimentos junto com a posição média dos experimentos (Figura 16) seguidos dos gráficos de posição ao longo do tempo (Figura 17), velocidade ao longo do tempo (Figura 18), e aceleração ao longo do tempo (Figura 19) comparando dados experimentais do experimento de número 5 com as respectivas medidas calculadas numéricamente usando os métodos de Euler-Cromer (com atrito), Euler-Cromer (sem atrito), Euler (com atrito), e Euler (sem atrito). Seguem:
+Por fim temos os resultados obtidos com os experimentos de descida sobre plano inclinado / rampa (Figuras 16 a 19) que consistem nos gráfico contendo as medidas dos posições experimentais ao longo do tempo para os cinco experimentos junto com a posição média dos experimentos (Figura 16) seguidos dos gráficos de posição ao longo do tempo (Figura 17), velocidade ao longo do tempo (Figura 18), e aceleração ao longo do tempo (Figura 19) comparando dados experimentais do experimento de número 5 com as respectivas medidas calculadas numéricamente usando os métodos de Euler-Cromer (com atrito), Euler-Cromer (sem atrito), Euler (com atrito), e Euler (sem atrito). Seguem:
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/fisica_mac0209/rampa_medias.png" style="margin: 0 auto; max-height: 390px;" />
