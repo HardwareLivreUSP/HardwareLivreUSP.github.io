@@ -27,7 +27,7 @@ Construimos um carrinho controlado por bluetooth de maneira que fosse possível 
 </p>
 <p>
 Para marcar o tempo ao invés de cronômetros foi utilizado o relógio interno do microcontrolador da placa ArduinoUNO. Para detectar quando o carrinho passou por certo ponto foram utilizados quatro sensores de luminosidade do tipo LDR (Light Dependent Resistor) (Figura 2). No carrinho colocamos um celular com um aplicativo (<a href="https://play.google.com/store/apps/details?id=com.chrystianvieyra.physicstoolboxsuite">PhysicsToolBoxSuite</a>) para medir o acelerômetro interno do celular e uma pequena lanterna de modo que ao passar do lado do sensor esse seria ativado e mandaria um sinal para ArduinoUNO que por sua vez envia o tempo percorrido para serial do computador (Figura 3).
-O percurso total percorrido pelo carrinho em cada um dos experimentos foi de 6 metros (Figura 4). Assim quando o carrinho passa pelo o LDR 1 , o cronômetro do microcontrolador começa e para cada ponto é enviado o tempo para computador. Segue um vídeo mostrando o funcionamento do experimento que também pode ser visto no canal da disciplina em <a href="https://youtu.be/TAoXn8SciPo">https://youtu.be/TAoXn8SciPo</a>.
+O percurso total percorrido pelo carrinho em cada um dos experimentos foi de 6 metros (Figura 4). Assim quando o carrinho passa pelo o LDR 1 , o cronômetro do microcontrolador começa e para cada ponto é enviado o tempo para computador.
 </p>
 
 <p style="text-align: center;">
@@ -50,6 +50,10 @@ Figura 3: Placa Arduino usada para ler os sensores LDR e cronometrar os tempos d
 Figura 4: Setup dos experimentos.
 </p>
 
+
+<p>
+Segue um vídeo mostrando o funcionamento do experimento que também pode ser visto no canal da disciplina em <a href="https://youtu.be/TAoXn8SciPo">https://youtu.be/TAoXn8SciPo</a>.
+</p>
 <p>
 <iframe width="584" height="329" src="https://youtu.be/TAoXn8SciPo" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
 </p>
@@ -141,7 +145,7 @@ Figura 18: Gráfico comparando a velocidade média experimental com as velocidad
 </p>
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/fisica_mac0209/rampa_aceleracao.png" style="margin: 0 auto; max-height: 390px;" />
-Figura 18: Gráfico comparando aceleração média experimental com as acelerações obtidas com os métodos de Euler-Cromer (com atrito), Euler-Cromer (sem atrito), Euler (com atrito), e Euler (sem atrito).
+Figura 19: Gráfico comparando aceleração média experimental com as acelerações obtidas com os métodos de Euler-Cromer (com atrito), Euler-Cromer (sem atrito), Euler (com atrito), e Euler (sem atrito).
 </p>
 
 ##### Interpretação e Conclusão
