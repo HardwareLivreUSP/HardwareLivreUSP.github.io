@@ -57,6 +57,8 @@ Segue um vídeo mostrando o funcionamento do experimento que também pode ser vi
 <iframe width="584" height="329" src="https://www.youtube.com/embed/TAoXn8SciPo" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
 </p>
 
+Programa Arduino usado nos experimentos de MRU e MRUV: <a herf="https://drive.google.com/open?id=0B6IQabqd2YaMWEVhaFFRSk1JQW8">https://drive.google.com/open?id=0B6IQabqd2YaMWEVhaFFRSk1JQW8</a>
+
 ##### Pêndulo
 <p>
 Para os experimentos pendulares utilizamos um pêndulo de madeira cuja haste media aproximadamente 65 centímetros do seu ponto de rotação até o seu ponto mais distante (Figura 5). Usamos também uma ArduinoUNO junto com um sensor ultrassônico HC-SR04 e medimos a distância da ponta do pêndulo ao sensor (que ficou preso à uma parede) em vários instantes de tempo e de forma contínua de modo que pudéssemos obter a posição experimental x_e (t) do pêndulo ao longo de todo o experimento (Figura 6). Usamos também um celular acoplado ao pêndulo para medir o ângulo inicial dos experimentos.
@@ -93,6 +95,8 @@ Segue um vídeo mostrando o funcionamento dos experimentos com o pêndulo e com 
 <p>
 <iframe width="584" height="329" src="https://www.youtube.com/embed/9crAZOr8Pkw" frameborder="0" allowfullscreen>Experimentos de pêndulo e descida na rampa</iframe>
 </p>
+
+Programas Arduino usados nos experimentos de pêndulo e rampa: <a herf="https://drive.google.com/open?id=0B6IQabqd2YaMLUN4anZVVmF4YjA">https://drive.google.com/open?id=0B6IQabqd2YaMLUN4anZVVmF4YjA</a>
 
 ##### Resultados Obtidos
 <p>
