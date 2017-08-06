@@ -13,6 +13,7 @@ Com encontros semanais desde o final de 2013, o grupo já realizou reuniões did
 ### Encontros
 
 Quem tiver interesse em participar, basta aparecer nas reuniões que será bem recebido.
+
 Reuniões no segundo semestre de 2017:
 
 * Local: Auditório do CCSL do IME-USP
