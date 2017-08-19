@@ -13,7 +13,7 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
                     <span class="meta">Postado por 
-			{% if page.author_url && page.author %}
+			{% if page.author_url and page.author %}
 				<a href="{{ page.author_url }}">{{ page.author }}</a>
 			{% else %}
 				{% if page.author %}
