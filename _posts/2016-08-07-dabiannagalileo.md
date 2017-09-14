@@ -3,6 +3,7 @@ layout:     post
 title:      "Debian na Intel Galileo"
 date:       2016-08-07
 author:     "Gabriel Capella"
+author_url: "http://gabrielcapella.com/"
 img: 		"post_img/cu.jpg"
 ---
 
