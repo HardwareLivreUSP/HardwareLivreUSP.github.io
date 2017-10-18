@@ -16,7 +16,7 @@ Quem tiver interesse em participar, basta aparecer nas reuniões que será bem r
 
 Reuniões no segundo semestre de 2017:
 
-* Local: Auditório do CCSL do IME-USP
+* Local: Auditório do CCSL e/ou Laboratório de Extensão, ambos no IME-USP
 * Dia: Quintas-feiras
 * Horário: das 14h às 18h
 
