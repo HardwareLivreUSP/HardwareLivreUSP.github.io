@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Semana USP de Cinência e Tecnologia 2017"
-date:       2017-29-10
+date:       2017-10-29
 author:     "Marcelo Schmitt"
 img:        "post_img/semana_cien_tec_2017/stand_sabado2.jpg"
 ---
