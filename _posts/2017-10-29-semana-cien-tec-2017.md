@@ -3,7 +3,7 @@ layout:     post
 title:      "Semana USP de Cinência e Tecnologia 2017"
 date:       2017-10-29
 author:     "Marcelo Schmitt"
-img:        "post_img/semana_cien_tec_2017/banner.jpg"
+img:        "post_img/semana_cien_tec_2017/baner.jpg"
 ---
 
 <p>
@@ -22,12 +22,12 @@ Projetos apresentados:
 - Violoino
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/semana_cien_tec_2017/stand_sabado2.jpg" style="margin: 0 auto; max-height: 390px;" />
-Nosso stand na semana USP de Ciência e Tecnologia
+    <img src="{{ site.baseurl }}/post_img/semana_cien_tec_2017/baner.jpg" style="margin: 0 auto; max-height: 390px;" />
 </p>
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/semana_cien_tec_2017/baner.jpg" style="margin: 0 auto; max-height: 390px;" />
+    <img src="{{ site.baseurl }}/post_img/semana_cien_tec_2017/stand_sabado2.jpg" style="margin: 0 auto; max-height: 390px;" />
+Nosso stand na semana USP de Ciência e Tecnologia
 </p>
 
 <p style="text-align: center;">
