@@ -17,6 +17,7 @@ Primeiramente deixo fotos e vídeos sobre o projeto depois de concluído para ex
 <img src="{{ site.baseurl }}/post_img/moppy/moppy3.jpg" style="margin: 0 auto; max-height: 390px;">
 
 <iframe width="584" height="329" src="https://www.youtube.com/embed/hsN9MINXFiQ" frameborder="0" allowfullscreen>Floppys tocando Tetris</iframe>
+
 <iframe width="584" height="329" src="https://www.youtube.com/embed/Z7V2LiwLtbM" frameborder="0" allowfullscreen>Floppys tocando Crash Bandecoot Wrapped</iframe>
 
 Agora que já temos uma visão do projeto em seu estado final mãos a obra!
