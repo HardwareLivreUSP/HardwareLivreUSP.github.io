@@ -3,25 +3,21 @@ layout:     post
 title:      "Floppy Musical"
 date:       2016-10-29
 author:     "Marcelo Schmitt"
-img:        "post_img/floppys1.jpg"
+img:        "post_img/moppy/moppy1.jpg"
 ---
 
 Este post descreve como montar o projeto MoppyAdvanced de <a href="https://github.com/SammyIAm">SammyIAm</a> que chamaremos simplesmente de floppy musical ou moppy.
 
 Primeiramente deixo fotos e vídeos sobre o projeto depois de concluído para exibir o que pretende-se construir.
 
-<img src="{{ site.baseurl }}/post_img/floppys1.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/moppy/moppy1.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/post_img/floppys2.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/moppy/moppy2.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<img src="{{ site.baseurl }}/post_img/floppys3.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/moppy/moppy3.jpg" style="margin: 0 auto; max-height: 390px;">
 
-<p>
 <iframe width="584" height="329" src="https://www.youtube.com/embed/hsN9MINXFiQ" frameborder="0" allowfullscreen>Floppys tocando Tetris</iframe>
-</p>
-<p>
 <iframe width="584" height="329" src="https://www.youtube.com/embed/Z7V2LiwLtbM" frameborder="0" allowfullscreen>Floppys tocando Crash Bandecoot Wrapped</iframe>
-</p>
 
 Agora que já temos uma visão do projeto em seu estado final mãos a obra!
 
@@ -31,11 +27,13 @@ Pontos importantes na hora de montar o projeto (hardware)
 
 Além dos pinos Step e Control que devem ser ligados à Arduino conforme descrito pelo Sammy, você também deve ligar os pinos 11 e 12 (pinos em vermelo na imagem) em curto no floppy/driver de disquete para que ele ligue!
 
-<img src="{{ site.baseurl }}/post_img/pinagem-floppy.jpg" style="margin: 0 auto; max-height: 390px;">
+<img src="{{ site.baseurl }}/post_img/moppy/pinagem-floppy.jpg" style="margin: 0 auto; max-height: 390px;">
 
 Você perceberá que o led indicador de ligado e desligado ficará ligado quando o floppy estiver energizado e com os pinos 11 e 12 em curto. Se por algum motivo o pino 11 não estiver presente você pode conectar o pino 12 a qualquer um dos pinos de número ímpar que também deve funcionar. Isso por que na verdade todos os pinos de número ímpar estão em curto no floppy.
 
 Outra coisa importante a se saber é a voltagem de operação e a corrente necessária para alimentar cada floppy. Por padrão cada floppy opera a 5 volts e segundo <a href="http://forum.arduino.cc/index.php?topic=152419.0">este tópico</a> cada um deve ser alimentado com uma corrente que pode variar de 0,3 a 0,7 ampere. Se você tiver uma fonte de computador você pode usá-la para alimentar o(s) floppy(s) sem se preocupar o com esse tipo de coisa, basta liga-lo(s) na fonte exatamente como você faria se o(s) estivesse instalando em um computador. Porém, se você não tiver uma fonte de computador e/ou tiver muitos floppys você provavelmente vai precissar usar uma fonte convencional e então deverá atentar para as especificações de voltagem e corrente deles. Por exemplo, para o projeto que montamos com 4 floppys foi necessária uma fonte de 5 volts / 2 amperes para alimentá-los.
+
+Por último certifique-se de ligar Arduino e floppys no mesmo terra. Isso pode ser feito ligando um pino GND do Arduino a um pino de número ímpar no floppy (Sammy recomenda que seja o pino abaixo do pino STEP mas o projeto que montamos funcionou ligando o GND a qualquer pino ímpar). Se os pinos ímpar de todos os floppys estiverem em curto basta ligar um desses pinos numa entrada GND da Arduino (nas fotos acima fizemos isso com um fio roxo).
 
 O Moppy Control Application (programa Java)
 
