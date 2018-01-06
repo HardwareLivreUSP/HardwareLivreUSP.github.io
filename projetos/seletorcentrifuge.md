@@ -61,8 +61,8 @@ Além disso esste projto foi mensionado até mesmo pelo blog da [Adafruit][adafr
 Devido ao uso de poucos pinos do microcontrolador utilizado, temos a capacidade de ampliar a quantidade de features do projeto, tais quais como adicionar mais segurança (adicionando um botão na tampa, evitando o funcionamento com a mesma aberta) e ate mesmo construi uma centrífuga refrigerada/aquecida, apesar de isso envolver algumas mudanças estruturais.
 
 <p style="text-align: center;">
-    <img src="{{ site.baseurl }}/post_img/centrifuga/struct.jpg" style="margin: 0 auto; max-height: 390px;" />
-Medal
+    <img src="{{ site.baseurl }}/post_img/centrifuga/medal.jpg" style="margin: 0 auto; max-height: 390px;" />
+Medalhas
 </p>
 
 ### Construa sua Própria Centrífuga!
