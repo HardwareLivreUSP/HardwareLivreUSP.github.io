@@ -14,11 +14,11 @@ Com encontros semanais desde o final de 2013, o grupo já realizou reuniões did
 
 Quem tiver interesse em participar, basta aparecer nas reuniões que será bem recebido.
 
-Reuniões no segundo semestre de 2017:
+Reuniões no segundo semestre de 2018:
 
 * Local: Auditório do CCSL e/ou Laboratório de Extensão, ambos no IME-USP
-* Dia: Quintas-feiras
-* Horário: das 14h às 18h
+* Dia: Sextas-Feiras (os encontros vão começar oficialmente depois do carnaval)
+* Horário: das 13:30h às 18h 
 
 Mapa:
 <div id="map" style="height: 300px;"></div>
