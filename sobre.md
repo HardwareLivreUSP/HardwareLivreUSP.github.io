@@ -54,3 +54,7 @@ O Hardware Livre apresenta-se como um meio de distribuição de projetos de hard
 ### O que é Arduino
 
 O Arduino é uma opção interessante para pessoas que desejam realizar projetos com hardware livre pelo fato de ter diversas ferramentas livres disponíveis na internet, além de muitos exemplos de projetos com códigos e esquemas simples de serem realizados. Uma outra característica importante diz respeito ao fato de ele oferecer pouco risco no seu uso, o que garante sua utilização até por crianças. Utilizando-se apenas de conhecimentos básicos de eletrônica, é possível desenvolver projetos de automação caseira, monitoramento à distância, entre outras ideias.
+
+### Participantes do Grupo
+
+Acesse essa <a heref='/participantes/'>página</a>.
