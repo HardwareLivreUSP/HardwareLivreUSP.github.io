@@ -52,7 +52,6 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 
 ##### Primeiro Semestre 2015
 - Daniel Renjiffo - IME
-- Deusany Junior - IME
 - Gabriel Capella - IME
 
 ##### Segundo Semestre 2014
