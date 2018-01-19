@@ -57,4 +57,4 @@ O Arduino é uma opção interessante para pessoas que desejam realizar projetos
 
 ### Participantes do Grupo
 
-Acesse essa <a heref='/participantes/'>página</a>.
+Acesse essa <a href='/participantes/'>página</a>.
