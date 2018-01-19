@@ -9,63 +9,63 @@ nota: Manter a lista em ordem alfabética. Colocar nome completo seguido de luga
 Visando manter o histórico de pessoas que já participaram do grupo, criamos essa página.
 
 ##### Primeiro Semestre 2018
-Daniel Renjiffo -IME
-Bruno Rafael Arico - IME
-Deusany Junior - IME
-Gabriel Capella - IME
-Marcelo Schmitt - IME
+- Daniel Renjiffo - IME
+- Bruno Rafael Arico - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
+- Marcelo Schmitt - IME
 
 ##### Segundo Semestre 2017
-Daniel Renjiffo -IME
-Bruno Rafael Arico - IME
-Deusany Junior - IME
-Gabriel Capella - IME
-Marcelo Schmitt - IME
+- Daniel Renjiffo - IME
+- Bruno Rafael Arico - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
+- Marcelo Schmitt - IME
 
 ##### Primeiro Semestre 2017
-Daniel Renjiffo -IME
-Bruno Rafael Arico - IME
-Deusany Junior - IME
-Gabriel Capella - IME
-Marcelo Schmitt - IME
+- Daniel Renjiffo - IME
+- Bruno Rafael Arico - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
+- Marcelo Schmitt - IME
 
 ##### Segundo Semestre 2016
-Daniel Renjiffo -IME
-Bruno Rafael Arico - IME
-Deusany Junior - IME
-Gabriel Capella - IME
-Marcelo Schmitt - IME
+- Daniel Renjiffo - IME
+- Bruno Rafael Arico - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
+- Marcelo Schmitt - IME
 
 ##### Primeiro Semestre 2016
-Daniel Renjiffo -IME
-Bruno Rafael Arico - IME
-Deusany Junior - IME
-Gabriel Capella - IME
-Marcelo Schmitt - IME
+- Daniel Renjiffo - IME
+- Bruno Rafael Arico - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
+- Marcelo Schmitt - IME
 
 ##### Segundo Semestre 2015
-Daniel Renjiffo -IME
-Bruno Rafael Arico - IME
-Deusany Junior - IME
-Gabriel Capella - IME
-Marcelo Schmitt - IME
+- Daniel Renjiffo - IME
+- Bruno Rafael Arico - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
+- Marcelo Schmitt - IME
 
 ##### Primeiro Semestre 2015
-Daniel Renjiffo -IME
-Deusany Junior - IME
-Gabriel Capella - IME
+- Daniel Renjiffo - IME
+- Deusany Junior - IME
+- Gabriel Capella - IME
 
 ##### Segundo Semestre 2014
-Daniel Renjiffo -IME
-Deusany Junior - IME
-Gabriel Capella - IAG
+- Daniel Renjiffo - IME
+- Deusany Junior - IME
+- Gabriel Capella - IAG
 
 ##### Primeiro Semestre 2014
-Daniel Renjiffo -IME
-Deusany Junior - IME
-Gabriel Capella - IAG
+- Daniel Renjiffo - IME
+- Deusany Junior - IME
+- Gabriel Capella - IAG
 
 ##### Segundo Semestre 2013
-Daniel Renjiffo -IME
-Deusany Junior - IME
+- Daniel Renjiffo - IME
+- Deusany Junior - IME
 
