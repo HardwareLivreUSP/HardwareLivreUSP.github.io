@@ -58,13 +58,15 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 - Daniel Renjiffo - IME
 - Deusany Junior - IME
 - Gabriel Capella - IAG
+- Gustavo Estrela - IME
 
 ##### Primeiro Semestre 2014
 - Daniel Renjiffo - IME
 - Deusany Junior - IME
 - Gabriel Capella - IAG
+- Gustavo Estrela - IME
 
 ##### Segundo Semestre 2013
 - Daniel Renjiffo - IME
 - Deusany Junior - IME
-
+- Gustavo Estrela - IME
