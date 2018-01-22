@@ -54,6 +54,7 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 - Daniel Renjiffo - IME
 - Gabriel Capella - IME
 - Lucas Romão - IME
+- Marcelo Schmitt - IME
 
 ##### Segundo Semestre 2014
 - Daniel Renjiffo - IME
