@@ -47,6 +47,7 @@ Mapa:
 
 Para aqueles que gostam de precisão: -23.5588111,-46.7317217. Para os menos precisos: R. do Matão, 1010 - Cidade Universitaria, São Paulo - SP, 05508-090.
 
+<!--
 ### O que é Hardware Livre
 
 O Hardware Livre apresenta-se como um meio de distribuição de projetos de hardware de forma aberta assim como o movimento Software Livre trabalha com programas e códigos. O termo expressa que o projeto de hardware é aberto, logo pode ser replicado, sendo possível encontrar disponível desde o design do circuito aos drivers para comunicação com o mesmo. Um grande exemplo deste tipo de tecnologia é o Arduino, uma plataforma de prototipagem eletrônica que faz uso de um microcontrolador disposto para facilitar a interação de objetos e ambientes.
@@ -54,6 +55,10 @@ O Hardware Livre apresenta-se como um meio de distribuição de projetos de hard
 ### O que é Arduino
 
 O Arduino é uma opção interessante para pessoas que desejam realizar projetos com hardware livre pelo fato de ter diversas ferramentas livres disponíveis na internet, além de muitos exemplos de projetos com códigos e esquemas simples de serem realizados. Uma outra característica importante diz respeito ao fato de ele oferecer pouco risco no seu uso, o que garante sua utilização até por crianças. Utilizando-se apenas de conhecimentos básicos de eletrônica, é possível desenvolver projetos de automação caseira, monitoramento à distância, entre outras ideias.
+-->
+### Impresoras 3D
+
+O grupo é reponsável pela manutenção e administração das 4 impressoras 3D do IME. Se você quiser imprimir algo, fale conosco. Para visializar os projetos já impressos acesse <a>essa página</a> (ainda em constução).
 
 ### Participantes do Grupo
 
