@@ -1,4 +1,4 @@
-#Site Hardware Livre USP
+# Site Hardware Livre USP
 
 Para atualizar o site você precisa ter o [jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) instalado localmente. Sinta-se a vontade para enviar novos counteúdos ao site.
 
