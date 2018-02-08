@@ -41,9 +41,11 @@ O chassi do robô assim como todas suas outras peças como rodas, garra e conect
 
 <p style="text-align: center;">
     <img src="{{ site.baseurl }}/post_img/besourino/base1.jpg" style="margin: 0 auto; max-height: 390px;" />
+Besourino primeiro modelo
     <img src="{{ site.baseurl }}/post_img/besourino/base2.jpg" style="margin: 0 auto; max-height: 390px;" />
+Besourino segundo modelo    
     <img src="{{ site.baseurl }}/post_img/besourino/besourino1.png" style="margin: 0 auto; max-height: 390px;" />
-Besourino chassi
+Besourino terceiro modelo
 </p>
 
 ### Descrição da Interface gráfica:
