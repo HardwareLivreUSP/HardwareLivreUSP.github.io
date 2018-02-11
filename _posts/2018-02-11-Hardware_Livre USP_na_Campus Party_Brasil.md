@@ -52,5 +52,5 @@ Nossa bancada com alguns de nossos projetos
 </p>
 
 
-[bio]: <https://www.youtube.com/watch?v=aUoU0zRtJ-M>
-[bits]: <https://www.youtube.com/watch?v=0vr-9z18M_c>
+[bits]: <https://www.youtube.com/watch?v=aUoU0zRtJ-M>
+[bio]: <https://www.youtube.com/watch?v=0vr-9z18M_c>
