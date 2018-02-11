@@ -13,9 +13,9 @@ Os integrantes Bruno Rafael e Gabriel Capella apresentaram o Workshop denominado
 
 O conteúdo de ambas as palestras podem ser encontradas nos seguintes links:
 
-[Escovando Bits]: <https://www.youtube.com/watch?v=0vr-9z18M_c>
+[Escovando Bits][bits]
 
-[Biohacking, DIYBIo e Open Hardware]: <https://www.youtube.com/watch?v=aUoU0zRtJ-M>
+[Biohacking, DIYBIo e Open Hardware][bio]
 
 Fazemos um agradecimento a rede FabLab Livre SP, em especial Para Rita Wu que nos concedeu a Honra do convite para todas as atividades que executamos.
 
@@ -52,4 +52,5 @@ Nossa bancada com alguns de nossos projetos
 </p>
 
 
-
+[bio]: <https://www.youtube.com/watch?v=aUoU0zRtJ-M>
+[bits]: <https://www.youtube.com/watch?v=0vr-9z18M_c>
