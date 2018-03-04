@@ -10,8 +10,8 @@ img: 	    "post_img/fasttalk/begin.png"
 Estamos dando início as nossas reuniões em 2018 e chegamos com novidades nos estilos das reuniões!
 
 ##Estilo de Reuniões:
-Toda reunião, pontualmente durante os 30 minutos iniciais promoveremos as “Fast Talks”, que serão apresentações sobre assuntos, mini palestras e mini workshops sobre o assunto detalhado no dia segundo o [calendário][calendario] do grupo 
-Após as “Fast Talks”, seguiremos a reunião com os interessados em aprender mais sobre o assunto discutido ou sobre projetos a serem desenvolvidos.
+Toda reunião, pontualmente durante os 30 minutos iniciais promoveremos as “FastTalks”, que serão apresentações sobre assuntos, mini palestras e mini workshops sobre o assunto detalhado no dia segundo o [calendário][calendario] do grupo 
+Após as “FastTalks”, seguiremos a reunião com os interessados em aprender mais sobre o assunto discutido ou sobre projetos a serem desenvolvidos.
 Inclusive, tragam ideias de projetos que desejam desenvolver, pois com estes colocaremos em prática os conhecimentos adquiridos de uma forma a construir algo! 
 
 IMPORTANTE: Independente do seu nível de conhecimento sobre hardware e/ou software sintam-se à vontade para vir por a mão na massa com a gente e fazer perguntas, nós não mordemos, apenas damos choques! :) 
@@ -43,7 +43,7 @@ A: Sim, basta você comparecer frequentemente as reuniões que esse caminho ser�
 #####Q: Gostei do grupo, tenho eterna gratidão com vocês por tudo que fizeram por mim e tenho interesse em patrocinar vocês, posso?
 A: Sem dúvidas! Precisamos de patrocinadores/investidores para ampliarmos as nossas atividades e raio de ação, então se você pode nos ajudar fale conosco, adoramos parcerias!
 
-Mais dúvidas? Pergunte em nosso grupo do [telegram][Telegram]: 
+Mais dúvidas? Pergunte em nosso grupo do [telegram][Telegram]
 
 Sejam todos bem vindos!
 
