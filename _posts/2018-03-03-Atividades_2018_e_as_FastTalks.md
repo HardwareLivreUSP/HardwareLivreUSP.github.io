@@ -28,7 +28,7 @@ A: As reuniões acontecem todas as sextas feiras no auditório do CCSL. Onde é 
 ##### Q: Preciso levar meu computador?
 A: Devido a nossa não disponibilidade de computadores para todos é recomendado, porém se não tiver ou não puder levar sempre existe um coleguinha legal que compartilha.
 
-##### Q: Preciso Levar meu minhas placas de prototipagem (aka. Arduino, Raspberry, etc)?
+##### Q: Preciso Levar minhas placas de prototipagem (aka. Arduino, Raspberry, etc)?
 A: Nós possuímos algumas unidades de Arduínos, protoboards e sensores no grupo que podemos emprestar durante as atividades práticas, mas se você já tem o seu e puder levar ficaremos felizes.
 
 ##### Q: Tenho uma ideia de projeto, posso desenvolver com vocês?
