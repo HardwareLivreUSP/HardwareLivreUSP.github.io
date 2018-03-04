@@ -18,6 +18,8 @@ IMPORTANTE: Independente do seu nível de conhecimento sobre hardware e/ou softw
 
 O nosso objetivo é trocar conhecimentos!
 
+Inclusive, temos uma [enquete][enquete] sobre quais devem ser os temas das FastTalks de Maio e Junho, participe votando nos seus temas favoritos
+
 Para eliminar possiveis dúvidas consulte nosso FAQ.
 
 ## FAQ:
@@ -50,3 +52,4 @@ Sejam todos bem vindos!
 
 [calendario]: <http://hardwarelivreusp.org/calendario/> 
 [telegram]: <http://tiny.cc/telegram-hlu>
+[enquete]: https://goo.gl/forms/vipQe0o5eZ8JuGWH3
