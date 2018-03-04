@@ -9,7 +9,7 @@ img: 	    "post_img/fasttalk/begin.png"
 
 Estamos dando início as nossas reuniões em 2018 e chegamos com novidades nos estilos das reuniões!
 
-##Estilo de Reuniões:
+###Estilo de Reuniões:
 Toda reunião, pontualmente durante os 30 minutos iniciais promoveremos as “FastTalks”, que serão apresentações sobre assuntos, mini palestras e mini workshops sobre o assunto detalhado no dia segundo o [calendário][calendario] do grupo 
 Após as “FastTalks”, seguiremos a reunião com os interessados em aprender mais sobre o assunto discutido ou sobre projetos a serem desenvolvidos.
 Inclusive, tragam ideias de projetos que desejam desenvolver, pois com estes colocaremos em prática os conhecimentos adquiridos de uma forma a construir algo! 
@@ -20,7 +20,7 @@ O nosso objetivo é trocar conhecimentos!
 
 Para eliminar possiveis dúvidas consulte nosso FAQ.
 
-##FAQ:
+###FAQ:
 
 #####Q: Onde são as Reuniões?
 A: As reuniões acontecem todas as sextas feiras no auditório do CCSL. Onde é isso?! Famoso como bloco C do IME, o único prédio branco que tem no Instituto, o acesso a ele é por meio de uma passarela. Para encontrar o auditório basta perguntar na portaria do prédio, fácil, fácil de achar. 
