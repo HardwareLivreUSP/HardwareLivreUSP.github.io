@@ -11,6 +11,8 @@ Está iniciada a nossa temporada de fastTalks!
 
 Em nosso primeiro encontro conversamos sobre identificação de componentes em circuitos, o que são circuitos impressos, o que são CI e diversos temas relacionados a eletrônica básica.
 
+Os Slides utilizados nessa palestra esta neste [link][slides]
+
 Nesta próxima sexta (16/03/1991) iremos fazer uma introdução a placa Arduino, quais os componentes que a compõe, a diferença entre microcontrolador e microprocessador.
 
 Aproveito para lembrar a todos de submeter seus projetos de interesse nós em nosso [drive][drive], para que possamos apresentá-lo em nossa palestra sobre projetos, onde iremos criar as equipes de pessoas interessadas em desenvove-los. É simples assim, basta entrar no drive e criar um novo arquivo Word com, nome do responsável pela ideia, Titulo do projeto e uma descrição, não muito mais que um parágrafo apenas para que possamos descrevê-lo.
@@ -45,5 +47,5 @@ Bruno apresentando a palestra
     <img src="{{ site.baseurl }}/post_img/primeira_fast/7.jpg" style="margin: 0 auto; max-height: 390px;" />
 </p>
 
-[drive]: <https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_Fy https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_F>
-
+[drive]: <https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_F>
+[slides]: <https://drive.google.com/open?id=1480R9aSB2fPoG_Na-zMtsi3h-fNKzdGClYHjOwrPLeM>
