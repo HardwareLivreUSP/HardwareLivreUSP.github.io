@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Hardware Livre USP na Campus Party Brasil"
-date:       2018-02-11
+title:      "As FastTalks já começaram!"
+date:       2018-03-13
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
 img: 	    "post_img/primeira_fast/capa.jpeg"
@@ -45,5 +45,5 @@ Bruno apresentando a palestra
     <img src="{{ site.baseurl }}/post_img/primeira_fast/7.jpg" style="margin: 0 auto; max-height: 390px;" />
 </p>
 
-[drive] : <https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_Fy https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_F>
+[drive]: <https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_Fy https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_F>
 
