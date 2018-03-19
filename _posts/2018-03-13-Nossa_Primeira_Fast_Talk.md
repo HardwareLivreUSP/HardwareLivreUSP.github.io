@@ -13,7 +13,7 @@ Em nosso primeiro encontro conversamos sobre identificação de componentes em c
 
 Os slides utilizados nessa palestra esta neste [link][slides]
 
-Nesta próxima sexta (16/03/1991) iremos fazer uma introdução a placa Arduino, quais os componentes que a compõe, a diferença entre microcontrolador e microprocessador.
+Nesta próxima sexta (16/03/2018) iremos fazer uma introdução a placa Arduino, quais os componentes que a compõe, a diferença entre microcontrolador e microprocessador.
 
 Aproveito para lembrar a todos de submeter seus projetos de interesse em nosso [drive][drive] para que possamos apresentá-lo em nossa palestra sobre projetos, onde iremos criar as equipes de pessoas interessadas em desenvolvê-los. É simples assim, basta entrar no drive e criar um novo arquivo Word com: nome do responsável pela ideia, título do projeto e uma descrição que não precisa ser muito mais que um parágrafo, apenas para que possamos descrevê-lo.
 
