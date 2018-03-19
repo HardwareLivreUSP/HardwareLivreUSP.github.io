@@ -8,7 +8,7 @@ img: 	    "post_img/video_promo/20th.jpeg"
 ---
 
 É com prazer que venho anunciar nosso primeiro vídeo promocional do grupo!
-Gravado e dirigido pelo famoso diretor e editor global Raphael Gusmões, atuando em cena esta o indicado ao oscar Bruno Rafael Aricó e nos bastidores estava a melhor equipe técnica constituida por, Erica Cope, Gabriel Capella e Marcelo Schimmidt. 
+Gravado e dirigido pelo famoso diretor e editor global Raphael Gusmão, atuando em cena esta o indicado ao oscar Bruno Rafael Aricó e nos bastidores estava a melhor equipe técnica constituida por, Erica Cope, Gabriel Capella e Marcelo Schimmidt. 
 
 Para voces que não conhecem as atividades esse é o momento perfeito para você nos conhecer!
 
