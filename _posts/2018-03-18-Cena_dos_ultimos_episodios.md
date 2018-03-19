@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Cenas dos Últimos Episódios"
-date:       2018-03-13
+date:       2018-03-18
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
 img: 	    "post_img/cena_ultimos_ep/tobecontinue.jpg"
