@@ -14,7 +14,7 @@ Para voces que não conhecem as atividades esse é o momento perfeito para você
 
 Assista nosso promocional na integra!
 
-<iframe width="584" height="329" src="https://youtu.be/F51Msl3EDZo" frameborder="0" allowfullscreen></iframe>
+<iframe width="584" height="329" src="https://www.youtube.com/watch?v=F51Msl3EDZo" frameborder="0" allowfullscreen></iframe>
  
 Se você gostou não se esqueça de curtir, apertar o sininho e curtir o nosso canal pois estamos com um novo projeto para postar diversas coisas legais alí! Como outros promocionais, vídeo-aulas e vídeos de projetos!
 
