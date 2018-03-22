@@ -11,7 +11,9 @@ No dia 21/03/2018 o Hardware Livre USP participou da apresentação do Instituto
 
 
 <p style="text-align: center;">
+    <img src="{{ site.baseurl }}/post_img/visita_moni_apresentação.jpeg" style="margin: 0 auto; max-height: 390px;" />
+Apresentação para os alunos.
+
     <img src="{{ site.baseurl }}/post_img/visita_moni_mesa.jpeg" style="margin: 0 auto; max-height: 390px;" />
-    <img src="{{ site.baseurl }}/post_img/visita_moni_mesa.jpeg" style="margin: 0 auto; max-height: 390px;" />
-Besourino
+Mesa com os projetos.
 </p>
