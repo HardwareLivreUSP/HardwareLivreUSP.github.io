@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Novidades!"
-date:       2018-03-13
+date:       2018-03-23
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
 img: 	    "post_img/novidades/insta.jpg"
