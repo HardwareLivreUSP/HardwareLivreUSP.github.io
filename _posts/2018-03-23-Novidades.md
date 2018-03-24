@@ -11,7 +11,7 @@ Temos algumas novidades pessoal!
 
 Agora o Hardware Livre USP tem um [instagram][insta], nos sigam por lá onde postaremos fotos das nossas atividades e projetos em tempo real para vocês saberem de tudo que esta rolando em nosso grupo! 
 
-####Aviso de Spoilers!!!
+#### Aviso de Spoilers!!!
 
 O Grupo esta organizando uma série de atividades legais para os próximos meses, desde Hackathons, campeonatos de modelagem 3D (com aulas prévias) e o [Arduino Day][arduino] que está se aproximando!
 Então fiquem preparados para muitas atividades legais que estão chegando por aí.
