@@ -22,7 +22,7 @@ XYZ Da Vinci, o modelo das outras 2 impressoras 3D do IME.
 </p>
 
 Nossa FastTalk dessa semana falou sobre as diversas placas de Arduino que existem por aí, com ênfase para o Arduino UNO e o Pro Mini que são os mais usado pelo grupo. Se você perdeu nossa fastTalk ou que rever os slides utilizados ele está neste [link][slides].
-Após a nossa Fast ainda tivemos a participação especial do professor convidado [Omer Rana][omer], da Cardiff University (UK), falando um pouco sobre computação distribuida para IoT.
+Após a nossa Fast ainda tivemos a participação especial do professor convidado [Omer Rana][omer], da Cardiff University (UK), falando um pouco sobre computação distribuida para IoT (Os slides da palestra estão [aqui][iot]).
 
 As atividades continuam essa semana a todo vapor com nossa tradicional Reunião e FastTalk falando um pouco sobre comunicação serial e uma pequena prática bem divertida sobre o tema (juro que não é sonifero! =P). Não percam!
 
@@ -54,3 +54,4 @@ Que a Força esteja com você!
 [slides]: <https://drive.google.com/open?id=1l0Bc6xiJ98HBjGZovWnFblH6btoJ4VwH9G5TYgrOGFA>
 [enquete]: <https://docs.google.com/forms/d/e/1FAIpQLSdYQiCO6x52YQ0Lb5MwypvCDxZ6Mu3-kEQEqW25OOugKyXGbQ/viewform>
 [omer]: <https://www.cardiff.ac.uk/people/view/118157-rana-omer>
+[iot]: <https://www.dropbox.com/s/gkjjmfc8jyvqtk9/usp-march18.pptx>
