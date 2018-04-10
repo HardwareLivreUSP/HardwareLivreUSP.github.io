@@ -29,5 +29,5 @@ Good times are comming! =)
 
 [insta]: <https://www.instagram.com/hardwarelivreusp/>
 [arduino]: https://day.arduino.cc/
-[drive]: <https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_F>>
+[drive]: <https://drive.google.com/folderview?id=1c-xMwWushRc0VvC0N--Ik5sJ2LLHII_F>
 [enquete]: <https://docs.google.com/forms/d/1kPakbmB_z3jUvS-wOHSPY3_2Fy9H3Yp-pGIXPIKk7wk/viewform?edit_requested=true>
