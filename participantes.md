@@ -35,7 +35,7 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
-- Fernanda Monteiro Lopes
+- Fernanda Monteiro Lopes - IME
 
 ##### Primeiro Semestre 2016
 - Daniel Renjiffo - IME
@@ -43,7 +43,7 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
-- Fernanda Monteiro Lopes
+- Fernanda Monteiro Lopes - IME
 
 ##### Segundo Semestre 2015
 - Daniel Renjiffo - IME
