@@ -11,33 +11,33 @@ img: 	    "post_img/Resultados_fasttalks/results.jpg"
 
 Finalmente temos quais serão as fastTalks para o restante desse primeiro semestre, que organizamos com a ajuda de vocês, agradecemos a todos aqueles que votaram!
 
-Sem mais delongas, o resultado da enquete foi o seguinte:
+Sem mais delongas, o resultado da enquete foi o seguinte:<br/>
 
-<p>1º - Como funciona a Impressão 3D e possibilidades (Visita ao lab de impressão do IME) - (13 Votos)</p>
-<p>2º - Corte Laser - Como funciona a cortadora a laser e possibilidades - (10 Votos)</p>
-<p>3º - Circuitos Lógicos Digitais: Como são as portas lógicas na vida real? (9 Votos)</p>
-<p>4º - O que é FPGA o hardware que "se molda em tempo real" - (8 Votos)</p>
-<p>5º - O que é Hardware Livre? Afinal de contas, o que é o "livre"? (8 Votos)</p>
-<p>6º - Circuitos Integrados: Adentrando no Silício e vendo como circuitos integrados funcionam - (7 Votos)</p>
-<p>7º - Raspberry Pi: O que é? Como funciona e aplicações - (7 Votos)</p>
-<p>8º - Coisas Reais no mundo Virtual: O que é IoT e suas implicações - (6 Votos) </p>
-<p>9º - Técnicas de Soldagem para eletrônica: Como fazer uma boa solda e preservar seu equipamento de Soldagem - (6 Votos)</p>
-<p>10º - Eletrônica Básica: O que são Resistores, Capacitores, Indutores, diodos e Transistores - (6 Votos) </p>
-<p>11º - Fabricação de placas de circuito: Quais são as tecnologias DIY para a fabricação de placas de circuito. - (6 Votos)</p>
-<p>12º - Protocolos de comunicação: O que são protocolos de comuicação (Serial, SPI, I2C) - (6 Votos)</p>
-<p>13º - Computador na Protoboard: É possível construir um computador com as próprias mãos? - (6 Votos)</p>
-<p>14º - Placas de Prototipagem: Não é só de Arduino que se vive - (6 Votos)</p>
-<p>15º - Biohardwares - Hardwares para Laboratório e Biohacking - (5 Votos)</p>
-<p>16º - Intrumentação de Laboratório de eletrônica: Osciloscópio, Gerador de Funções e Fonte regulada - (4 Votos)</p>
-<p>17º - Filtros para Sinais: Vamos entender alguns efeitos de áudio - (4 Votos)</p>
-<p>18º - Ferramentas de Modelagem e CAD: Quais são as ferramentas em vogue - (4 Votos)</p>
-<p>19º - Osciladores: O que são e como construir o seu - (3 Votos)</p>
-<p>20º - NodeMCU: O hardware de prototipagem orinetado à IoT - (3 Votos)</p>
-<p>21º - Backend para IoT: Banco de dados, aplicações e apps - (2 Votos)</p>
+<p>1º - Como funciona a Impressão 3D e possibilidades (Visita ao lab de impressão do IME) - (13 Votos)</p><br/>
+<p>2º - Corte Laser - Como funciona a cortadora a laser e possibilidades - (10 Votos)</p><br/>
+<p>3º - Circuitos Lógicos Digitais: Como são as portas lógicas na vida real? (9 Votos)</p><br/>
+<p>4º - O que é FPGA o hardware que "se molda em tempo real" - (8 Votos)</p><br/>
+<p>5º - O que é Hardware Livre? Afinal de contas, o que é o "livre"? (8 Votos)</p><br/>
+<p>6º - Circuitos Integrados: Adentrando no Silício e vendo como circuitos integrados funcionam - (7 Votos)</p><br/>
+<p>7º - Raspberry Pi: O que é? Como funciona e aplicações - (7 Votos)</p><br/>
+<p>8º - Coisas Reais no mundo Virtual: O que é IoT e suas implicações - (6 Votos) </p><br/>
+<p>9º - Técnicas de Soldagem para eletrônica: Como fazer uma boa solda e preservar seu equipamento de Soldagem - (6 Votos)</p><br/>
+<p>10º - Eletrônica Básica: O que são Resistores, Capacitores, Indutores, diodos e Transistores - (6 Votos) </p><br/>
+<p>11º - Fabricação de placas de circuito: Quais são as tecnologias DIY para a fabricação de placas de circuito. - (6 Votos)</p><br/>
+<p>12º - Protocolos de comunicação: O que são protocolos de comuicação (Serial, SPI, I2C) - (6 Votos)</p><br/>
+<p>13º - Computador na Protoboard: É possível construir um computador com as próprias mãos? - (6 Votos)</p><br/>
+<p>14º - Placas de Prototipagem: Não é só de Arduino que se vive - (6 Votos)</p><br/>
+<p>15º - Biohardwares - Hardwares para Laboratório e Biohacking - (5 Votos)</p><br/>
+<p>16º - Intrumentação de Laboratório de eletrônica: Osciloscópio, Gerador de Funções e Fonte regulada - (4 Votos)</p><br/>
+<p>17º - Filtros para Sinais: Vamos entender alguns efeitos de áudio - (4 Votos)</p><br/>
+<p>18º - Ferramentas de Modelagem e CAD: Quais são as ferramentas em vogue - (4 Votos)</p><br/>
+<p>19º - Osciladores: O que são e como construir o seu - (3 Votos)</p><br/>
+<p>20º - NodeMCU: O hardware de prototipagem orinetado à IoT - (3 Votos)</p><br/>
+<p>21º - Backend para IoT: Banco de dados, aplicações e apps - (2 Votos)</p><br/>
 
-Sugestões Dadas:
-<p>22º - Mulheres Criadoras - (1 Voto)</p>
-<p>23º - Motores - (1 Voto)</p>
+Sugestões Dadas:<br/>
+<p>22º - Mulheres Criadoras - (1 Voto)</p><br/>
+<p>23º - Motores - (1 Voto)</p><br/>
 
 Até o final desse semestre teremos 10 fastTalks regulares, assim as 10 primeiras colocadas serão as eleitas como temas para fastTalks. As que não entraram nesse semestre colocaremos no inicio do segundo semestre, junto a uma nova enquete.
 
