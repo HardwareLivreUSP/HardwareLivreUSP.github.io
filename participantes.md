@@ -10,28 +10,29 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 
 ##### Primeiro Semestre 2018
 - Daniel Renjiffo - IME
-- Bruno Rafael Arico - IME
+- Bruno Rafael Aricó - IME
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
+- Raphael Gusmão - IME
 
 ##### Segundo Semestre 2017
 - Daniel Renjiffo - IME
-- Bruno Rafael Arico - IME
+- Bruno Rafael Aricó - IME
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
 
 ##### Primeiro Semestre 2017
 - Daniel Renjiffo - IME
-- Bruno Rafael Arico - IME
+- Bruno Rafael Aricó - IME
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
 
 ##### Segundo Semestre 2016
 - Daniel Renjiffo - IME
-- Bruno Rafael Arico - IME
+- Bruno Rafael Aricó - IME
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
@@ -39,7 +40,7 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 
 ##### Primeiro Semestre 2016
 - Daniel Renjiffo - IME
-- Bruno Rafael Arico - IME
+- Bruno Rafael Aricó - IME
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
@@ -47,7 +48,7 @@ Visando manter o histórico de pessoas que já participaram do grupo, criamos es
 
 ##### Segundo Semestre 2015
 - Daniel Renjiffo - IME
-- Bruno Rafael Arico - IME
+- Bruno Rafael Aricó - IME
 - Deusany Junior - IME
 - Gabriel Capella - IME
 - Marcelo Schmitt - IME
