@@ -10,5 +10,9 @@ Adicione um novo arquivo em *_posts*.
 
 Edite o arquivo *projetos.html* e adicione na pasta *projetos*.
 
+### Alterando o calendário
+
+Edite o arquivo *js.html* na pasta *_includes*.
+
 ## Aviso
 Sempre verifique se o site está funcionando 100% localmente antes de enviar.
