@@ -133,6 +133,8 @@ e você poderá também montar o projeto:
 ### Santa Ifigênia:
 
  - [New Port][newport]: possui preços razoáveis e uma boa variedade de sensores. Endereço: R. Vitória, 24 - Santa Ifigênia, São Paulo - SP.
+ 
+ - [HPE Robótica][hperobotica]: produtos bons de todos os preços. Endereço: R. dos Timbiras, 239 - loja 27 - Santa Ifigênia, São Paulo - SP.
 
  - [Mamute][mamute]: componentes eletrônicos no geral. Endereço: R. Vitória, 125 - Santa Ifigênia, São Paulo - SP.
 
