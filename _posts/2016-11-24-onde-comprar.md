@@ -130,21 +130,23 @@ e você poderá também montar o projeto:
 
 ## Locais de Compra:
 
-### Santa Ifigênia:
+### Santa Ifigênia: (lojas ordenadas pelo percurso após descer na estação da Luz)
 
  - [New Port][newport]: possui preços razoáveis e uma boa variedade de sensores. Endereço: R. Vitória, 24 - Santa Ifigênia, São Paulo - SP.
  
- - [HPE Robótica][hperobotica]: produtos bons de todos os preços. Endereço: R. dos Timbiras, 239 - loja 27 - Santa Ifigênia, São Paulo - SP.
-
  - [Mamute][mamute]: componentes eletrônicos no geral. Endereço: R. Vitória, 125 - Santa Ifigênia, São Paulo - SP.
 
- - [MDR][mdrcomp]: loja boa para comprar materiais em geral. Endereço: R. dos Timbiras, 272 - Santa Ifigênia, São Paulo - SP.
+ - [Loja do Arduino e Raspberry Pi][lojadoarduino]: muitos shields e sensores. Endereço: R. Aurora, 28 - Santa Ifigênia, São Paulo - SP.
+
+ - [HPE Robótica][hperobotica]: produtos bons de todos os preços. Endereço: R. dos Timbiras, 239 - loja 27 - Santa Ifigênia, São Paulo - SP.
 
  - [Sampolly][sampolly]: loja para comprar componentes usados. Ao lado da MDR. Endereço: R. dos Timbiras, 256 - Santa Ifigênia, São Paulo - SP.
 
+ - [MDR][mdrcomp]: loja boa para comprar materiais em geral. Endereço: R. dos Timbiras, 272 - Santa Ifigênia, São Paulo - SP.
+
  - [Multcomercial][multcomercial]: não possui preços muito competitivos, mas lá é possível encontrar praticamente qualquer peça. Endereço: R. dos Timbiras, 257 - República, São Paulo - SP.
 
-### Lojas On-line:
+### Lojas On-line: (as lojas acima também apresentam site)
 
  - [Pandora Lab][pandoralab]: loja online confiável e com preços razoáveis. 
 
@@ -167,4 +169,6 @@ e você poderá também montar o projeto:
    [mdrcomp]: <http://www.mrdcomp.com.br/>
    [mamute]: <http://www.mamuteeletronica.com.br/>
    [newport]: <http://newportcom.com.br/>
+   [hperobotica]: <http://www.hperobotica.com.br/>
+   [lojadoarduino]: <http://www.arduinoraspberry.com.br>
    [arduino]: <https://www.arduino.cc>
