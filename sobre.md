@@ -16,8 +16,8 @@ Quem tiver interesse em participar, basta aparecer nas reuniões que será bem r
 
 Reuniões no segundo semestre de 2018:
 
-* Local: Auditório do CCSL e/ou Laboratório de Extensão, ambos no IME-USP
-* Dia: Sextas-Feiras (veja o nosso calendário para saber o que vai acontecer em casa dia)
+* Local: Laboratório de impressão 3D, sala A122 no IME-USP
+* Dia: Sextas-Feiras
 * Horário: das 13:30h às 18h 
 
 Mapa:
