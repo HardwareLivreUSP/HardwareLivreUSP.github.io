@@ -28,6 +28,26 @@ Resumo da semana do dia 13/08
 
 --------------------------------------
 
+Resumo da semana do dia 20/08
+
+* Corrigi o sketch Arduino para obter timestamp correto. [3h]
+
+* Arrumei o label de valor do gauge. Associei as informação da página de listagem de cisternas com os dados reais que estão no BD. O site pode ser visto em <a href="http://marcelosc.pythonanywhere.com/">CisternasNasEscolasIoT</a>. [1h30min]
+
+* Detalhei um pouco mais o processo de obtenção do volume de água da cisterna. [1h]
+
+<img src="{{ site.baseurl }}/post_img/cisternas_iot/plano_detalhado.jpg" style="margin: 0 auto; max-height: 390px;">
+
+* Modelei e imprimi um adapador para manter o cano fixado à ponta da célula de carga e outro adaptador para fixar a célula na parede da cisterna. [2h]
+
+<img src="{{ site.baseurl }}/post_img/cisternas_iot/adaptador_sensor_cano.jpg" style="margin: 0 auto; max-height: 390px;">
+
+<img src="{{ site.baseurl }}/post_img/cisternas_iot/adaptador_sensor_cano_baixo.jpg" style="margin: 0 auto; max-height: 390px;">
+
+* Calibrei a célula de carga para retornar medidas em gramas. [1h30min]
+
+--------------------------------------
+
 Mais novidades em breve. 
 
 
