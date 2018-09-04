@@ -48,6 +48,17 @@ Resumo da semana do dia 20/08
 
 --------------------------------------
 
+Resumo da semana do dia 27/08
+
+* Infelizmente ainda não instalei o sistema de medição de volume de água nas cisternas.
+No dia 24 de agosto eu enviei um e-mail para os meus contatos da ESF São Paulo 
+perguntando sobre um possível dia para ir até a EMEF Olavo Pezzotti mas até o 
+momento não tive resposta.
+
+* Soldei alguns fios para usar junto com a célula de carga. [1h]
+
+--------------------------------------
+
 Mais novidades em breve. 
 
 
