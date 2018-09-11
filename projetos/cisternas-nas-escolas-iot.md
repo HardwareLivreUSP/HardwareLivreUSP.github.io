@@ -59,6 +59,17 @@ momento não tive resposta.
 
 --------------------------------------
 
+Resumo da semana do dia 03/09
+
+* Melhorei as emendas dos fios com abraçadeiras de nylon, soldei conectores femea em uma das pontas de cada fio, e testei tudo de novo com a nova fiação garantindo que tudo estava funcionando. [3h]
+
+<img src="{{ site.baseurl }}/post_img/cisternas_iot/fios_longos.jpg" style="margin: 0 auto; max-height: 390px;">
+
+<img src="{{ site.baseurl }}/post_img/cisternas_iot/vedacao_cano.jpg" style="margin: 0 auto; max-height: 390px;">
+
+
+-------------------------------------
+
 Mais novidades em breve. 
 
 
