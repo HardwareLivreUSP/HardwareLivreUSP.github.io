@@ -58,7 +58,7 @@ O Arduino é uma opção interessante para pessoas que desejam realizar projetos
 -->
 ### Impresoras 3D
 
-O grupo é reponsável pela manutenção e administração das 4 impressoras 3D do IME. Se você quiser imprimir algo, fale conosco. Para visializar os projetos já impressos acesse <a>essa página</a> (ainda em constução).
+O grupo é reponsável pela manutenção e administração das 4 impressoras 3D do IME. Se você quiser imprimir algo, fale conosco. Para visializar os projetos já impressos acesse a página do <a href="http://hardwarelivreusp.org/LaboratorioDeImpressao3D/">Laboratório de Impressão 3D do IME-USP</a> (ainda em constução).
 
 ### Participantes do Grupo
 
