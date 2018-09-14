@@ -1,0 +1,154 @@
+---
+layout: default
+title: "Lab3D"
+---
+
+<style type="text/css">
+  .section-posts {
+    min-height: 800px;
+  }
+  .lab3d-info {
+    background: #FFFFFF;
+    margin: 95px auto 16px auto;
+    padding: 21px 16px 8px 16px;
+    width: calc(100% - 64px);
+    max-width: 1024px;
+    transition: ease all .25s;
+  }
+  @media screen and (max-width: 1105px) {
+    .lab3d-info {
+      margin-right: 32px;
+      margin-left: 32px;
+    }
+  }
+  @media screen and (max-width: 599px) {
+    .lab3d-info {
+      margin-top: 85px;
+    }
+  }
+  @media screen and (max-width: 369px) {
+    .lab3d-info {
+      margin-right: 16px;
+      margin-left: 16px;
+      width: calc(100% - 32px);
+    }
+  }
+  @media screen and (max-width: 304px) {
+    .lab3d-info {
+      margin-top: 115px;
+    }
+  }
+
+  .cards-container {
+    margin-bottom: 15px;
+  }
+</style>
+
+<!--=========================================================================-->
+<section class="section-posts">
+
+  <div class="lab3d-info card">
+    <h4>Você já ouviu falar sobre impressão 3D?</h4>
+    <p>É uma técnica de prototipação rápida que consiste em sobrepor várias finas camadas de plástico para formar um objeto tridimensional.</p>
+    <p>O IME-USP possui um laboratório com 4 impressoras 3D disponíveis sob responsabilidade do grupo de extensão Hardware Livre USP.</p>
+    <p>Se você deseja imprimir um objeto para algum projeto ou apenas quer saber mais sobre o assunto, visite-nos!</p>
+    <p><span>Local: </span>IME-USP, Bloco A, Sala 122</p>
+    <p><span>Horários: </span>Terças e Sextas das 15h às 19h</p>
+  </div>
+
+  <div class="home-logo-container">
+    <img class="home-logo" src="{{ site.baseurl }}/assets/logo/lab3d_logo_color.svg">
+  </div>
+
+  <!-- Cards -->
+  <div class="cards-container">
+    {% for post in site.posts %}
+      {% if post.type contains "3d" %}
+        <div class="post-card card">
+          <!-- Image -->
+          <div class="view zoom">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              {% if post.img_url and post.img_url != "" %}
+                <img class="card-img-top" src="{{ post.img_url }}">
+                <div class="mask flex-center waves-effect waves-light"></div>
+              {% elsif post.img and post.img != "" %}
+                <img class="card-img-top" src="{{ site.baseurl }}/{{ post.img }}">
+                <div class="mask flex-center waves-effect waves-light"></div>
+              {% else %}
+                <div class="placeholder card-img-top"></div>
+                <div class="mask flex-center waves-effect waves-light">
+                  <img src="{{ site.baseurl }}/assets/logo/logo_black.svg" class="placeholder-logo d-inline-block align-top">
+                </div>
+              {% endif %}
+            </a>
+          </div>
+
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title dark-grey-text">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <strong>{{ post.title }}</strong>
+              </a>
+            </h4>
+
+            <!-- Author -->
+            <p class="post-author font-small dark-grey-text">
+              {% if post.author_url and post.author_url != "" %}
+                <strong>Por</strong> <a href="{{ post.author_url }}">{{ post.author }}</a>
+              {% else %}
+                <strong>Por</strong> <a href="#">{{ post.author }}</a>
+              {% endif %}
+            </p>
+
+            <!-- Date -->
+            <p class="post-date font-small grey-text">
+              <i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }}
+            </p>
+          </div>
+          <a class="post-more" href="{{ post.url | prepend: site.baseurl }}">Leia mais</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Pagination -->
+  {% if paginator.total_pages > 1 %}
+  <nav>
+    <ul class="pagination pagination-lg justify-content-center">
+      {% if paginator.previous_page %}
+        <li class="page-item">
+          <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            <i class="fa fa-angle-left"></i>
+          </a>
+        </li>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="page-item active">
+            <a class="page-link">{{ page }}</a>
+          </li>
+        {% elsif page == 1 %}
+          <li class="page-item">
+            <a class="page-link" href="{{ site.baseurl }}/blog/">1</a>
+          </li>
+        {% else %}
+          <li class="page-item">
+            <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <li class="page-item">
+          <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+  {% endif %}
+</section>
+
+<!--=========================================================================-->

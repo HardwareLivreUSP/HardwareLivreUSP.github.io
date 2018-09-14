@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<!--=========================================================================-->
+<style type="text/css">
+  #post {
+    margin-top: 96px;
+    padding: 0 64px;
+    transition: ease all .25s;
+  }
+  #post .card {
+    padding: 16px 32px 8px 32px;
+    border-radius: .25rem .25rem 0 0;
+  }
+  #post .card img {
+    border-radius: .25rem;
+    -webkit-filter: drop-shadow(0 2px 4px rgba(0,0,0,.3));
+    filter:         drop-shadow(0 2px 4px rgba(0,0,0,.3));
+    transition: ease all .25s;
+  }
+  #post .card img:hover {
+    -webkit-filter: drop-shadow(0 2px 4px rgba(0,150,150,.3));
+    filter:         drop-shadow(0 2px 4px rgba(0,150,150,.3));
+  }
+  .post-title {
+    margin: 0 0 15px 0;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .post-info {
+    margin: -4px 0 0 0;
+  }
+  .post-content p {
+    text-align: justify;
+    text-indent: 32px;
+  }
+  .date {
+    white-space: nowrap;
+  }
+  .img-container {
+    color: #009696;
+    margin: -4px 0 18px 0;
+    text-align: center;
+  }
+  .img-container figure {
+    display: inline-block;
+    min-height: 128px;
+    margin: 0 14px 8px 14px;
+    transition: ease all .5s;
+  }
+  .img-container img {
+    max-height: 256px;
+    max-width: 100%;
+    margin: 2px 0 2px 0;
+    object-fit: contain;
+    cursor: zoom-in;
+  }
+  .img-container img.large {
+    max-height: inherit;
+    height:512px
+  }
+  ul li:last-child .img-container {
+    margin: -4px 0 -14px 0;
+  }
+  @media screen and (max-width: 850px) {
+    #post {
+      padding: 0;
+    }
+    .img-container figure {
+      width: 100%;
+      margin: 0 0 0 0;
+    }
+  }
+</style>
+
+<!--=========================================================================-->
+{% if page.img and page.img != "" %}
+  {% assign test = true %}
+{% endif %}
+{% if page.img_url and page.img_url != "" %}
+  {% assign test = true %}
+{% endif %}
+<section id="post" {% if test %}style="margin-top: -64px;"{% endif %}>
+
+  <div class="card">
+    <!-- Title -->
+    <h1 class="post-title d-flex justify-content-center"><strong>{{ page.title }}</strong></h1>
+
+    <div class="post-info d-flex justify-content-center">
+      <!-- Author -->
+      <p class="font-small dark-grey-text">
+        <strong>Por</strong> <a href="{{ page.author_url }}">{{ page.author }}</a>
+      </p>
+
+      <!-- Date -->
+      <p class="font-small grey-text ml-3 date">
+        <i class="fa fa-clock-o"></i> {{ page.date | date: "%d/%m/%Y" }}
+      </p>
+    </div>
+
+    <!-- Content -->
+    <div class="post-content">{{ content }}</div>
+  </div>
+
+</section>
+
+<!--=========================================================================-->

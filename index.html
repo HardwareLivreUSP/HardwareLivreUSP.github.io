@@ -1,0 +1,242 @@
+---
+layout: default
+title: "Hardware Livre USP"
+---
+
+<!--=========================================================================-->
+<!-- Slides -->
+<section id="slides" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide1 -->
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="slide-img d-block" src="{{ site.baseurl }}/assets/images/blog/2018-02-11-hardware_livre_usp_na_campus_party_brasil/capella_palco.jpg">
+
+      </div>
+      <div class="carousel-caption">
+        <h3><span>Workshops</span></h3>
+        <p><span>Workshops em eventos relacionados a tecnologia.</span></p>
+      </div>
+    </div>
+    <!-- Slide2 -->
+    <div class="carousel-item">
+      <div class="view">
+        <img class="slide-img d-block" src="{{ site.baseurl }}/assets/images/blog/2018-03-18-cenas_dos_ultimos_episodios/1.jpg">
+
+      </div>
+      <div class="carousel-caption">
+        <h3><span>Palestras</span></h3>
+        <p><span>Palestras em diversos locais, dentro e fora da USP.</span></p>
+      </div>
+    </div>
+    <!-- Slide3 -->
+    <div class="carousel-item">
+      <div class="view">
+        <img class="slide-img d-block" src="{{ site.baseurl }}/assets/images/blog/2017-10-29-semana_usp_de_ciencia_e_tecnologia_2017/lado.jpg">
+
+      </div>
+      <div class="carousel-caption">
+        <h3><span>Projetos</span></h3>
+        <p><span>Criação e execução de projetos com código aberto.</span></p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</section>
+
+<section>
+  <div class="home-logo-container">
+    <img class="home-logo" src="{{ site.baseurl }}/assets/logo/logo_text_black.svg">
+  </div>
+
+  <div class="demos-container">
+    {% assign num_posts = 4 %}
+    <!-- Blog -->
+    <div class="demo">
+      <h4><a href="{{ site.baseurl }}/blog/">Blog</a></h4>
+      <div class="demo-card card">
+        {% assign i = 0 %}
+        {% for post in site.posts %}
+          {% if post.type contains "blog" %}
+            {% assign i = i | plus: 1 %}
+              <div class="demo-post">
+                <div class="demo-post-image">
+                  <!-- Image -->
+                  <div class="view zoom">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                      {% if post.img_url and post.img_url != "" %}
+                        <img src="{{ post.img_url }}">
+                        <div class="mask flex-center waves-effect waves-light"></div>
+                      {% elsif post.img and post.img != "" %}
+                        <img src="{{ site.baseurl }}/{{ post.img }}">
+                        <div class="mask flex-center waves-effect waves-light"></div>
+                      {% else %}
+                        <div class="demo-placeholder"></div>
+                        <div class="mask flex-center waves-effect waves-light">
+                          <img src="{{ site.baseurl }}/assets/logo/logo_black.svg" class="demo-placeholder-logo">
+                        </div>
+                      {% endif %}
+                    </a>
+                  </div>
+                </div>
+                <div class="demo-post-content">
+                  <!-- Title -->
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    <strong>{{ post.title }}</strong>
+                  </a>
+                  <!-- Author -->
+                  <p class="font-small dark-grey-text">
+                    {% if post.author_url and post.author_url != "" %}
+                      <strong>Por</strong> <a href="{{ post.author_url }}">{{ post.author }}</a>
+                    {% else %}
+                      <strong>Por</strong> <a href="#">{{ post.author }}</a>
+                    {% endif %}
+                  </p>
+                  <!-- Date -->
+                  <p class="font-small grey-text">
+                    <i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }}
+                  </p>
+                </div>
+              </div>
+            {% if i == num_posts %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        <div class="demo-more">
+          <a href="{{ site.baseurl }}/blog/">Leia mais</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projetos -->
+    <div class="demo">
+      <h4><a href="{{ site.baseurl }}/projetos/">Projetos</a></h4>
+      <div class="demo-card card">
+        {% assign i = 0 %}
+        {% for post in site.posts %}
+          {% if post.type contains "projeto" %}
+            {% assign i = i | plus: 1 %}
+            <div class="demo-post">
+              <div class="demo-post-image">
+                <!-- Image -->
+                <div class="view zoom">
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    {% if post.img_url and post.img_url != "" %}
+                      <img src="{{ post.img_url }}">
+                      <div class="mask flex-center waves-effect waves-light"></div>
+                    {% elsif post.img and post.img != "" %}
+                      <img src="{{ site.baseurl }}/{{ post.img }}">
+                      <div class="mask flex-center waves-effect waves-light"></div>
+                    {% else %}
+                      <div class="demo-placeholder"></div>
+                      <div class="mask flex-center waves-effect waves-light">
+                        <img src="{{ site.baseurl }}/assets/logo/logo_black.svg" class="demo-placeholder-logo">
+                      </div>
+                    {% endif %}
+                  </a>
+                </div>
+              </div>
+              <div class="demo-post-content">
+                <!-- Title -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <strong>{{ post.title }}</strong>
+                </a>
+                <!-- Author -->
+                <p class="font-small dark-grey-text">
+                  {% if post.author_url and post.author_url != "" %}
+                    <strong>Por</strong> <a href="{{ post.author_url }}">{{ post.author }}</a>
+                  {% else %}
+                    <strong>Por</strong> <a href="#">{{ post.author }}</a>
+                  {% endif %}
+                </p>
+                <!-- Date -->
+                <p class="font-small grey-text">
+                  <i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }}
+                </p>
+              </div>
+            </div>
+            {% if i == num_posts %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        <div class="demo-more">
+          <a href="{{ site.baseurl }}/projetos/">Leia mais</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tutoriais -->
+    <div class="demo">
+      <h4><a href="{{ site.baseurl }}/tutoriais/">Tutoriais</a></h4>
+      <div class="demo-card card">
+        {% assign i = 0 %}
+        {% for post in site.posts %}
+          {% if post.type contains "tutorial" %}
+            {% assign i = i | plus: 1 %}
+            <div class="demo-post">
+              <div class="demo-post-image">
+                <!-- Image -->
+                <div class="view zoom">
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    {% if post.img_url and post.img_url != "" %}
+                      <img src="{{ post.img_url }}">
+                      <div class="mask flex-center waves-effect waves-light"></div>
+                    {% elsif post.img and post.img != "" %}
+                      <img src="{{ site.baseurl }}/{{ post.img }}">
+                      <div class="mask flex-center waves-effect waves-light"></div>
+                    {% else %}
+                      <div class="demo-placeholder"></div>
+                      <div class="mask flex-center waves-effect waves-light">
+                        <img src="{{ site.baseurl }}/assets/logo/logo_black.svg" class="demo-placeholder-logo">
+                      </div>
+                    {% endif %}
+                  </a>
+                </div>
+              </div>
+              <div class="demo-post-content">
+                <!-- Title -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <strong>{{ post.title }}</strong>
+                </a>
+                <!-- Author -->
+                <p class="font-small dark-grey-text">
+                  {% if post.author_url and post.author_url != "" %}
+                    <strong>Por</strong> <a href="{{ post.author_url }}">{{ post.author }}</a>
+                  {% else %}
+                    <strong>Por</strong> <a href="#">{{ post.author }}</a>
+                  {% endif %}
+                </p>
+                <!-- Date -->
+                <p class="font-small grey-text">
+                  <i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }}
+                </p>
+              </div>
+            </div>
+            {% if i == num_posts %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        <div class="demo-more">
+          <a href="{{ site.baseurl }}/tutoriais/">Leia mais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--=========================================================================-->

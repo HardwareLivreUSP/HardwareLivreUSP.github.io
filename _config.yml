@@ -1,0 +1,28 @@
+################################################################################
+# Variables
+title:       "Hardware Livre USP"
+description: "Grupo de extensão do IME-USP."
+baseurl:     ""
+url:         "http://hardwarelivreusp.org"
+
+# Social Media
+facebook:  "https://www.facebook.com/Hardwarelivreusp/"
+github:    "https://github.com/HardwareLivreUSP"
+instagram: "https://www.instagram.com/hardwarelivreusp/"
+telegram:  "http://tiny.cc/telegram-hlu"
+youtube:   "https://www.youtube.com/channel/UCmjqVK00Py4OyQz2qkOg7ew"
+lastfm:    "https://www.last.fm/pt/user/HardwareLivre"
+email:     "usphardwarelivre@gmail.com"
+
+# Build Settings
+markdown:      kramdown
+highlighter:   rouge
+permalink:     pretty
+paginate:      12
+paginate_path: "/blog/page:num/"
+exclude:       ["node_modules","Gruntfile.js","package.json","README.md"]
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+################################################################################

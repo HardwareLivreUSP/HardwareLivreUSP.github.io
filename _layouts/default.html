@@ -1,0 +1,201 @@
+<!--=========================================================================-->
+<!--=                           Hardware Livre USP                          =-->
+<!--=                                                                       =-->
+<!--=                           Raphael R. Gusmão                           =-->
+<!--=========================================================================-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="author" content="Raphael R. Gusmão">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+
+  <!-- Title -->
+  {% if page.title == site.title %}
+    <title>{{ page.title }}</title>
+  {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+  {% endif %}
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicon/safari-pinned-tab.svg" color="#009696">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  <meta name="application-name" content="{{ site.title }}">
+  <meta name="msapplication-TileColor" content="#009696">
+  <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#009696">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-cyan.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
+
+  <!-- Preview -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  {% if page.layout and page.layout == "post" %}
+    <meta property="og:description" content="{{ page.content | markdownify | strip_html | normalize_whitespace | truncatewords: 32 }}">
+  {% else %}
+    <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.img_url and page.img_url != "" %}
+    <meta property="og:image" content="{{ page.img_url }}">
+  {% elsif page.img and page.img != "" %}
+    <meta property="og:image" content="{{ site.baseurl }}/{{ page.img }}">
+  {% else %}
+    <meta property="og:image" content="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
+  {% endif %}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+</head>
+<body>
+
+<!--=========================================================================-->
+<!--= Header                                                                =-->
+<!--=========================================================================-->
+<header>
+  <nav id="header-navbar" class="navbar navbar-expand-lg fixed-top scrolling-navbar navbar-dark">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img id="header-logo" src="{{ site.baseurl }}/assets/logo/logo_white.svg" height="32" class="d-inline-block align-top">
+      <img id="header-logo-text" src="{{ site.baseurl }}/assets/logo/text_white.svg" height="32" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-links">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="header-links">
+      <ul class="nav navbar-nav nav-pills nav-flex-icons ml-auto">
+        {% if page.title == "Home" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/">Início</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/">Início</a></li>
+        {% endif %}
+
+        {% if page.title == "Blog" or page.type == "blog" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/blog/">Blog</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/blog/">Blog</a></li>
+        {% endif %}
+
+        {% if page.title == "Projetos" or page.type == "projeto" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/projetos/">Projetos</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/projetos/">Projetos</a></li>
+        {% endif %}
+
+        {% if page.title == "Tutoriais" or page.type == "tutorial" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/tutoriais/">Tutoriais</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/tutoriais/">Tutoriais</a></li>
+        {% endif %}
+
+        {% if page.title == "Lab3D" or page.type == "3d" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/lab3d/">Lab3D</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/lab3d/">Lab3D</a></li>
+        {% endif %}
+
+        {% if page.title == "Eventos" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/eventos/">Eventos</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/eventos/">Eventos</a></li>
+        {% endif %}
+
+        {% if page.title == "Sobre" %}
+          <li class="nav-item"><a class="nav-link active" href="{{ site.baseurl }}/sobre/">Sobre</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/sobre/">Sobre</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+  {% if page.img_url and page.img_url != "" %}
+    <div class="cover-container">
+      <img class="cover-background" src="{{ page.img_url }}">
+      <img class="cover" src="{{ page.img_url }}">
+    </div>
+  {% elsif page.img and page.img != "" %}
+    <div class="cover-container">
+      <img class="cover-background" src="{{ site.baseurl }}/{{ page.img }}">
+      <img class="cover" src="{{ site.baseurl }}/{{ page.img }}">
+    </div>
+  {% endif %}
+</header>
+
+<!--=========================================================================-->
+<!--= Modal                                                                 =-->
+<!--=========================================================================-->
+<div id="modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <img src="">
+  </div>
+</div>
+
+<!--=========================================================================-->
+<!--= Content                                                               =-->
+<!--=========================================================================-->
+<main>
+  {{ content }}
+</main>
+
+<!--=========================================================================-->
+<!--= Footer                                                                =-->
+<!--=========================================================================-->
+<footer class="page-footer elegant-color">
+  <p>Sigam-nos em nossas redes sociais!</p>
+  <ul class="d-flex list-inline social">
+    <li class="list-inline-item"><a class="fa-lg" href="{{ site.facebook }}">
+      <i class="fa fa-facebook fa-lg"></i>
+    </a></li>
+    <li class="list-inline-item"><a class="fa-lg" href="{{ site.github }}">
+      <i class="fa fa-github fa-lg"></i>
+    </a></li>
+    <li class="list-inline-item"><a class="fa-lg" href="{{ site.instagram }}">
+      <i class="fa fa-instagram fa-lg"></i>
+    </a></li>
+    <li class="list-inline-item"><a class="fa-lg" href="{{ site.telegram }}">
+      <i class="fa fa-telegram fa-lg"></i>
+    </a></li>
+    <li class="list-inline-item"><a class="fa-lg" href="{{ site.youtube }}">
+      <i class="fa fa-youtube fa-lg"></i>
+    </a></li>
+    <li class="list-inline-item"><a class="fa-lg" href="{{ site.lastfm }}">
+      <i class="fa fa-lastfm fa-lg"></i>
+    </a></li>
+    <li class="list-inline-item"><a class="fa-lg" href="mailto:{{ site.email }}">
+      <i class="fa fa-envelope fa-lg"></i>
+    </a></li>
+  </ul>
+  <div class="footer-copyright text-center">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a> {{ site.time | date: '%Y' }}
+  </div>
+</footer>
+
+<!--=========================================================================-->
+<!--= Scripts                                                               =-->
+<!--=========================================================================-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src="{{ site.baseurl }}/assets/scripts.js"></script>
+</body>
+</html>
+
+<!--=========================================================================-->
