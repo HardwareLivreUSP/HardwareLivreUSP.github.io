@@ -5,10 +5,12 @@ title:      "Hardware Livre USP na Campus Party Brasil"
 date:       2018-02-11
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-02-11-hardware_livre_usp_na_campus_party_brasil/capella_palco.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-02-11-hardware_livre_usp_na_campus_party_brasil/capella_palco.jpg"
+img_url:    ""
 
-redirect_from: "2018/02/11/Hardware_Livre-USP_na_Campus-Party_Brasil"
+redirect_from:
+ - "2018/02/11/Hardware_Livre-USP_na_Campus-Party_Brasil"
+ - "2018/02/11/Hardware_Livre-USP_na_Campus-Party_Brasil/"
 ---
 
 Nesta última semana, o grupo Hardware Livre USP representou o IME-USP na Campus Party Brasil 2018 executando uma sequência de atividades, como duas palestras, uma sobre Biohacking e outra sobre o microcontrolador ATmega328 e um workshop sobre Internet das Coisas.

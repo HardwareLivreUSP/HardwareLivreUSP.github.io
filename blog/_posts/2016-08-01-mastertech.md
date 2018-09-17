@@ -2,14 +2,15 @@
 layout:     post
 type:       blog
 title:      "Mastertech"
-subtitle:   "Uma semana de curso."
 date:       2016-08-01
 author:     "Gabriel Capella"
 author_url: "https://gabrielcapella.com/"
-img: 		"assets/images/blog/2016-08-01-mastertech/bg7.jpg"
-img_url: 		""
+img:        "assets/images/blog/2016-08-01-mastertech/bg7.jpg"
+img_url:    ""
 
-redirect_from: "2016/08/01/mastertech"
+redirect_from:
+ - "2016/08/01/mastertech"
+ - "2016/08/01/mastertech/"
 ---
 
 Durante a semana entre 18 e 22 de julho o grupo foi responsável por lecionar um curso sobre Internet das Coisas (IoT) no Mastertech, oferecido pela Ponte21. Mais informações sobre o curso podem ser vistas em [aqui](http://www.mastertech.tech/).

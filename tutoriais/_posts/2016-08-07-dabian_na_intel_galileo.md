@@ -6,10 +6,12 @@ title:      "Debian na Intel Galileo"
 date:       2016-08-07
 author:     "Gabriel Capella"
 author_url: "http://gabrielcapella.com/"
-img: 		"assets/images/tutoriais/2016-08-07-dabian_na_intel_galileo/cu.jpg"
-img_url: 		""
+img:        "assets/images/tutoriais/2016-08-07-dabian_na_intel_galileo/cu.jpg"
+img_url:    ""
 
-redirect_from: "2016/08/07/dabiannagalileo"
+redirect_from:
+ - "2016/08/07/dabiannagalileo"
+ - "2016/08/07/dabiannagalileo/"
 ---
 
 O grupo de Hardware Livre USP ganhou da Intel uma doação placas Galileo geração 1 e 2.

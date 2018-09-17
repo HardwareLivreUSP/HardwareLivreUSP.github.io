@@ -6,10 +6,12 @@ title:      "Besourino"
 date:       2018-02-08
 author:     "Daniel Jorge Renjiffo"
 author_url: "https://linux.ime.usp.br/~djrenjiffo/"
-img: 	      "assets/images/projetos/2018-02-08-besourino/besourino_use_cut.png"
-img_url: 		""
+img:        "assets/images/projetos/2018-02-08-besourino/besourino_use_cut.png"
+img_url:    ""
 
-redirect_from: "projetos/cubeto"
+redirect_from:
+ - "projetos/cubeto"
+ - "projetos/cubeto/"
 ---
 
 #### Besourino, robô aberto para ensino de robótica e programação

@@ -5,10 +5,12 @@ title:      "Hardware Livre USP na SIGEX"
 date:       2018-03-03
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-11-hardware_livre_usp_na_sigex/sigex.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-11-hardware_livre_usp_na_sigex/sigex.jpg"
+img_url:    ""
 
-redirect_from: "2018/03/03/sigex"
+redirect_from:
+ - "2018/03/03/sigex"
+ - "2018/03/03/sigex/"
 ---
 
 #### Semanas de Introdução aos Grupos de Extensão do IME-USP (SIGEX)

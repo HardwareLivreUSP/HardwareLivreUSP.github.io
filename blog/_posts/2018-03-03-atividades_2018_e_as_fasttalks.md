@@ -5,10 +5,12 @@ title:      "Atividades 2018 e as FastTalks"
 date:       2018-03-03
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-03-atividades_2018_e_as_fasttalks/2018.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-03-atividades_2018_e_as_fasttalks/2018.jpg"
+img_url:    ""
 
-redirect_from: "2018/03/03/Atividades_2018_e_as_FastTalks"
+redirect_from:
+ - "2018/03/03/Atividades_2018_e_as_FastTalks"
+ - "2018/03/03/Atividades_2018_e_as_FastTalks/"
 ---
 
 Estamos dando início às nossas reuniões de 2018 e chegamos com novidades no estilo das reuniões!

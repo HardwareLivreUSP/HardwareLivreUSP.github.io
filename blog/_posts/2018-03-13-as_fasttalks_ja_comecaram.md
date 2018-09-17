@@ -5,10 +5,12 @@ title:      "As FastTalks já começaram!"
 date:       2018-03-13
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-13-as_fasttalks_ja_comecaram/3.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-13-as_fasttalks_ja_comecaram/3.jpg"
+img_url:    ""
 
-redirect_from: "2018/03/13/Nossa_Primeira_Fast_Talk"
+redirect_from:
+ - "2018/03/13/Nossa_Primeira_Fast_Talk"
+ - "2018/03/13/Nossa_Primeira_Fast_Talk/"
 ---
 
 Está iniciada a nossa temporada de `FastTalks`!

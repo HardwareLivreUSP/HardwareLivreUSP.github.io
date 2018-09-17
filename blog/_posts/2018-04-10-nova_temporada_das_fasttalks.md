@@ -5,10 +5,12 @@ title:      "Nova temporada das FastTalks!"
 date:       2018-04-10
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-04-10-nova_temporada_das_fasttalks/coming-soon.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-04-10-nova_temporada_das_fasttalks/coming-soon.jpg"
+img_url:    ""
 
-redirect_from: "2018/04/10/Nova_temporada"
+redirect_from:
+ - "2018/04/10/Nova_temporada"
+ - "2018/04/10/Nova_temporada/"
 ---
 
 Novos episódios da nossa série de `FastTalks` estão chegando!

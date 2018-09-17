@@ -6,10 +6,12 @@ title:      "Floppy Musical"
 date:       2016-10-29
 author:     "Marcelo Schmitt"
 author_url: "https://github.com/marceloschmitt1"
-img: 	      "assets/images/projetos/2016-10-29-floppy_musical/floppy.jpg"
-img_url: 		""
+img:        "assets/images/projetos/2016-10-29-floppy_musical/floppy.jpg"
+img_url:    ""
 
-redirect_from: "projetos/floppy-musical"
+redirect_from:
+ - "projetos/floppy-musical"
+ - "projetos/floppy-musical/"
 ---
 
 Este post descreve como montar o projeto MoppyAdvanced de [SammyIAm](https://github.com/SammyIAm), que chamaremos simplesmente de floppy musical ou moppy.

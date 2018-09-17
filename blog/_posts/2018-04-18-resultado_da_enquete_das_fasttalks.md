@@ -5,10 +5,12 @@ title:      "Resultado da enquete das FastTalks!"
 date:       2018-04-18
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-04-18-resultado_da_enquete_das_fasttalks/check.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-04-18-resultado_da_enquete_das_fasttalks/check.jpg"
+img_url:    ""
 
-redirect_from: "2018/04/18/Resultados_fasttalks"
+redirect_from:
+ - "2018/04/18/Resultados_fasttalks"
+ - "2018/04/18/Resultados_fasttalks/"
 ---
 
 #### Próximas FastTalks

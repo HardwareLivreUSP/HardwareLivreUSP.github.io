@@ -5,10 +5,12 @@ title:      "Workshop de Eletrônica Básica e Arduino"
 date:       2015-03-22
 author:     "Gustavo Estrela"
 author_url: ""
-img: 		    "assets/images/blog/2015-03-22-workshop_de_eletronica_basica_e_arduino/curso-basico-2.jpg"
-img_url: 		""
+img:        "assets/images/blog/2015-03-22-workshop_de_eletronica_basica_e_arduino/curso-basico-2.jpg"
+img_url:    ""
 
-redirect_from: "2015/03/22/workshop-basico"
+redirect_from:
+ - "2015/03/22/workshop-basico"
+ - "2015/03/22/workshop-basico/"
 ---
 
 Agradecemos a todos que compareceram no dia 20 de Março para a nossa oficina de Eletrônica Básica com Arduino! Veja as imagens abaixo:

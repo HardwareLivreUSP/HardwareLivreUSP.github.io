@@ -5,10 +5,12 @@ title:      "Veja o que aconteceu na SIGEX"
 date:       2018-03-18
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-19-veja_o_que_aconteceu_na_sigex/1.jpeg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-19-veja_o_que_aconteceu_na_sigex/1.jpeg"
+img_url:    ""
 
-redirect_from: "2018/03/18/sigex"
+redirect_from:
+ - "2018/03/18/sigex"
+ - "2018/03/18/sigex/"
 ---
 
 Nessa última semana (12-03-2018 a 19/03/2018) foi a vez do Hardware Livre na SIGEX! Isso mesmo, na SIGEX! Espera, você não sabe o que é SIGEX ainda?

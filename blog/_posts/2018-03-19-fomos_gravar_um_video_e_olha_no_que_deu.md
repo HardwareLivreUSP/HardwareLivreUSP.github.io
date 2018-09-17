@@ -5,10 +5,12 @@ title:      "Fomos gravar um vídeo e olha no que deu"
 date:       2018-03-18
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-19-fomos_gravar_um_video_e_olha_no_que_deu/fox.png"
-img_url: 		""
+img:        "assets/images/blog/2018-03-19-fomos_gravar_um_video_e_olha_no_que_deu/fox.png"
+img_url:    ""
 
-redirect_from: "2018/03/18/video_promocional"
+redirect_from:
+ - "2018/03/18/video_promocional"
+ - "2018/03/18/video_promocional/"
 ---
 
 É com prazer que venho anunciar nosso primeiro vídeo promocional do grupo!

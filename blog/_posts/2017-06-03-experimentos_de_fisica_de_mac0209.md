@@ -6,9 +6,11 @@ date:       2017-06-04
 author:     "Marcelo Schmitt"
 author_url: "https://github.com/marceloschmitt1"
 img:        "assets/images/blog/2017-06-03-experimentos_de_fisica_de_mac0209/rampa_visao_geral.png"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2017/06/04/experimentos-fisica-mac0209"
+redirect_from:
+ - "2017/06/04/experimentos-fisica-mac0209"
+ - "2017/06/04/experimentos-fisica-mac0209/"
 ---
 
 Nessas últimas semanas fizemos algumas experiências de física vinculadas à disciplina MAC0209 – Modelagem e Simulação do Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP). Esse post fala um pouco sobre essas experiências.

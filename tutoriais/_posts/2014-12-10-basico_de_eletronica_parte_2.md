@@ -6,10 +6,12 @@ title:      "Básico de Eletrônica – Parte II"
 date:       2014-12-10
 author:     "Lucas Silva"
 author_url: ""
-img: 	      "assets/images/tutoriais/2014-12-10-basico_de_eletronica_parte_2/digital-multimeter.jpg"
-img_url: 		""
+img:        "assets/images/tutoriais/2014-12-10-basico_de_eletronica_parte_2/digital-multimeter.jpg"
+img_url:    ""
 
-redirect_from: "2014/12/10/basicos-eletronica-2"
+redirect_from:
+ - "2014/12/10/basicos-eletronica-2"
+ - "2014/12/10/basicos-eletronica-2/"
 ---
 
 #### Multímetro
