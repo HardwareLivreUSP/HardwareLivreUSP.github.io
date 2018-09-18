@@ -2,14 +2,15 @@
 layout:     post
 type:       blog
 title:      "Workshop Selector Centrifuge"
-subtitle:   ""
 date:       2016-08-24
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
 img:        "assets/images/blog/2016-08-24-workshop_selector_centrifuge/IMG_6733.jpg"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2016/08/24/work_centrifuge"
+redirect_from:
+ - "2016/08/24/work_centrifuge"
+ - "2016/08/24/work_centrifuge/"
 ---
 
 No dia 16 de agosto de 2016 foi relizado no Prédio da Engenharia de Produção na sala Samsung Ocean um workshop para a construção de centrífugas, fotodocumentadores e cubas para eletroforese.

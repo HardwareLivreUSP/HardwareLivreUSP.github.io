@@ -5,10 +5,12 @@ title:      "Kits Arduino: O que e onde comprar?"
 date:       2016-11-24
 author:     "Leonardo Haddad Carlos & Marcelo Schmitt"
 author_url: ""
-img: 	      "assets/images/blog/2016-11-24-kits_arduino_o_que_e_onde_comprar/kit.jpg"
-img_url: 		""
+img:        "assets/images/blog/2016-11-24-kits_arduino_o_que_e_onde_comprar/kit.jpg"
+img_url:    ""
 
-redirect_from: "2016/11/24/onde-comprar"
+redirect_from:
+ - "2016/11/24/onde-comprar"
+ - "2016/11/24/onde-comprar/"
 ---
 
 Esse guia, construído com base na experiência pessoal dos membros do grupo, contém as dicas e referências que você precisa para montar seu primeiro Kit Arduino.

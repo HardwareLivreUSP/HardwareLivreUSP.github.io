@@ -6,10 +6,12 @@ title:      "Intransferência"
 date:       2017-12-26
 author:     "José Dario Vargas"
 author_url: ""
-img: 		    "assets/images/projetos/2017-12-26-intransferencia/in1.jpg"
-img_url: 		""
+img:        "assets/images/projetos/2017-12-26-intransferencia/in1.jpg"
+img_url:    ""
 
-redirect_from: "2017/12/26/intranferencia"
+redirect_from:
+ - "2017/12/26/intranferencia"
+ - "2017/12/26/intranferencia/"
 ---
 
 Esse foi um projeto realizado por uma parceria entre o grupo e meu projeto de Doutorado em Poéticas

@@ -7,9 +7,11 @@ date:       2016-11-25
 author:     "Leonardo Haddad Carlos"
 author_url: ""
 img:        "assets/images/tutoriais/arduino/arduino_oscomm.png"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2016/11/25/arduino-15board-due"
+redirect_from:
+ - "2016/11/25/arduino-15board-due"
+ - "2016/11/25/arduino-15board-due/"
 ---
 
 #### Primeiros Passos com a Arduino Due

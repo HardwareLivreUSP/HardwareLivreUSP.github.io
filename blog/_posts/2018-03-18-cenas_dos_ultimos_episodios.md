@@ -5,10 +5,12 @@ title:      "Cenas dos Últimos Episódios"
 date:       2018-03-18
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-18-cenas_dos_ultimos_episodios/1.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-18-cenas_dos_ultimos_episodios/1.jpg"
+img_url:    ""
 
-redirect_from: "2018/03/18/Cena_dos_ultimos_episodios"
+redirect_from:
+ - "2018/03/18/Cena_dos_ultimos_episodios"
+ - "2018/03/18/Cena_dos_ultimos_episodios/"
 ---
 
 Essas semanas iniciais do semestre andaram bem agitadas para nós do Hardware livre, com projetos novos (nossas `FastTalks`), a atividade da SIGEX (Semanas de Introdução aos Grupos de Extensão do IME-USP) e além disso estamos trabalhando nas nossas novas camisetas do grupo, que em breve estarão disponíveis nos modelos masculino e feminino! Mas aguardem, em breve teremos um post só para divulgá-las, mas já digo desde agora, elas serão como ninguém nunca viu!

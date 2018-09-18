@@ -6,9 +6,11 @@ date:       2016-09-19
 author:     "Gabriel Capella"
 author_url: "https://gabrielcapella.com/"
 img:        "assets/images/blog/2016-09-19-workshops_neu/img.jpg"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2016/09/19/workshops-neu"
+redirect_from:
+ - "2016/09/19/workshops-neu"
+ - "2016/09/19/workshops-neu/"
 ---
 
 Nesse semestre em parceria com o [NEU](http://www.uspempreende.org/) vamos realizar dois Workshops.

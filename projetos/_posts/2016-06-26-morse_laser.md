@@ -6,10 +6,12 @@ title:      "Morse Laser"
 date:       2016-06-26
 author:     "Gabriel Capella"
 author_url: "http://gabrielcapella.com/"
-img: 	      "assets/images/projetos/2016-06-26-morse_laser/morse.png"
-img_url: 		""
+img:        "assets/images/projetos/2016-06-26-morse_laser/morse.png"
+img_url:    ""
 
-redirect_from: "projetos/morselaser"
+redirect_from:
+ - "projetos/morselaser"
+ - "projetos/morselaser/"
 ---
 
 Tivemos a ideia de fazer um sistema de comunicação por luz inspirados em cabos de fibra ótica, que utilizam este princípio. No entanto, o laser (proveniente de uma caneta a laser desmontada) e o LDR que usamos tinham um tempo de resposta muito lento. Isso impossibilitou que nós utilizássemos a própria comunicação serial como protocolo de comunicação - tentamos até em velocidades muito baixas, baute rate por volta de 5.

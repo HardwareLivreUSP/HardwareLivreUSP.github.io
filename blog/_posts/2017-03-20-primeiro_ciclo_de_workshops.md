@@ -6,9 +6,11 @@ date:       2017-03-20
 author:     "Gabriel Capella"
 author_url: "https://gabrielcapella.com/"
 img:        "assets/images/blog/2017-03-20-primeiro_ciclo_de_workshops/intro2017.png"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2017/03/20/intro2017"
+redirect_from:
+ - "2017/03/20/intro2017"
+ - "2017/03/20/intro2017/"
 ---
 
 Workshops destinados à introdução de conceitos básicos para você conseguir acompanhar e entender o que o grupo Hardware Livre USP faz.

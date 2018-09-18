@@ -5,10 +5,12 @@ title:      "Hoje tivemos Serial na FastTalk!"
 date:       2018-03-23
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-23-hoje_tivemos_serial_na_fasttalk/serial.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-23-hoje_tivemos_serial_na_fasttalk/serial.jpg"
+img_url:    ""
 
-redirect_from: "2018/03/23/FastTalk_Serial"
+redirect_from:
+ - "2018/03/23/FastTalk_Serial"
+ - "2018/03/23/FastTalk_Serial/"
 ---
 
 Nossas `FastTalks` estão a todo vapor!

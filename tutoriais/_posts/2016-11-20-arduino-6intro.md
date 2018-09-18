@@ -7,9 +7,11 @@ date:       2016-11-20
 author:     "Leonardo Haddad Carlos"
 author_url: ""
 img:        "assets/images/tutoriais/arduino/arduino_oscomm.png"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2016/11/20/arduino-6intro"
+redirect_from:
+ - "2016/11/20/arduino-6intro"
+ - "2016/11/20/arduino-6intro/"
 ---
 
 #### O que é Arduino?

@@ -6,10 +6,12 @@ title:      "Chapéu Seletor"
 date:       2017-10-29
 author:     "Marcelo Schmitt"
 author_url: "https://github.com/marceloschmitt1"
-img: 	      "assets/images/projetos/2017-10-29-chapeu_seletor/chapeu3.jpg"
-img_url: 		""
+img:        "assets/images/projetos/2017-10-29-chapeu_seletor/chapeu3.jpg"
+img_url:    ""
 
-redirect_from: "projetos/chapeu-seletor2"
+redirect_from:
+ - "projetos/chapeu-seletor2"
+ - "projetos/chapeu-seletor2/"
 ---
 
 Este post descreve como montar o projeto [Chapéu Seletor](https://github.com/HardwareLivreUSP/ChapeuSeletor) e ainda está em **fase de construção**. Gostaria de agradecer à J. K. Rowling, criadora da série Harry Potter, pelos momentos de diversão e magia que o personagem nos proporcionou e também aos meus amigos do HardwareLivreUSP, idealizadores do [primeiro projeto chapéu seletor]({{ site.baseurl }}/blog/2015/03/12/chapeu_seletor_no_trote_do_ime_usp/) no qual este é inspirado.

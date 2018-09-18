@@ -6,9 +6,11 @@ date:       2015-03-12
 author:     "Gustavo Estrela"
 author_url: ""
 img:        "assets/images/blog/2015-03-12-chapeu_seletor_no_trote_do_ime_usp/chapeu3.jpg"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2015/03/12/chapeu-seletor"
+redirect_from:
+ - "2015/03/12/chapeu-seletor"
+ - "2015/03/12/chapeu-seletor/"
 ---
 
 No dia 23 de Fevereiro de 2015, fizemos o Chapéu Seletor, personagem da obra Harry Potter, de J. K. Rowling, para a [Comissão de Trote IME-USP](https://www.facebook.com/troteimeusp). O Chapéu tinha o propósito de auxiliar a comissão em separar os calouros do IME de 2015 em grupos para suas atividades afins.

@@ -6,9 +6,11 @@ date:       2016-10-17
 author:     "Bruno Rafael Aricó "
 author_url: "https://linux.ime.usp.br/~brunobra/"
 img:        "assets/images/blog/2016-10-15-nos_na_redbull_station/red1.jpg"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2016/10/17/red-bull"
+redirect_from:
+ - "2016/10/17/red-bull"
+ - "2016/10/17/red-bull/"
 ---
 
 Neste ultimo fim de semana, dia 15/10, o grupo de Hardware Livre apresentou na redbull station a sua centrifuga no FAZ, o festival de cultura maker promovido pela unidade.

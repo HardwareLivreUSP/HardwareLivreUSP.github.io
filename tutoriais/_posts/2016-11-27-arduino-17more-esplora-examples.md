@@ -7,9 +7,11 @@ date:       2016-11-27
 author:     "Leonardo Haddad Carlos"
 author_url: ""
 img:        "assets/images/tutoriais/arduino/arduino_oscomm.png"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2016/11/27/arduino-17more-esplora-examples"
+redirect_from:
+ - "2016/11/27/arduino-17more-esplora-examples"
+ - "2016/11/27/arduino-17more-esplora-examples/"
 ---
 
 #### Mais Exemplos para a Esplora

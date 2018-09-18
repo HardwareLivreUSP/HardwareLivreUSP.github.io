@@ -6,10 +6,12 @@ title:      "Centrífuga Seletora"
 date:       2018-01-04
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/projetos/2018-01-04-centrifuga_seletora/centrifuge.jpg"
-img_url: 		""
+img:        "assets/images/projetos/2018-01-04-centrifuga_seletora/centrifuge.jpg"
+img_url:    ""
 
-redirect_from: "projetos/seletorcentrifuge"
+redirect_from:
+ - "projetos/seletorcentrifuge"
+ - "projetos/seletorcentrifuge/"
 ---
 
 Um projeto desenvolvido durante o ano de 2016, em conjunto com alunos do Instituto de Farmácia, Arquitetura e Biologia da Universidade de São Paulo para o projeto do iGEM 2016 do grupo USP-UNIFESP, [Algaranha](http://2016.igem.org/Team:USP_UNIFESP-Brazil).

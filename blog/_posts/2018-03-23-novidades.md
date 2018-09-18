@@ -5,10 +5,12 @@ title:      "Novidades!"
 date:       2018-03-23
 author:     "Bruno Rafael Aricó"
 author_url: "https://linux.ime.usp.br/~brunobra/"
-img: 	      "assets/images/blog/2018-03-23-novidades/news.jpg"
-img_url: 		""
+img:        "assets/images/blog/2018-03-23-novidades/news.jpg"
+img_url:    ""
 
-redirect_from: "2018/03/23/Novidades"
+redirect_from:
+ - "2018/03/23/Novidades"
+ - "2018/03/23/Novidades/"
 ---
 
 Temos algumas novidades, pessoal!

@@ -6,10 +6,12 @@ title:      "Cisternas nas Escolas IoT"
 date:       2018-08-11
 author:     "Marcelo Schmitt"
 author_url: "https://github.com/marceloschmitt1"
-img: 	      "assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/cisterna.jpg"
-img_url: 		""
+img:        "assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/cisterna.jpg"
+img_url:    ""
 
-redirect_from: "projetos/cisternas-nas-escolas-iot"
+redirect_from:
+ - "projetos/cisternas-nas-escolas-iot"
+ - "projetos/cisternas-nas-escolas-iot/"
 ---
 
 Página do projeto no [GitHub](https://github.com/marceloschmitt1/ProjetoCisternasNasEscolasIoT).

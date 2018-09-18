@@ -7,9 +7,11 @@ date:       2014-12-09
 author:     "Lucas Silva"
 author_url: ""
 img:        "assets/images/tutoriais/2014-12-09-basico_de_eletronica_parte_1/bg.png"
-img_url: 		""
+img_url:    ""
 
-redirect_from: "2014/12/09/basicos-eletronica-1"
+redirect_from:
+ - "2014/12/09/basicos-eletronica-1"
+ - "2014/12/09/basicos-eletronica-1/"
 ---
 
 Alguns componentes eletrônicos são muito utilizados em projetos de Arduino. Listaremos aqui alguns deles e o que eles fazem.
