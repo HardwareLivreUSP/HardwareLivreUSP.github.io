@@ -129,3 +129,5 @@ Para adicionar vídeos do *YouTube* basta fazer como no exemplo abaixo:
 ```
 <iframe class="youtube" src="https://www.youtube.com/embed/F51Msl3EDZo?rel=0" frameborder="0" allowfullscreen></iframe>
 ```
+
+- **ATENÇÃO**: Não esqueça de adicionar `"?rel=0"` no final do *link* para evitar que vídeos aleatórios sejam sugeridos no final do vídeo.
