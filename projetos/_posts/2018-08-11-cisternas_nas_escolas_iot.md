@@ -173,7 +173,87 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 
 `[2h30min]`
 
+#### Resumo da semana do dia 17/09
 
+- Neste sábado eu estive junto com o pessoal da ONG Engenheiros sem Fronteiras 
+para instalar o medidor de volume de água na cisterna instalada na escola 
+Amorim Lima (parece que o EsF SP não conseguiu mais entrar em contato com a 
+gerência da EMEF Olavo Pezzotti). Foi muito bacana ver o trabalho do EsF SP na 
+escola. Havia um mural com várias fotos onde apareciam os alunos interagindo e 
+ajudando na instalação da cisterna. Quando chegamos percebemos que havia um 
+vazamento na flange que dava saída a uma torneira instalada para permitir o uso 
+da água da cisterna. Tive a oportunidade de ajudar o pessoal no concerto do 
+vazamento e de ter uma grande ajuda e várias ideias na hora de tentar instalar 
+o aparato para medição do volume de água. No entanto, não conseguimos instalar 
+o sistema porque nem adesivo plástico para PVC nem fita dupla face eram capazes 
+de fixar uma peça de ABS na parede interna da cisterna. Isso foi inesperado e 
+ruim porque o sistema que projetei precisava que duas peças fossem fixadas nas 
+paredes da cisterna logo, não foi possível com instalar o sistema que eu havia 
+projetado.
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/fixador_para_base.jpg">
+    <figcaption>
+        Nova peça projetada para guiar o cano na cisterna instalada <br/>
+         na escola Amorim Lima. Essa peça deveria ficar fixada no fundo da cisterna.
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/fixador_para_base2.jpg">
+    <figcaption>
+        Nova peça projetada para guiar o cano na cisterna instalada <br/>
+        na escola Amorim Lima (lado)</figcaption>
+  </figure>
+</div>
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/cisterna_amorim_lima.jpg">
+    <figcaption>Foto da cisterna instalada na escola Amorim Lima</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/cisterna_amorim_lima_lado.jpg">
+    <figcaption>Foto da cisterna instalada na escola Amorim Lima (lado)</figcaption>
+  </figure>
+</div>
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/saida_cisterna_am.jpg">
+    <figcaption>
+        Uma saída de 3/4 de polegada por onde poderia passar <br/>
+        a fiação de um sensor
+     </figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/saida_cisterna_am_alto.jpg">
+    <figcaption>
+        A saída de 3/4 de polegada fica próxima a janela de uma sala da zeladoria
+    </figcaption>
+  </figure>
+</div>
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/conferindo_encaixe_peca.jpg">
+    <figcaption>Conferindo o encaixe do sensor no topo da cisterna</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/preparando_cano.jpeg">
+    <figcaption>Cortando o cano para o tamanho apropriado</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/lixando_peca.jpg">
+    <figcaption>
+        Lixando a peça guia do cano para melhorar a <br/>
+        aderência com a parede da cisterna
+    </figcaption>
+  </figure>
+</div>
+
+
+`[4h45min]`
 
 
 Mais novidades em breve.

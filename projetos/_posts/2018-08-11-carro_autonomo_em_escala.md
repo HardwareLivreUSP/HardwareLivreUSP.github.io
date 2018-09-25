@@ -29,6 +29,11 @@ python3 eu decidi não continuar tentando instalar o pytorch na
 raspberry zero. Encomendei uma raspberryPi 3B e assim que ela 
 chegar vou instalar o pytorch nela. `[3h15min]`
 
+#### Resumo da semana do dia 17/09
+
+- Obtive uma placa RaspberryPi modelo B mas não procegui com a configuração do 
+ambiente de desenvolvimento ainda.
+
 
 Aguarde, novidades em breve.
 
