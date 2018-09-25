@@ -99,44 +99,21 @@ Página do projeto no [GitHub](https://github.com/marceloschmitt1/ProjetoCistern
 
 #### Resumo da semana do dia 10/09
 
-- Modelei e imprimi um outro fixador para a célula de carga pois 
-não havia percebido que o anterior não ficaria bem acoplado com 
-o restante do sistema. `[1h10min]`
+- Modelei e imprimi um outro fixador para a célula de carga pois não havia percebido que o anterior não ficaria bem acoplado com o restante do sistema. `[1h10min]`
 
-- Ajustei o sketch arduino para calcular o volume de água 
-considerando as medidas reais da cistena da EMEF Olavo Pezzotti. `[1h20min]`
+- Ajustei o sketch arduino para calcular o volume de água considerando as medidas reais da cistena da EMEF Olavo Pezzotti. `[1h20min]`
 
-- Montei e testei todo o sistema de medição de volume de água 
-no apartamento onde moro e me deparei com alguns problemas:
+- Montei e testei todo o sistema de medição de volume de água no apartamento onde moro e me deparei com alguns problemas:
 
-	- O cano atritava com o adaptador de encaixe da célula
-		de carga atrapalhando o início das medições.
-	- As presilhas que comprei são mais altas que o diâmetro 
-		do cano mas eu tive que fazer uma adaptação para 
-		conseguir usa-las porque o cano fica um pouco 
-		afastado da parede de fixação (isso acontece 
-		por causa do adaptador de encaixe e do fixador 
-		da célula de carga.
-	- As presilhas (acabei usando apenas uma) são boas
-		para evitar que o cano vire na horizontal 
-		mas podem acabar absorvendo parte da força 
-		que seria medida pela célula de carga e 
-		isso pode atrabalhar a estimativa final 
-		do volume de água. Ainda não sei como resolver 
-		isso. Toda ajuda é bem vinda. =)
-	- Algo que não havia pensado é que, devido ao peso do 
-		cano, é necessário uma altura mínima de água
-		para que o cano flute e faça força contra o 
-		sensor. Por causa disso, medidas de volume 
-		muito baixas podem ser imprecisas.
-	- Sem perceber acabei presumindo que a parede da cisterna 
-		é chata / reta. Instalar o aparato de medição 
-		pode ser um pouco mais complicado se a superfície 
-		da parede da cisterna não for plana.
+	- O cano atritava com o adaptador de encaixe da célula de carga atrapalhando o início das medições.
+	- As presilhas que comprei são mais altas que o diâmetro do cano mas eu tive que fazer uma adaptação para conseguir usá-las porque o cano fica um pouco afastado da parede de fixação (isso acontece por causa do adaptador de encaixe e do fixador da célula de carga).
+	- As presilhas (acabei usando apenas uma) são boas para evitar que o cano vire na horizontal mas podem acabar absorvendo parte da força que seria medida pela célula de carga e isso pode atrabalhar a estimativa final do volume de água. Ainda não sei como resolver isso. Toda ajuda é bem vinda. =)
+	- Algo que não havia pensado é que, devido ao peso do cano, é necessário uma altura mínima de água para que o cano flute e faça força contra o sensor. Por causa disso, medidas de volume muito baixas podem ser imprecisas.
+	- Sem perceber acabei presumindo que a parede da cisterna é chata/reta. Instalar o aparato de medição pode ser um pouco mais complicado se a superfície da parede da cisterna não for plana.
 
+`[2h30min]`
 
 Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
-
 
 <div class="img-container">
   <figure>
@@ -152,7 +129,6 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
     <figcaption>Aparato de medição de nível de água (célula de carga em foco)</figcaption>
   </figure>
 </div>
-
 
 <div class="img-container">
   <figure>
@@ -252,9 +228,7 @@ projetado.
   </figure>
 </div>
 
-
 `[4h45min]`
-
 
 Mais novidades em breve.
 

@@ -134,8 +134,14 @@ th {
 .mdl-data-table tbody tr {
   height: 32px;
 }
+ul {
+  text-align: justify;
+}
 li p {
   text-indent: inherit !important;
+}
+li ul {
+  margin: -16px 0 0 0;
 }
 pre.prettyprint {
   background: #F5F5F5;
@@ -375,6 +381,7 @@ footer p {
 }
 footer ul {
   justify-content: center;
+  text-align: center;
 }
 footer a {
   color: #FFFFFF !important;
