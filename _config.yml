@@ -1,7 +1,7 @@
 ################################################################################
 # Variables
 title:       "Hardware Livre USP"
-description: "Grupo de extensão do IME-USP."
+description: "Grupo de extensão do IME-USP cujo objetivo é estudar e desenvolver projetos de hardware."
 baseurl:     ""
 url:         "http://hardwarelivreusp.org"
 

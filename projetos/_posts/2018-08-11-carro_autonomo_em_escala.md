@@ -20,11 +20,7 @@ redirect_from:
 
 #### Resumo da semana do dia 17/09
 
-- Obtive uma placa RaspberryPi modelo B mas não procegui com a configuração do 
-ambiente de desenvolvimento ainda.
-
-
-Aguarde, novidades em breve.
+- Obtivemos uma placa RaspberryPi modelo B, mas não prosseguimos com a configuração do ambiente de desenvolvimento ainda.
 
 Mais novidades em breve.
 
