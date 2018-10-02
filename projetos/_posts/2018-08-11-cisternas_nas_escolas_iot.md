@@ -214,6 +214,48 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
   </figure>
 </div>
 
+#### Resumo da semana do dia 24/09
+
+- Modifiquei o programa Arduino para usar um sensor de infravermelho (SharpGP2Y0A02Y) 
+no lugar de um sensor de força. Fiz vários testes para me certificar de que as 
+medidas de distância do sharp estavam corretas, os cálculos de volume não 
+continham erros, e o todo o sistema de medição estava funcionando. `[5h30min]`
+
+- Modelei e imprimi uma haste para fixar o sensor sharp num orifício no topo da 
+cisterna (será possível parafusar a haste na borda desse orifício). `[1h]`
+
+- Fiz pequenas alterações no site para exibir corretamente a capacidade da nova 
+cisterna. `[1h30min]`
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/haste_sharp.jpg">
+    <figcaption>Haste impressa para fixar o sensor num orifício no topo da cisterna</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/haste_sharp_conjunto.jpg">
+    <figcaption>Sensor Sharp parafusado na haste de fixação</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/cabo_microUSB_adaptado.jpg">
+    <figcaption>Cabo microUSB adaptado / hackeado para o projeto</figcaption>
+  </figure>
+</div>
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/teste_nodemcu_arduino.jpg">
+    <figcaption>Usando NodeMCU e Arduino durante os testes de calibração do Sharp</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/teste_nodemcu_aplicacao.jpg">
+    <figcaption>NodeMCU e sensor Sharp para medir o nível de água</figcaption>
+  </figure>
+</div>
+
+<iframe class="youtube" src="https://youtu.be/XehT8hyI7mg" frameborder="0" allowfullscreen></iframe>
+
+
 Mais novidades em breve.
 
 ----

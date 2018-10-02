@@ -22,6 +22,10 @@ redirect_from:
 
 - Obtivemos uma placa RaspberryPi modelo B, mas não prosseguimos com a configuração do ambiente de desenvolvimento ainda.
 
+#### Resumo da semana do dia 24/09
+
+- Testamos um algoritmo de processamento de imagens usando OpenCV.
+
 Mais novidades em breve.
 
 ----
