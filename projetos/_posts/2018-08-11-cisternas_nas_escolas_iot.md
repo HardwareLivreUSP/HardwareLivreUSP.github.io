@@ -145,7 +145,7 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
   </figure>
 </div>
 
-<iframe class="youtube" src="https://www.youtube.com/embed/AkCujOrr3nY" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="https://www.youtube.com/embed/AkCujOrr3nY?rel=0" frameborder="0" allowfullscreen></iframe>
 
 `[2h30min]`
 
@@ -157,15 +157,16 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/fixador_para_base.jpg">
     <figcaption>
-        Nova peça projetada para guiar o cano na cisterna instalada <br/>
-         na escola Amorim Lima. Essa peça deveria ficar fixada no fundo da cisterna.
+      Nova peça projetada para guiar o cano na cisterna instalada na escola Amorim Lima.<br/>
+      Essa peça deveria ficar fixada no fundo da cisterna.
     </figcaption>
   </figure>
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/fixador_para_base2.jpg">
     <figcaption>
-        Nova peça projetada para guiar o cano na cisterna instalada <br/>
-        na escola Amorim Lima (lado)</figcaption>
+      Nova peça projetada para guiar o cano na cisterna instalada na escola Amorim Lima (lado)<br/>
+      &nbsp;
+    </figcaption>
   </figure>
 </div>
 
@@ -183,16 +184,11 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 <div class="img-container">
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/saida_cisterna_am.jpg">
-    <figcaption>
-        Uma saída de 3/4 de polegada por onde poderia passar <br/>
-        a fiação de um sensor
-     </figcaption>
+    <figcaption>Uma saída de 3/4 de polegada por onde poderia passar a fiação de um sensor</figcaption>
   </figure>
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/saida_cisterna_am_alto.jpg">
-    <figcaption>
-        A saída de 3/4 de polegada fica próxima a janela de uma sala da zeladoria
-    </figcaption>
+    <figcaption>A saída de 3/4 de polegada fica próxima a janela de uma sala da zeladoria</figcaption>
   </figure>
 </div>
 
@@ -207,25 +203,17 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
   </figure>
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/lixando_peca.jpg">
-    <figcaption>
-        Lixando a peça guia do cano para melhorar a <br/>
-        aderência com a parede da cisterna
-    </figcaption>
+    <figcaption>Lixando a peça guia do cano para melhorar a aderência com a parede da cisterna</figcaption>
   </figure>
 </div>
 
 #### Resumo da semana do dia 24/09
 
-- Modifiquei o programa Arduino para usar um sensor de infravermelho (SharpGP2Y0A02Y) 
-no lugar de um sensor de força. Fiz vários testes para me certificar de que as 
-medidas de distância do sharp estavam corretas, os cálculos de volume não 
-continham erros, e o todo o sistema de medição estava funcionando. `[5h30min]`
+- Modifiquei o programa Arduino para usar um sensor de infravermelho (SharpGP2Y0A02Y) no lugar de um sensor de força. Fiz vários testes para me certificar de que as medidas de distância do sharp estavam corretas, os cálculos de volume não continham erros, e o todo o sistema de medição estava funcionando. `[5h30min]`
 
-- Modelei e imprimi uma haste para fixar o sensor sharp num orifício no topo da 
-cisterna (será possível parafusar a haste na borda desse orifício). `[1h]`
+- Modelei e imprimi uma haste para fixar o sensor sharp num orifício no topo da cisterna (será possível parafusar a haste na borda desse orifício). `[1h]`
 
-- Fiz pequenas alterações no site para exibir corretamente a capacidade da nova 
-cisterna. `[1h30min]`
+- Fiz pequenas alterações no site para exibir corretamente a capacidade da nova cisterna. `[1h30min]`
 
 <div class="img-container">
   <figure>
@@ -253,8 +241,7 @@ cisterna. `[1h30min]`
   </figure>
 </div>
 
-<iframe class="youtube" src="https://www.youtube.com/embed/XehT8hyI7mg" frameborder="0" allowfullscreen></iframe>
-
+<iframe class="youtube" src="https://www.youtube.com/embed/XehT8hyI7mg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Mais novidades em breve.
 
