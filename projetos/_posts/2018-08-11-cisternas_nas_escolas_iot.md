@@ -243,6 +243,65 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 
 <iframe class="youtube" src="https://www.youtube.com/embed/XehT8hyI7mg?rel=0" frameborder="0" allowfullscreen></iframe>
 
+#### Resumo da semana do dia 01/10
+
+- Alterei o sketch para fazer uma série de medidas e tomar a mediana delas, tornando assim a medida final de volume de água mais confiável. `[1h]`
+
+- Soldei fios mais longos aos fios de conexão do sensor Sharp para permitir que a placa que coletará os dados possa ficar fora do ambiente da cisterna. `[45min]`
+
+- Realizei mais alguns testes com o sensor infravermelho SharpGP2Y0A02Y. `[1h]`
+
+- Estive na escola Amorim Lima falando um pouco sobre a parte de IoT do projeto Cisternas nas Escolas para as crianças envolvidas com a parte educaional do projeto. `[1h]`
+
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/explicando_iot.jpeg">
+    <figcaption>Falando sobre a técnica para medir o volume de água</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/explicando_curva_sharp.jpeg">
+    <figcaption>Explicando a curva de tensão do sensor infravermelho</figcaption>
+  </figure>
+</div>
+
+#### Resumo da semana do dia 08/10
+
+- Calibrei um sensor SharpGP2Y0A21 para usá-lo em testes na caixa da água da minha própria casa. `[2h30min]`
+
+- Corrigi um bug no cálculo da distância entre o sensor e o corpo de água. `[1h]`
+
+- Instalei o sistema de mediação de volume de água na caixa da água da minha casa para testá-lo em funcionamento. `[3h]`
+
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/SharpGP2Y0A21.jpg">
+    <figcaption>Sensor infravermelho SharpGP2Y0A21 que utilizei na minha casa</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/haste_e_cano_pvc.jpg">
+    <figcaption>Haste de madeira e cano de PVC para fixar o sensor</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/suporte_sharp_completo.jpg">
+    <figcaption>Sensor pronto para instalação</figcaption>
+  </figure>
+</div>
+
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/sharp_posicionado.jpg">
+    <figcaption>Sensor instalado na caixa da água</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/nodeMCU_shapGP2Y0A21.jpg">
+    <figcaption>NodeMCU e fonde de alimentação usandos junto com o sensor</figcaption>
+  </figure>
+</div>
+
+
 Mais novidades em breve.
 
 ----
