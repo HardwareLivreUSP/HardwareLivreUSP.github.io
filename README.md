@@ -137,10 +137,11 @@ Para adicionar vídeos do *YouTube* basta fazer como no exemplo abaixo:
 Para adicionar arquivos .pdf salve-os na pasta `"assets/slides/{blog, tutoriais, projetos, lab3d}/{nome_da_pagina}/"`.
 
 Para referênciá-los dentro da página use `site.baseurl` junto com o restante do caminho do arquivo:
-
-`<a href="{{ site.baseurl }}/assets/slides/{blog, tutoriais, projetos, lab3d}/{nome_da_pagina}/{arquivo.pdf}">Arquivo PDF</a>`
-
+```
+<a href="{{ site.baseurl }}/assets/slides/{blog, tutoriais, projetos, lab3d}/{nome_da_pagina}/{arquivo.pdf}">Arquivo PDF</a>
+```
 Exemplo:
-
-`<a href="{{ site.baseurl }}/assets/slides/blog/2018-10-20-concluido_o_ciclo_de_oficinas_2018/HLUSP-Sensores2018.pdf">Sensores e Atuadores com Arduino</a>`
+```
+<a href="{{ site.baseurl }}/assets/slides/blog/2018-10-20-concluido_o_ciclo_de_oficinas_2018/HLUSP-Sensores2018.pdf">Sensores e Atuadores com Arduino</a>
+```
 
