@@ -55,13 +55,10 @@ Já no dia 19/10 apresentamos conceitos de Internet das coisas (IoT), topologia 
 
 Deixamos aqui os slides utilizados durante as oficinas:
 
-- **28/09** - <a href="{{ site.baseurl }}/assets/slides/HardwareLivreUSP-GrupoEletronicaBasica2018.pdf">`Eletrônica Básica`</a> 
-- **05/10** - <a href="{{ site.baseurl }}/assets/slides/HLUSP-Sensores2018.pdf">`Sensores e Atuadores com Arduino`</a>
-- **19/10** - <a href="{{ site.baseurl }}/assets/slides/Oficina-IoT2018.pdf">`Internet das Coisas`</a>
+- **28/09** - <a href="{{ site.baseurl }}/assets/slides/blog/2018-10-20-concluido_o_ciclo_de_oficinas_2018/HardwareLivreUSP-GrupoEletronicaBasica2018.pdf">`Eletrônica Básica`</a> 
+- **05/10** - <a href="{{ site.baseurl }}/assets/slides/blog/2018-10-20-concluido_o_ciclo_de_oficinas_2018/HLUSP-Sensores2018.pdf">`Sensores e Atuadores com Arduino`</a>
+- **19/10** - <a href="{{ site.baseurl }}/assets/slides/blog/2018-10-20-concluido_o_ciclo_de_oficinas_2018/Oficina-IoT2018.pdf">`Internet das Coisas`</a>
 
 Nos procure para saber mais sobre assuntos relacionados às oficinas ou aprofundar seus conhecimentos sobre hardware livre e aberto.
 
 Até a próxima.
-
-
-
