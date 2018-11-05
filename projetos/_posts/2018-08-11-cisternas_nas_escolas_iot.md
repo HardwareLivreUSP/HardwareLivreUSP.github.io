@@ -253,7 +253,6 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 
 - Estive na escola Amorim Lima falando um pouco sobre a parte de IoT do projeto Cisternas nas Escolas para as crianças envolvidas com a parte educaional do projeto. `[1h]`
 
-
 <div class="img-container">
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/explicando_iot.jpeg">
@@ -273,7 +272,6 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 
 - Instalei o sistema de mediação de volume de água na caixa da água da minha casa para testá-lo em funcionamento. `[3h]`
 
-
 <div class="img-container">
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/SharpGP2Y0A21.jpg">
@@ -289,7 +287,6 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
   </figure>
 </div>
 
-
 <div class="img-container">
   <figure>
     <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/sharp_posicionado.jpg">
@@ -300,6 +297,42 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
     <figcaption>NodeMCU e fonde de alimentação usandos junto com o sensor</figcaption>
   </figure>
 </div>
+
+#### Resumo da semana do dia 15/10
+
+<!-- - Soldagemm de fios `[30min]` -->
+
+- Tive que comprar mais componentes para instalação na cisterna pois alguns dos que eu tinha reservado para isso ficaram na minha casa tirando medidas da caixa da água de lá.
+
+- Quinta-feira o sensor instalado na minha casa completou uma semana de funcionamento. Tudo funcionando bem.
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/graf_casa01.png">
+    <figcaption>Gráfico dos dados da caixa da água em casa</figcaption>
+  </figure>
+</div>
+
+#### Resumo da semana do dia 22/10
+
+- Quinta-feira o sensor instalado na minha casa completou duas semanas de funcionamento.
+
+#### Resumo da semana do dia 29/10
+
+- Adaptei um cabo microUSB para uso na cisterna. `[2h]`
+
+<div class="img-container">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/projetos/2018-08-11-cisternas_nas_escolas_iot/cabo_USB_hackeado.jpg">
+    <figcaption>Cabo microUSB adaptado</figcaption>
+  </figure>
+</div>
+
+- Quinta-feira o sensor instalado na minha casa completou três semanas de funcionamento. Nesta noite eu o desativei temporariamente para realizar alguns testes.
+
+- Soldei fios mais longos no conector do sensor para poder colher os dados com uma placa nodeMCU que deve ficar fora da cisterna, a mais ou menos 1 metro de distância. Tive dificuldade em determinar qual deveria ser o tamanho dos fios pois fios muito longos (1 metro e meio ou mais) influenciam na leitura do sensor torando-a incorreta. `[4h]`
+
+- Sexta-feira estive novamente na escola Amorim Lima conferi alguns detalhes que havia esquecido da última vez (altura que o sensor vai ficar em relação à base da cisterna, distância da cisterna até onde o nodeMCU deve ficar instalado). Não consegui instalar o cistema devido aos problemas envolvendo comprimento dos fios e corretude das leituras. `[1h]`
 
 
 Mais novidades em breve.
