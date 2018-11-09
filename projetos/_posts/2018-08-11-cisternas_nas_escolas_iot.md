@@ -300,8 +300,6 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 
 #### Resumo da semana do dia 15/10
 
-<!-- - Soldagemm de fios `[30min]` -->
-
 - Tive que comprar mais componentes para instalação na cisterna pois alguns dos que eu tinha reservado para isso ficaram na minha casa tirando medidas da caixa da água de lá.
 
 - Quinta-feira o sensor instalado na minha casa completou uma semana de funcionamento. Tudo funcionando bem.
@@ -333,7 +331,6 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 - Soldei fios mais longos no conector do sensor para poder colher os dados com uma placa nodeMCU que deve ficar fora da cisterna, a mais ou menos 1 metro de distância. Tive dificuldade em determinar qual deveria ser o tamanho dos fios pois fios muito longos (1 metro e meio ou mais) influenciam na leitura do sensor torando-a incorreta. `[4h]`
 
 - Sexta-feira estive novamente na escola Amorim Lima conferi alguns detalhes que havia esquecido da última vez (altura que o sensor vai ficar em relação à base da cisterna, distância da cisterna até onde o nodeMCU deve ficar instalado). Não consegui instalar o cistema devido aos problemas envolvendo comprimento dos fios e corretude das leituras. `[1h]`
-
 
 Mais novidades em breve.
 
