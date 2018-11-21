@@ -124,6 +124,15 @@ redirect_from:
 
 - Mesmo passada essa edição do RoboCar Race, o projeto deve continuar pois a técnica de processamento de imagens pode ser aperfeiçoada para melhorar o tempo de resposta do carrinho assim como outras técnicas de reconhecimento de imagens (redes convolucionais, deep learning, etc.) podem vir a ser utilizadas e testadas no carrinho no futuro.
 
+#### Resumo da semana do dia 05/11
+
+- (Marcelo) Configurada a raspberryPi do carrinho para acessar a Internet pela rede eduroam. `[1h]`
+
+#### Resumo da semana do dia 12/11
+
+- Sem avanços no projeto durante esta semana.
+
+
 Mais novidades em breve.
 
 ----

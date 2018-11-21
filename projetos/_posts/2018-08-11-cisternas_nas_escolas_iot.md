@@ -332,10 +332,19 @@ Seguem algumas fotos e um vídeo que fiz enquanto testava o aparato.
 
 - Sexta-feira estive novamente na escola Amorim Lima conferi alguns detalhes que havia esquecido da última vez (altura que o sensor vai ficar em relação à base da cisterna, distância da cisterna até onde o nodeMCU deve ficar instalado). Não consegui instalar o cistema devido aos problemas envolvendo comprimento dos fios e corretude das leituras. `[1h]`
 
+#### Resumo da semana do dia 05/11
+
+- Sem avanços no projeto durante esta semana.
+
+#### Resumo da semana do dia 12/11
+
+- Sem avanços no projeto durante esta semana.
+
+
 Mais novidades em breve.
 
 ----
 
-#### Autores
+#### Autor
 
 - [Marcelo Schmitt](https://github.com/marceloschmitt1)
