@@ -2,10 +2,10 @@
 layout:     post
 type:       tutorial
 title:      "Controlando os pinos da porta paralela"
-date:       2019-01-25
+date:       2019-03-02
 author:     "Lucas Seiki Oshiro"
 author_url: "https://github.com/lucasoshiro"
-img:        "assets/images/tutoriais/2019-11-25-porta_paralela/lpt.jpg"
+img:        "assets/images/tutoriais/2019-03-02-porta_paralela/lpt.jpg"
 img_url:    ""
 ---
 
@@ -25,7 +25,7 @@ computador velho... E com alguma distribuição Linux instalada.
 
 Os pinos da porta paralela que iremos utilizar serão estes:
 
-![Pinos]({{site.baseurl}}/assets/images/tutoriais/2019-11-25-porta_paralela/pinout.png)
+![Pinos]({{site.baseurl}}/assets/images/tutoriais/2019-03-02-porta_paralela/pinout.png)
 
 Os pinos identificados como GND são para o aterramento, e os pinos identificados
 como D são usados para a transferência de dados, e são eles que iremos controlar.
@@ -64,9 +64,9 @@ devolvido pela função seja `0`, a permissão foi dada com sucesso, caso
 contrário, não. O exemplo a seguir pede essa permissão, e caso não consiga,
 aborta a execução do programa:
 
-<pre class="prettyprint">
+~~~ c
 if (ioperm (0x378, 8, 1)) fprintf (stderr, "Access denied\n"), exit (1);
-</pre>
+~~~
 
 #### Escrita
 
@@ -106,13 +106,13 @@ outb (state = 0xFF, 0x378); // Atribui o valor alto a todos os pinos
 ~~~
 
 ### Exemplo
-Neste exemplo, iremos piscar 3 LEDs. O primeiro irá piscar duas vezes, seguido
-do segundo e do terceiro que irão fazer o mesmo.
+Neste exemplo, iremos piscar 3 LEDs. O primeiro irá piscar duas vezes, em
+seguida o segundo também irá piscar duas vezes e da mesma forma, o terceiro.
 
 O lado positivo do primeiro LED deve ser ligado no pino D0, o do segundo no D1,
 e o do terceiro no D3. O lado negativo dos leds deve ser ligado nos pinos GND. É
 necessário também colocar no circuito de cada LED um resistor com resistencia
-entre 220 ohms e 10kohms, da mesma forma que seria feito em utilizando um
+entre 220Ω e 10kΩ, da mesma forma que seria feito em utilizando um
 Arduino.
 
 Primeiro, as bibliotecas:
@@ -179,9 +179,10 @@ for (;;) {
 }
 ~~~
 
-O código deverá ser compilado utilizando a flag `-O`, `-O2` ou similar. No
+O código deverá ser compilado utilizando a flag `-O`, `-O2` ou similar; caso
+contrário, ele não irá ser compilado (mais informações no manual de `outb`). No
 final, o código ficou assim (ele também está disponível
-[aqui](https://github.com/lucasoshiro/parallel_port_blink)).
+[aqui](https://github.com/lucasoshiro/parallel_port_blink)):
 
 ~~~ c
 #include <stdio.h>
@@ -246,4 +247,5 @@ int main () {
 <script>
 document.querySelectorAll('pre.highlight').
     forEach(pre=>pre.classList.add('prettyprint'));
+	
 </script>
