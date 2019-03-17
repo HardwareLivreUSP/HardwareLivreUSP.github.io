@@ -36,7 +36,8 @@ pelo computador que será usado nessa porta.
 
 A porta paralela foi feita para enviar dados, e lidar com altas correntes não é
 seu objetivo, portanto, não se deve conectar circuitos que consumam muita
-potência nela.
+potência nela. Não nos responsabilizamos por possíveis problemas que possam
+ocorrer.
 
 Outra precaução que deve-se tomar é de não desconectar o circuito enquanto o
 computador estiver ligado, para não danificar a porta ou a placa-mãe.
