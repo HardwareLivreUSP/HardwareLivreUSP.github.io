@@ -49,6 +49,9 @@ diretamente nos pinos da porta paralela, os fios poderão (e irão) cair. Para
 evitar isso, ligamos os alto-falantes a um plug macho que foi encaixado na porta
 paralela do Posidell.
 
+Vale lembrar que a porta paralela não foi feita para este uso, portanto, não nos
+responsabilizamos por possíveis danos ou problemas causados por este projeto.
+
 O programa em C que foi feito lê um arquivo com a descrição da música, cria uma
 thread para cada canal, e cada thread oscila entre 0 e 1 na frequência de cada
 nota o bit correspondente ao pino do alto-falante associado ao canal.
@@ -105,3 +108,10 @@ a thread alterna o __i__-ésimo bit entre 0 e 1, dormindo metade do período nes
 alternância. Ruídos são feitos fazendo a mesma alternância, porém dormindo com
 tempos aleatórios.
 
+O código completo está aqui:
+[https://github.com/lucasoshiro/musical_lpt](https://github.com/lucasoshiro/musical_lpt). Na
+pasta `samples` podem ser encontrado alguns exemplos simples.
+
+Este programa é compatível apenas com Linux. Para compilá-lo, utilize o comando
+`make`.  Para executá-lo, utilize `sudo ./mp ARQUIVO`, utilizando um arquivo no
+formato especifiado no formato descrito acima.
