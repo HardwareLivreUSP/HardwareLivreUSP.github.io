@@ -271,11 +271,11 @@ Projetos que você pode montar com este kit:
 
 - Santa Ifigênia (Lojas ordenadas pelo percurso após descer na estação da Luz)
 
-  - [New Port](http://newportcom.com.br/): Possui preços razoáveis e uma boa variedade de sensores. **Endereço: R. Vitória, 24 - Santa Ifigênia, São Paulo - SP**.
+  - [New Port](http://newportcom.com.br/): Possui preços razoáveis e uma boa variedade de CIs e sensores. **Endereço: R. Vitória, 24 - Santa Ifigênia, São Paulo - SP**.
 
   - [Mamute](http://www.mamuteeletronica.com.br/): Componentes eletrônicos em geral. **Endereço: R. Vitória, 125 - Santa Ifigênia, São Paulo - SP**.
 
-  - [Loja do Arduino e Raspberry Pi](http://www.arduinoraspberry.com.br): Muitos shields e sensores. **Endereço: R. Aurora, 28 - Santa Ifigênia, São Paulo - SP**.
+  - [Loja do Arduino e Raspberry Pi](https://lojadoarduinoeraspberry.com/): Muitos shields e sensores. **Endereço: R. Aurora, 16 - Santa Ifigênia, São Paulo - SP**.
 
   - [HPE Robótica](http://www.hperobotica.com.br/): Produtos bons de todos os preços. **Endereço: R. dos Timbiras, 239 - loja 27 - Santa Ifigênia, São Paulo - SP**.
 
