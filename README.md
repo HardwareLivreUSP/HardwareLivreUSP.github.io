@@ -114,7 +114,7 @@ Para adicionar listas basta fazer como no exemplo abaixo:
 - Item2
 ```
 
-### PDF
+#### PDF
 
 Para adicionar arquivos .pdf salve-os na pasta `"assets/slides/{blog, tutoriais, projetos, lab3d}/{nome_da_pagina}/"`.
 
