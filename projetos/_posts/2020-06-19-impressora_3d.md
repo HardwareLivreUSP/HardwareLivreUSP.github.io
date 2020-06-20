@@ -5,10 +5,8 @@ hidden:     true
 title:      "Impressora 3D"
 date:       2020-06-19
 author:     "Lucas Seiki Oshiro"
-author_url: "https://linux.ime.usp.br/~lucasoshiro"
+author_url: "https://lucasoshiro.github.io/"
 img:        "assets/images/projetos/2020-06-19-impressora_3d/hermione.jpg"
-#img:        "Link de imagem local"
-#img_url:    "Link de imagem da internet"
 ---
 
 ### Introdução
@@ -32,6 +30,8 @@ filamento. Ela tem as seguintes características:
 Esta impressora é ~~uma cópia~~ baseada na
 [Cianofícea](https://linux.ime.usp.br/~brunobra/3Dprinter.html), construída pelo
 também membro do Hardware Livre [Bruno](https://linux.ime.usp.br/~brunobra).
+
+Esta post também está em [minha página pessoal](https://lucasoshiro.github.io/hardware/2020-06-14-impressora_3d/).
 
 ### Estrutura
 
