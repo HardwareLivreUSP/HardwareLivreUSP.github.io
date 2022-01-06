@@ -49,6 +49,6 @@ Sim, basta você comparecer frequentemente as reuniões que esse caminho será n
 ###### Gostei do grupo, tenho eterna gratidão com vocês por tudo que fizeram por mim e tenho interesse em patrocinar vocês, posso?
 Sem dúvidas! Precisamos de patrocinadores/investidores para ampliarmos as nossas atividades e raio de ação, então se você pode nos ajudar, fale conosco, adoramos parcerias!
 
-Mais dúvidas? Pergunte em nosso grupo do [telegram](http://tiny.cc/telegram-hlu):
+Mais dúvidas? Pergunte em nosso grupo do [telegram](https://t.me/joinchat/CgYAr0SrX62zP9Ci__eAfg):
 
 Sejam todos bem-vindos!
