@@ -56,6 +56,8 @@ Segue agora o diagrama (produzido com o [fritzing](http://fritzing.org/home/)) q
 
 Códigos .ino e projeto android studio estão no repositório do projeto no [GitHub](https://github.com/HardwareLivreUSP/ChapeuSeletor). O instalador .apk para android também pode ser baixado por lá.
 
+<iframe class="youtube" src="https://www.youtube.com/embed/R7t5rKteuTI?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ----
 
 #### Autores
