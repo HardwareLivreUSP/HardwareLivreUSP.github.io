@@ -6,22 +6,58 @@ redirect_from:
  - "contato"
  - "participantes"
 
-participantes:
- - nome: "Bruno Rafael Aricó"
-   avatar: "https://avatars3.githubusercontent.com/u/14016839?s=460&v=4"
- - nome: "Daniel Jorge Renjiffo"
-   avatar: "https://graph.facebook.com/100002743333561/picture?type=large"
- - nome: "Deusany Junior"
-   avatar: "https://avatars1.githubusercontent.com/u/2491210?s=460&v=4"
- - nome: "Gabriel Capella"
-   avatar: "https://avatars0.githubusercontent.com/u/1574428?s=460&v=4"
- - nome: "Lucas Seiki Oshiro"
+ano_atual: 2023
 
- - nome: "Marcelo Schmitt"
-   avatar: "https://graph.facebook.com/1726435654/picture?type=large"
- - nome: "Raphael dos Reis Gusmão"
+participantes:
+ - nome: Bruno Rafael Aricó
+   avatar: "https://avatars3.githubusercontent.com/u/14016839?s=460&v=4"
+ - nome: Lucas Seiki Oshiro
+ - nome: Bruno Carneiro da Cunha
+ - nome: Leonardo Aricó
+   avatar: 
+ - nome: Gabriel Navarro
+   avatar: https://avatars.githubusercontent.com/u/98192633?v=4
+ - nome: Daniel Martinez
+ - nome: Isabella Caselli
+ - nome: William Wang
+ - nome: João Renner
+   avatar: https://avatars.githubusercontent.com/u/55121367?v=4
 
 historico:
+  - ano: 2022
+    participantes:
+    - Bruno Rafael Aricó
+    - Lucas Seiki Oshiro
+    - Bruno Carneiro da Cunha
+    - Leonardo Aricó
+    - Gabriel Navarro
+    - Daniel Martinez
+    - Isabella Caselli
+    - William Wang
+    - João Renner
+    - William Mori
+    - Clayton Silva
+    - Nayra Moraes
+
+  - ano: 2021
+    participantes:
+    - Hiato por conta da pandemia
+
+  - ano: 2020
+    participantes:
+    - Hiato por conta da pandemia
+
+  - ano: 2019
+    participantes:
+    - Bruno Rafael Aricó
+    - Deusany Junior
+    - Gabriel Capella
+    - Lucas Seiki Oshiro
+    - Marcelo Schmitt
+    - Raphael dos Reis Gusmão
+    - Priscila Gutierres
+    - Luciano Leão
+
   - ano: 2018
     participantes:
     - Bruno Rafael Aricó
@@ -31,6 +67,7 @@ historico:
     - Lucas Seiki Oshiro
     - Marcelo Schmitt
     - Raphael dos Reis Gusmão
+    - Bruno Carneiro da Cunha
 
   - ano: 2017
     participantes:
@@ -187,14 +224,14 @@ historico:
 
     <!-- Participantes -->
     <div id="participantes">
-      <h4>Participantes (2019)</h4>
+      <h4>Participantes ({{ page.ano_atual }})</h4>
       <div class="row text-center justify-content-center">
 
         {% for participante in page.participantes %}
         <div class="col-md-4 mb-4">
           <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
             {% if participante.avatar %}
-            <img class="img-fluid" src="{{ participante.avatar | site.baseurl + '/assets/favicon/android-chrome-512x512.png' }}">
+            <img class="img-fluid" src="{{ participante.avatar }}">
             {% else %}
             <img class="img-fluid" src="{{ site.baseurl }}/assets/favicon/android-chrome-512x512.png">
             {% endif %}
@@ -204,16 +241,6 @@ historico:
           </div>
         </div>
         {% endfor %}
-
-        <!-- Outros -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="{{ site.baseurl }}/assets/favicon/android-chrome-512x512.png">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Outros</h5>
-          </div>
-        </div>
       </div>
     </div>
 
