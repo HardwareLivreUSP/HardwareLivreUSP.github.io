@@ -22,6 +22,60 @@ participantes:
  - nome: "Raphael dos Reis Gusmão"
    avatar: "https://graph.facebook.com/920698307957833/picture?type=large"
 
+historico:
+  - ano: 2018
+    participantes:
+    - Bruno Rafael Aricó
+    - Daniel Jorge Renjiffo
+    - Deusany Junior
+    - Gabriel Capella
+    - Lucas Seiki Oshiro
+    - Marcelo Schmitt
+    - Raphael dos Reis Gusmão
+
+  - ano: 2017
+    participantes:
+    - Bruno Rafael Aricó
+    - Daniel Jorge Renjiffo
+    - Deusany Junior
+    - Gabriel Capella
+    - Marcelo Schmitt
+    - Raphael dos Reis Gusmão
+
+  - ano: 2016
+    participantes:
+    - Bruno Rafael Aricó
+    - Daniel Jorge Renjiffo
+    - Deusany Junior
+    - Fernanda Monteiro Lopes
+    - Gabriel Capella
+    - Leonardo Haddad Carlos
+    - Marcelo Schmitt
+    - Raphael dos Reis Gusmão
+
+  - ano: 2015
+    participantes:
+    - Bruno Rafael Aricó
+    - Daniel Jorge Renjiffo
+    - Deusany Junior
+    - Gabriel Capella
+    - Lucas Romão
+    - Marcelo Schmitt
+
+  - ano: 2014
+    participantes:
+    - Daniel Jorge Renjiffo
+    - Deusany Junior
+    - Gabriel Capella
+    - Gustavo Estrela
+    - Lucas Romão
+
+  - ano: 2013
+    participantes:
+    - Daniel Jorge Renjiffo
+    - Deusany Junior
+    - Gustavo Estrela
+    - Lucas Romão
 ---
 
 <!--=========================================================================-->
@@ -160,72 +214,22 @@ participantes:
       </div>
     </div>
 
+
+
     <!-- Historico -->
     <div id="historico">
       <h4>Histórico</h4>
       <p>Pessoas que já participaram do grupo.</p>
 
       <div id="hist-container" class="justify-content-center">
-        <!-- 2018 -->
+        {% for ano in page.historico %}
         <div class="hist-item">
-          <h5>2018</h5>
-          <p>Bruno Rafael Aricó</p>
-          <p>Daniel Jorge Renjiffo</p>
-          <p>Deusany Junior</p>
-          <p>Gabriel Capella</p>
-          <p>Lucas Seiki Oshiro</p>
-          <p>Marcelo Schmitt</p>
-          <p>Raphael dos Reis Gusmão</p>
+          <h5>{{ ano.ano }}</h5>
+          {% for participante in ano.participantes %}
+          <p>{{ participante }}</p>
+          {% endfor %}
         </div>
-        <!-- 2017 -->
-        <div class="hist-item">
-          <h5>2017</h5>
-          <p>Bruno Rafael Aricó</p>
-          <p>Daniel Jorge Renjiffo</p>
-          <p>Deusany Junior</p>
-          <p>Gabriel Capella</p>
-          <p>Marcelo Schmitt</p>
-          <p>Raphael dos Reis Gusmão</p>
-        </div>
-        <!-- 2016 -->
-        <div class="hist-item">
-          <h5>2016</h5>
-          <p>Bruno Rafael Aricó</p>
-          <p>Daniel Jorge Renjiffo</p>
-          <p>Deusany Junior</p>
-          <p>Fernanda Monteiro Lopes</p>
-          <p>Gabriel Capella</p>
-          <p>Leonardo Haddad Carlos</p>
-          <p>Marcelo Schmitt</p>
-          <p>Raphael dos Reis Gusmão</p>
-        </div>
-        <!-- 2015 -->
-        <div class="hist-item">
-          <h5>2015</h5>
-          <p>Bruno Rafael Aricó</p>
-          <p>Daniel Jorge Renjiffo</p>
-          <p>Deusany Junior</p>
-          <p>Gabriel Capella</p>
-          <p>Lucas Romão</p>
-          <p>Marcelo Schmitt</p>
-        </div>
-        <!-- 2014 -->
-        <div class="hist-item">
-          <h5>2014</h5>
-          <p>Daniel Jorge Renjiffo</p>
-          <p>Deusany Junior</p>
-          <p>Gabriel Capella</p>
-          <p>Gustavo Estrela</p>
-          <p>Lucas Romão</p>
-        </div>
-        <!-- 2013 -->
-        <div class="hist-item">
-          <h5>2013</h5>
-          <p>Daniel Jorge Renjiffo</p>
-          <p>Deusany Junior</p>
-          <p>Gustavo Estrela</p>
-          <p>Lucas Romão</p>
-        </div>
+        {% endfor %}
       </div>
     </div>
 
