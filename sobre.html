@@ -5,6 +5,23 @@ title: "Sobre"
 redirect_from:
  - "contato"
  - "participantes"
+
+participantes:
+ - nome: "Bruno Rafael Aricó"
+   avatar: "https://avatars3.githubusercontent.com/u/14016839?s=460&v=4"
+ - nome: "Daniel Jorge Renjiffo"
+   avatar: "https://graph.facebook.com/100002743333561/picture?type=large"
+ - nome: "Deusany Junior"
+   avatar: "https://avatars1.githubusercontent.com/u/2491210?s=460&v=4"
+ - nome: "Gabriel Capella"
+   avatar: "https://avatars0.githubusercontent.com/u/1574428?s=460&v=4"
+ - nome: "Lucas Seiki Oshiro"
+   avatar: "https://graph.facebook.com/100006947087519/picture?type=large"
+ - nome: "Marcelo Schmitt"
+   avatar: "https://graph.facebook.com/1726435654/picture?type=large"
+ - nome: "Raphael dos Reis Gusmão"
+   avatar: "https://graph.facebook.com/920698307957833/picture?type=large"
+
 ---
 
 <!--=========================================================================-->
@@ -120,77 +137,18 @@ redirect_from:
       <h4>Participantes (2019)</h4>
       <div class="row text-center justify-content-center">
 
-        <!-- Bruno Rafael Aricó -->
+        {% for participante in page.participantes %}
         <div class="col-md-4 mb-4">
           <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://avatars3.githubusercontent.com/u/14016839?s=460&v=4">
+            <img class="img-fluid" src="{{ participante.avatar }}">
           </div>
           <div class="avatar-descricao">
-            <h5>Bruno Rafael Aricó</h5>
+            <h5>{{ participante.nome }}</h5>
           </div>
         </div>
+        {% endfor %}
 
-        <!-- Daniel Jorge Renjiffo -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://graph.facebook.com/100002743333561/picture?type=large">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Daniel Jorge Renjiffo</h5>
-          </div>
-        </div>
-
-        <!-- Deusany Junior -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://avatars1.githubusercontent.com/u/2491210?s=460&v=4">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Deusany Junior</h5>
-          </div>
-        </div>
-
-        <!-- Gabriel Capella -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://avatars0.githubusercontent.com/u/1574428?s=460&v=4">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Gabriel Capella</h5>
-          </div>
-        </div>
-
-        <!-- Lucas Seiki Oshiro -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://graph.facebook.com/100006947087519/picture?type=large">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Lucas Seiki Oshiro</h5>
-          </div>
-        </div>
-
-        <!-- Marcelo Schmitt -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://graph.facebook.com/1726435654/picture?type=large">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Marcelo Schmitt</h5>
-          </div>
-        </div>
-
-        <!-- Raphael R. Gusmao -->
-        <div class="col-md-4 mb-4">
-          <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="https://graph.facebook.com/920698307957833/picture?type=large">
-          </div>
-          <div class="avatar-descricao">
-            <h5>Raphael dos Reis Gusmão</h5>
-          </div>
-        </div>
-
-        <!-- Raphael R. Gusmao -->
+        <!-- Outros -->
         <div class="col-md-4 mb-4">
           <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
             <img class="img-fluid" src="{{ site.baseurl }}/assets/favicon/android-chrome-512x512.png">
