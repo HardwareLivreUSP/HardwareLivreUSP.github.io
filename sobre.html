@@ -16,11 +16,10 @@ participantes:
  - nome: "Gabriel Capella"
    avatar: "https://avatars0.githubusercontent.com/u/1574428?s=460&v=4"
  - nome: "Lucas Seiki Oshiro"
-   avatar: "https://graph.facebook.com/100006947087519/picture?type=large"
+
  - nome: "Marcelo Schmitt"
    avatar: "https://graph.facebook.com/1726435654/picture?type=large"
  - nome: "Raphael dos Reis Gusmão"
-   avatar: "https://graph.facebook.com/920698307957833/picture?type=large"
 
 historico:
   - ano: 2018
@@ -194,7 +193,11 @@ historico:
         {% for participante in page.participantes %}
         <div class="col-md-4 mb-4">
           <div class="rounded-circle avatar mx-auto view overlay zoom z-depth-1 hoverable">
-            <img class="img-fluid" src="{{ participante.avatar }}">
+            {% if participante.avatar %}
+            <img class="img-fluid" src="{{ participante.avatar | site.baseurl + '/assets/favicon/android-chrome-512x512.png' }}">
+            {% else %}
+            <img class="img-fluid" src="{{ site.baseurl }}/assets/favicon/android-chrome-512x512.png">
+            {% endif %}
           </div>
           <div class="avatar-descricao">
             <h5>{{ participante.nome }}</h5>
